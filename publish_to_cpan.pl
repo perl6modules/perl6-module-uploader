@@ -89,16 +89,14 @@ foreach my $module_meta ( @{$modules} ) {
         my $tar_base
             = $meta->{name} =~ s/::/-/gr . '-' . $meta->{version} =~ s/^v//r;
 
-        my $tar_file = "${tar_base}.tar.gz";
+        my $tar_file = "../${tar_base}.tar.gz";
 
         # Create an archive of this version
-        my $cmd = 'git archive --format=tar --prefix=' . "$tar_base/ HEAD";
-        warn $cmd;
+        my $cmd = 'git archive --format=tar --prefix=' . "$tar_base/ HEAD | gzip > $tar_file";
         my ( $stdout, $stderr, $exit ) = capture {
             system($cmd );
         };
         die $stderr if $stderr;
-        file('test.tar')->spew($stdout);
 
         # Cleanup after ourselves
         $meta6_file->remove();
