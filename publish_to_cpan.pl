@@ -10,13 +10,14 @@ use URI;
 use Carp;
 use Capture::Tiny ':all';
 use DateTime::Tiny;
+use Cwd 'abs_path';
 
 use DDP;
 
 # This script aims to download the modules on the perl6 master list and
 # deploy them to cpan
 
-my $scratch_dir = dir('/tmp/p6scratch');
+my $scratch_dir     = dir('/tmp/p6scratch');
 my $dists_to_upload = $scratch_dir->subdir('to_upload');
 
 my $module_list_source
@@ -29,7 +30,7 @@ my $debug = 1;
 my $json = JSON::MaybeXS->new( utf8 => 1, pretty => 1, canonical => 1 );
 
 # Don't upload if we have already done so!
-my $tracker_file = file($0)->dir->file('upload_tracker.json');
+my $tracker_file = file( abs_path($0) )->dir->file('upload_tracker.json');
 my $tracker      = $json->decode( $tracker_file->slurp );
 
 my $current_datetime = DateTime::Tiny->now->ymdhms;
@@ -99,11 +100,13 @@ foreach my $module_meta ( @{$modules} ) {
             chomp($current_sha);
 
             # If we have uploaded it before...
-            my $track_data = $tracker->{ $source_url->as_string };
-            if ( my $uploaded_sha  ) {
+
+            if (my $track_data = $tracker->{ $source_url->as_string };
+                )
+            {
 
                 # This repo has not been updated, not need to update
-                if ( $current_sha eq $uploaded_sha ) {
+                if ( $current_sha eq $track_data->{sha} ) {
                     print "- Skipping, already uploaded this sha\n" if $debug;
                     next;
                 }
@@ -140,16 +143,17 @@ foreach my $module_meta ( @{$modules} ) {
             };
             die $stderr if $stderr;
         }
+
         # UPLOAD file to CPAN!
 
         # Track the sha that we used to upload
-        $tracker->{ $source_url->as_string } = $sha;
+        $tracker->{ $source_url->as_string } = { sha => $sha };
 
         # Save that we've uploaded so far
         my $tra_json = $json->encode($tracker);
         p $tra_json;
-        warn  "$tracker_file";
-        $tracker_file->spew( $tra_json );
+        warn "$tracker_file";
+        $tracker_file->spew($tra_json);
         warn "T";
 
     }

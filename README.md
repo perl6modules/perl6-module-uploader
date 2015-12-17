@@ -12,7 +12,7 @@ are automating the upload from http://modules.perl6.org/ to http://www.cpan.org/
 upload the distribution, as we assume the author is already doing so.
 - We produce a version of `v0.0.YYYYMMDDhhmmss`, this will allow an author to add a META6.json and release their own version (we will happily transfer over any PAUSE permissions required).
 - [PAUSE](https://pause.cpan.org/) now recognises Perl6 modules, by virtue of their having a META6.json file and will place these distributions in to a `/Perl6/` directory under each author ([e.g.](http://www.cpan.org/authors/id/J/JD/JDV/Perl6/)).
-- [MetaCPAN](https://www.metacpan.org), [no longer](https://github.com/CPAN-API/cpan-api/commit/eaaefbf07d202b06ec6e8d9b693d1f24a5235927) indexes modules in a /Perl6/ repo.
+- [MetaCPAN](https://www.metacpan.org), [no longer](https://github.com/CPAN-API/cpan-api/commit/eaaefbf07d202b06ec6e8d9b693d1f24a5235927) indexes modules in a /Perl6/ repo. There is a project to index these into a MC6 - [Test box](http://hack.p6c.org:5001/) [Test releases](http://hack.p6c.org:5001/author/JDV/releases)
 
 
 You can see the distributions we have uploaded on
