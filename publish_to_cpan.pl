@@ -73,9 +73,8 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         unless ($source_url) {
             warn "Unable to fetch source_url from:";
             p $meta;
+            next MODULE;
         }
-
-        # TODO: fetch latest sha from GH rather than cloning!
 
         # Create somewhere to checkit out to
         my $author_path = file( $source_url->path )->dir;
