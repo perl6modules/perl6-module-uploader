@@ -18,7 +18,7 @@ use DDP;
 # This script aims to download the modules on the perl6 master list and
 # deploy them to cpan
 
-# REQUIRED:
+# Config (get a GENERATE TOKEN from https://github.com/settings/tokens)
 # ~/.pause
 # user PSIXDISTS
 # password PASSWORD
