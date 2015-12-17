@@ -9,6 +9,7 @@ use Path::Class;
 use URI;
 use Carp;
 use Capture::Tiny ':all';
+use DateTime::Tiny;
 
 use DDP;
 
@@ -16,6 +17,7 @@ use DDP;
 # deploy them to cpan
 
 my $scratch_dir = dir('/tmp/p6scratch');
+my $dists_to_upload = $scratch_dir->subdir('to_upload');
 
 my $module_list_source
     = 'https://raw.githubusercontent.com/perl6/ecosystem/master/META.list';
@@ -25,6 +27,15 @@ my $modules = _get_master_list();
 my $debug = 1;
 
 my $json = JSON::MaybeXS->new( utf8 => 1, pretty => 1, canonical => 1 );
+
+# Don't upload if we have already done so!
+my $tracker_file = file($0)->dir->file('upload_tracker.json');
+my $tracker      = $json->decode( $tracker_file->slurp );
+
+my $current_datetime = DateTime::Tiny->now->ymdhms;
+$current_datetime =~ s/[-T:]//g;    # strip down to just numbers
+
+my $version = 'v0.0.' . $current_datetime;
 
 foreach my $module_meta ( @{$modules} ) {
 
@@ -52,58 +63,100 @@ foreach my $module_meta ( @{$modules} ) {
         chdir $gh_author_dir->stringify;
 
         my $dist_dir = $gh_author_dir->subdir($dist_repo);
-        if ( -d $dist_dir ) {
 
-            # do an update
-            my $cmd = 'git pull --rebase --quiet';
-            my ( $stdout, $stderr, $exit ) = capture {
-                system($cmd );
-            };
+        # cleanup
+        $dist_dir->rmtree() if -d $dist_dir;
 
-        } else {
-
-            # clone
+        # clone a fresh copy
+        {
             my $clone_url = $source_url->as_string;
-            my $cmd       = "git clone ${clone_url}";
+            my $cmd       = "git clone -q ${clone_url}";
             my ( $stdout, $stderr, $exit ) = capture {
                 system($cmd );
             };
-
+            die $stderr if $stderr;
         }
-
-        chdir $dist_dir->stringify;
 
         my $meta6_file = $dist_dir->file('META6.json');
 
         # They are probably releasing themselves
-        next if -e $meta6_file;
-
-        # Sort out a version number
-        if ( $meta->{version} eq '*' || !exists $meta->{version} ) {
-            $meta->{version} = '1.2.3.4.5';
+        if ( -e $meta6_file ) {
+            print "- Skipping as there is a META6.json file\n" if $debug;
+            next;
         }
 
-        # Write out
+        chdir $dist_dir->stringify;
+
+        my $sha;
+        {
+            # Find out if we have already uploaded this or not
+            my $cmd = 'git rev-parse master';
+            my ( $current_sha, $stderr, $exit ) = capture {
+                system($cmd );
+            };
+            die $stderr if $stderr;
+
+            chomp($current_sha);
+
+            # If we have uploaded it before...
+            my $track_data = $tracker->{ $source_url->as_string };
+            if ( my $uploaded_sha  ) {
+
+                # This repo has not been updated, not need to update
+                if ( $current_sha eq $uploaded_sha ) {
+                    print "- Skipping, already uploaded this sha\n" if $debug;
+                    next;
+                }
+            }
+
+            $sha = $current_sha;
+        }
+
+        # Use our own time stamp based version
+        $meta->{version} = $version;
+
+        # Write out as META6.json
         $meta6_file->spew( $json->encode($meta) );
+
+        {
+            my $add_m6 = "git commit -a -m 'add META6.json'";
+            my ( $stdout, $stderr, $exit ) = capture {
+                system($add_m6 );
+            };
+            die $stderr if $stderr;
+        }
 
         my $tar_base
             = $meta->{name} =~ s/::/-/gr . '-' . $meta->{version} =~ s/^v//r;
 
         my $tar_file = "../${tar_base}.tar.gz";
 
-        # Create an archive of this version
-        my $cmd = 'git archive --format=tar --prefix=' . "$tar_base/ HEAD | gzip > $tar_file";
-        my ( $stdout, $stderr, $exit ) = capture {
-            system($cmd );
-        };
-        die $stderr if $stderr;
+        {
+            # Create an archive of this version
+            my $cmd = 'git archive --format=tar --prefix='
+                . "$tar_base/ HEAD | gzip > $tar_file";
+            my ( $stdout, $stderr, $exit ) = capture {
+                system($cmd );
+            };
+            die $stderr if $stderr;
+        }
+        # UPLOAD file to CPAN!
 
-        # Cleanup after ourselves
-        $meta6_file->remove();
+        # Track the sha that we used to upload
+        $tracker->{ $source_url->as_string } = $sha;
+
+        # Save that we've uploaded so far
+        my $tra_json = $json->encode($tracker);
+        p $tra_json;
+        warn  "$tracker_file";
+        $tracker_file->spew( $tra_json );
+        warn "T";
 
     }
     exit;
 }
+
+print "Remember to commit the changes to upload_tracker.json\n";
 
 sub _get_master_list {
 
