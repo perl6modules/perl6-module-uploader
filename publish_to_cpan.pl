@@ -18,11 +18,18 @@ use DDP;
 # This script aims to download the modules on the perl6 master list and
 # deploy them to cpan
 
+# REQUIRED:
+# ~/.pause
+# user PSIXDISTS
+# password PASSWORD
+# gh_token TOKEN
+
 my $debug = 1;
 my $json = JSON::MaybeXS->new( utf8 => 1, pretty => 1, canonical => 1 );
 
 # username / password in ~/.pause file
 my $config   = CPAN::Uploader->read_config_file();
+my $gh_token = delete $config->{gh_token};
 my $uploader = CPAN::Uploader->new($config);
 
 my $module_list_source
@@ -44,9 +51,12 @@ $current_datetime =~ s/[-T:]//g;    # strip down to just numbers
 
 my $version = 'v0.0.' . $current_datetime;
 
-MODULE: while( my $module_meta = shift @{$modules} ) {
+my $gh_http_tiny = HTTP::Tiny->new(
+    default_headers => { 'Authorization' => "token $gh_token" } );
 
-    print "Fetch: $module_meta\n" if $debug;
+MODULE: while ( my $module_meta = shift @{$modules} ) {
+
+    print "Checking: $module_meta\n" if $debug;
     my $response = HTTP::Tiny->new->get($module_meta);
     if ( $response->{success} ) {
 
@@ -55,15 +65,54 @@ MODULE: while( my $module_meta = shift @{$modules} ) {
 
         # Find where the repo is
         my $source_url = URI->new(    #
-            $meta->{'source-url'} || $meta->{'support'}->{'source'}
+            $meta->{'source-url'}
+                || $meta->{'support'}->{'source'}
+                || $meta->{'repo-url'}
         );
 
+        unless ($source_url) {
+            warn "Unable to fetch source_url from:";
+            p $meta;
+        }
+
+        # TODO: fetch latest sha from GH rather than cloning!
+
         # Create somewhere to checkit out to
-        my $path      = file( $source_url->path )->dir;
-        my $dist_repo = file( $source_url->path )->basename;
+        my $author_path = file( $source_url->path )->dir;
+        my $dist_repo   = file( $source_url->path )->basename;
         $dist_repo =~ s/\.git$//;
 
-        my $gh_author_dir = $authors_dir->subdir($path);
+        my $sha;
+
+        {    # Check if we have already done this sha
+            my $repo_meta
+                = sprintf
+                "https://api.github.com/repos%s/%s/git/refs/heads/master",
+                $author_path, $dist_repo;
+
+            my $repo_response = $gh_http_tiny->get($repo_meta);
+            if ( $repo_response->{success} ) {
+                my $head = decode_json( $repo_response->{content} );
+                $sha = $head->{object}->{sha};
+
+                if ( my $track_data = $tracker->{ $source_url->as_string } ) {
+
+                    # This repo has not been updated, no need to update
+                    if ( $sha eq $track_data->{sha} ) {
+                        print "- Skipping, already uploaded this sha\n"
+                            if $debug;
+                        next MODULE;
+                    }
+                }
+
+            } else {
+                print "- Unable to fetch repo meta: $repo_meta\n";
+                next MODULE;
+            }
+        }
+
+        # All good...
+        my $gh_author_dir = $authors_dir->subdir($author_path);
         $gh_author_dir->mkpath;
 
         # CD into here to clone/update
@@ -81,7 +130,7 @@ MODULE: while( my $module_meta = shift @{$modules} ) {
             my ( $stdout, $stderr, $exit ) = capture {
                 system($cmd );
             };
-            die $stderr if $stderr;
+            next MODULE if $stderr;
         }
 
         my $meta6_file = $dist_dir->file('META6.json');
@@ -94,32 +143,6 @@ MODULE: while( my $module_meta = shift @{$modules} ) {
         }
 
         chdir $dist_dir->stringify;
-
-        my $sha;
-        {
-            # Find out if we have already uploaded this or not
-            my $cmd = 'git rev-parse master';
-            my ( $current_sha, $stderr, $exit ) = capture {
-                system($cmd );
-            };
-            die $stderr if $stderr;
-
-            chomp($current_sha);
-
-            # If we have uploaded it before...
-
-            if ( my $track_data = $tracker->{ $source_url->as_string } ) {
-
-                # This repo has not been updated, not need to update
-                if ( $current_sha eq $track_data->{sha} ) {
-                    print "- Skipping, already uploaded this sha\n" if $debug;
-                    _delete_dist_clone($dist_dir);
-                    next MODULE;
-                }
-            }
-
-            $sha = $current_sha;
-        }
 
         # Use our own time stamp based version
         $meta->{version} = $version;
@@ -164,7 +187,7 @@ MODULE: while( my $module_meta = shift @{$modules} ) {
         my $tra_json = $json->encode($tracker);
         $tracker_file->spew($tra_json);
 
-        # Delete repo as we do not need it now
+        # Delete repo clone as we do not need it now
         _delete_dist_clone($dist_dir);
 
     }
@@ -185,7 +208,8 @@ sub _get_master_list {
 
     my $response = HTTP::Tiny->new->get($module_list_source);
     if ( $response->{success} ) {
-        my @modules_meta = split( "\n", $response->{content} );
+        my @modules_meta = grep { $_ =~ /META.info/ }
+            split( "\n", $response->{content} );
         return \@modules_meta;
     }
 }
