@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use HTTP::Tiny;
+use CPAN::Uploader;
 use JSON::MaybeXS;
 use Path::Class;
 use URI;
@@ -17,28 +18,33 @@ use DDP;
 # This script aims to download the modules on the perl6 master list and
 # deploy them to cpan
 
-my $scratch_dir     = dir('/tmp/p6scratch');
-my $dists_to_upload = $scratch_dir->subdir('to_upload');
+my $debug = 1;
+my $json = JSON::MaybeXS->new( utf8 => 1, pretty => 1, canonical => 1 );
+
+# username / password in ~/.pause file
+my $config   = CPAN::Uploader->read_config_file();
+my $uploader = CPAN::Uploader->new($config);
 
 my $module_list_source
     = 'https://raw.githubusercontent.com/perl6/ecosystem/master/META.list';
 
 my $modules = _get_master_list();
 
-my $debug = 1;
-
-my $json = JSON::MaybeXS->new( utf8 => 1, pretty => 1, canonical => 1 );
+# Work out where we are
+my $my_dir      = file( abs_path($0) )->dir;
+my $authors_dir = $my_dir->subdir('authors');
 
 # Don't upload if we have already done so!
-my $tracker_file = file( abs_path($0) )->dir->file('upload_tracker.json');
-my $tracker      = $json->decode( $tracker_file->slurp );
+my $tracker_file    = $my_dir->file('upload_tracker.json');
+my $tracker_content = $tracker_file->slurp;
+my $tracker         = $json->decode($tracker_content);
 
 my $current_datetime = DateTime::Tiny->now->ymdhms;
 $current_datetime =~ s/[-T:]//g;    # strip down to just numbers
 
 my $version = 'v0.0.' . $current_datetime;
 
-foreach my $module_meta ( @{$modules} ) {
+MODULE: while( my $module_meta = shift @{$modules} ) {
 
     print "Fetch: $module_meta\n" if $debug;
     my $response = HTTP::Tiny->new->get($module_meta);
@@ -57,7 +63,7 @@ foreach my $module_meta ( @{$modules} ) {
         my $dist_repo = file( $source_url->path )->basename;
         $dist_repo =~ s/\.git$//;
 
-        my $gh_author_dir = $scratch_dir->subdir($path);
+        my $gh_author_dir = $authors_dir->subdir($path);
         $gh_author_dir->mkpath;
 
         # CD into here to clone/update
@@ -66,7 +72,7 @@ foreach my $module_meta ( @{$modules} ) {
         my $dist_dir = $gh_author_dir->subdir($dist_repo);
 
         # cleanup
-        $dist_dir->rmtree() if -d $dist_dir;
+        _delete_dist_clone($dist_dir);
 
         # clone a fresh copy
         {
@@ -83,7 +89,8 @@ foreach my $module_meta ( @{$modules} ) {
         # They are probably releasing themselves
         if ( -e $meta6_file ) {
             print "- Skipping as there is a META6.json file\n" if $debug;
-            next;
+            _delete_dist_clone($dist_dir);
+            next MODULE;
         }
 
         chdir $dist_dir->stringify;
@@ -101,14 +108,13 @@ foreach my $module_meta ( @{$modules} ) {
 
             # If we have uploaded it before...
 
-            if (my $track_data = $tracker->{ $source_url->as_string };
-                )
-            {
+            if ( my $track_data = $tracker->{ $source_url->as_string } ) {
 
                 # This repo has not been updated, not need to update
                 if ( $current_sha eq $track_data->{sha} ) {
                     print "- Skipping, already uploaded this sha\n" if $debug;
-                    next;
+                    _delete_dist_clone($dist_dir);
+                    next MODULE;
                 }
             }
 
@@ -145,22 +151,35 @@ foreach my $module_meta ( @{$modules} ) {
         }
 
         # UPLOAD file to CPAN!
+        #$uploader->upload_file("$tar_file");
 
         # Track the sha that we used to upload
-        $tracker->{ $source_url->as_string } = { sha => $sha };
+        $tracker->{ $source_url->as_string } = {
+            sha     => $sha,
+            version => $version,
+            name    => $meta->{name},
+        };
 
         # Save that we've uploaded so far
         my $tra_json = $json->encode($tracker);
-        p $tra_json;
-        warn "$tracker_file";
         $tracker_file->spew($tra_json);
-        warn "T";
+
+        # Delete repo as we do not need it now
+        _delete_dist_clone($dist_dir);
 
     }
-    exit;
+
 }
 
 print "Remember to commit the changes to upload_tracker.json\n";
+
+sub _delete_dist_clone {
+    my $dist_dir = shift;
+    return unless -d $dist_dir;
+
+    chdir $authors_dir->stringify;
+    $dist_dir->rmtree();
+}
 
 sub _get_master_list {
 
