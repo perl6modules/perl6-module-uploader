@@ -1,1 +1,13 @@
-{}
+{
+   "JSON::Tiny" : {
+      "name" : "JSON::Tiny",
+      "sha" : "c75a04c1b31665b6a569dc954916a96ad7763edc",
+      "source" : "git://github.com/moritz/json.git",
+      "version" : "0.000.000_151218213318"
+   },
+   "git://github.com/tadzik/perl6-Acme-Meow.git" : {
+      "name" : "Acme::Meow",
+      "sha" : "35286b14447d22516fbf68767c4d7e18b7396971",
+      "version" : "v0.0.20151218192427"
+   }
+}

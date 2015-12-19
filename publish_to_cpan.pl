@@ -13,6 +13,8 @@ use Capture::Tiny ':all';
 use DateTime::Tiny;
 use Cwd 'abs_path';
 
+use Gzip::Faster;
+
 use DDP;
 
 # This script aims to download the modules on the perl6 master list and
@@ -27,6 +29,8 @@ use DDP;
 my $debug = 1;
 my $json = JSON::MaybeXS->new( utf8 => 1, pretty => 1, canonical => 1 );
 
+my $on_cpan = _uploaded_to_cpan_by_other_authors();
+
 # username / password in ~/.pause file
 my $config   = CPAN::Uploader->read_config_file();
 my $gh_token = delete $config->{gh_token};
@@ -39,20 +43,24 @@ my $modules = _get_master_list();
 
 # Work out where we are
 my $my_dir      = file( abs_path($0) )->dir;
-my $authors_dir = $my_dir->subdir('authors');
+my $authors_dir = $my_dir->parent->subdir('authors');
 
 # Don't upload if we have already done so!
 my $tracker_file    = $my_dir->file('upload_tracker.json');
 my $tracker_content = $tracker_file->slurp;
 my $tracker         = $json->decode($tracker_content);
 
+# Make up a version that isn't going to limit authors later on
+# but still increments
 my $current_datetime = DateTime::Tiny->now->ymdhms;
 $current_datetime =~ s/[-T:]//g;    # strip down to just numbers
-
-my $version = 'v0.0.' . $current_datetime;
+$current_datetime =~ s/^\d{2}//;    # trim the year to 2 digets
+my $version = '0.000.000_' . $current_datetime;
 
 my $gh_http_tiny = HTTP::Tiny->new(
     default_headers => { 'Authorization' => "token $gh_token" } );
+
+exit;
 
 MODULE: while ( my $module_meta = shift @{$modules} ) {
 
@@ -63,7 +71,15 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         # Fetch the meta info about the module repo
         my $meta = decode_json( $response->{content} );
 
-        # Find where the repo is
+        if ( $on_cpan->{ $meta->{name} } ) {
+            print
+                "- Skipping, someone else is uploading this p6 module to CPAN\n"
+                if $debug;
+            next MODULE;
+
+        }
+
+        # Find where they want to report the repo as being
         my $source_url = URI->new(    #
             $meta->{'source-url'}
                 || $meta->{'support'}->{'source'}
@@ -134,12 +150,14 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
         my $meta6_file = $dist_dir->file('META6.json');
 
-        # They are probably releasing themselves
+        # If there is a META6.json - use that
         if ( -e $meta6_file ) {
-            print "- Skipping as there is a META6.json file\n" if $debug;
-            _delete_dist_clone($dist_dir);
-            next MODULE;
+            my $meta6_content = $meta6_file->slurp;
+            $meta = $json->decode($meta6_content);
         }
+
+        # Make sure all files conform to spec
+        $meta->{'support'}->{'source'} = $source_url->as_string;
 
         chdir $dist_dir->stringify;
 
@@ -148,7 +166,6 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
         # Write out as META6.json
         $meta6_file->spew( $json->encode($meta) );
-
         {
             my $add_m6 = "git commit -a -m 'add META6.json'";
             my ( $stdout, $stderr, $exit ) = capture {
@@ -176,19 +193,21 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         #$uploader->upload_file("$tar_file");
 
         # Track the sha that we used to upload
-        $tracker->{ $source_url->as_string } = {
+        $tracker->{ $meta->{name} } = {
             sha     => $sha,
             version => $version,
             name    => $meta->{name},
+            source  => $source_url->as_string,
         };
 
         # Save that we've uploaded so far
         my $tra_json = $json->encode($tracker);
         $tracker_file->spew($tra_json);
 
+        exit;
+
         # Delete repo clone as we do not need it now
         _delete_dist_clone($dist_dir);
-
     }
 
 }
@@ -201,6 +220,35 @@ sub _delete_dist_clone {
 
     chdir $authors_dir->stringify;
     $dist_dir->rmtree();
+}
+
+# See what is uploaded by other authors as we don't
+# want to upload a module if someone else is doing it
+sub _uploaded_to_cpan_by_other_authors {
+
+    my $p6dists = 'http://www.cpan.org/authors/p6dists.json.gz';
+
+    my $response = HTTP::Tiny->new->get($p6dists);
+
+    if ( $response->{success} ) {
+        my $compressed = $response->{content};
+
+        my $output  = gunzip($compressed);
+        my $decoded = $json->decode($output);
+
+        my %on_cpan;
+        foreach my $key ( keys %{$decoded} ) {
+            my $module_meta = $decoded->{$key};
+
+            # Don't count our own uploads
+            next if $module_meta->{auth} eq 'PSIXDISTS';
+            $on_cpan{ $module_meta->{name} } = 1;
+        }
+
+        return \%on_cpan;
+    } else {
+        die "Unable to fetch $p6dists fix then proceed";
+    }
 }
 
 sub _get_master_list {
