@@ -60,8 +60,6 @@ my $version = '0.000.000_' . $current_datetime;
 my $gh_http_tiny = HTTP::Tiny->new(
     default_headers => { 'Authorization' => "token $gh_token" } );
 
-exit;
-
 MODULE: while ( my $module_meta = shift @{$modules} ) {
 
     print "Checking: $module_meta\n" if $debug;
@@ -81,9 +79,9 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
         # Find where they want to report the repo as being
         my $source_url = URI->new(    #
-            $meta->{'source-url'}
+            delete $meta->{'source-url'}
                 || $meta->{'support'}->{'source'}
-                || $meta->{'repo-url'}
+                || delete $meta->{'repo-url'}
         );
 
         unless ($source_url) {
@@ -167,11 +165,15 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         # Write out as META6.json
         $meta6_file->spew( $json->encode($meta) );
         {
-            my $add_m6 = "git commit -a -m 'add META6.json'";
-            my ( $stdout, $stderr, $exit ) = capture {
-                system($add_m6 );
-            };
-            die $stderr if $stderr;
+            my @cmds = ( "git add META6.json",
+                "git commit -a -m 'add META6.json'" );
+
+            foreach my $cmd (@cmds) {
+                my ( $stdout, $stderr, $exit ) = capture {
+                    system($cmd );
+                };
+                die $stderr if $stderr;
+            }
         }
 
         my $tar_base
@@ -203,8 +205,6 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         # Save that we've uploaded so far
         my $tra_json = $json->encode($tracker);
         $tracker_file->spew($tra_json);
-
-        exit;
 
         # Delete repo clone as we do not need it now
         _delete_dist_clone($dist_dir);
