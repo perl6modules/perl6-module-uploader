@@ -33,6 +33,7 @@ my $on_cpan = _uploaded_to_cpan_by_other_authors();
 
 # username / password in ~/.pause file
 my $config   = CPAN::Uploader->read_config_file();
+$config->{subdir} = 'Perl6';
 my $gh_token = delete $config->{gh_token};
 my $uploader = CPAN::Uploader->new($config);
 
@@ -154,6 +155,8 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
             $meta = $json->decode($meta6_content);
         }
 
+        $meta->{version_from_original_meta} = $meta->{version} || 'unknown';
+
         # Make sure all files conform to spec
         $meta->{'support'}->{'source'} = $source_url->as_string;
 
@@ -192,7 +195,7 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         }
 
         # UPLOAD file to CPAN!
-        #$uploader->upload_file("$tar_file");
+        $uploader->upload_file("$tar_file");
 
         # Track the sha that we used to upload
         $tracker->{ $meta->{name} } = {
@@ -209,6 +212,8 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         # Delete repo clone as we do not need it now
         _delete_dist_clone($dist_dir);
     }
+
+    exit;
 
 }
 
