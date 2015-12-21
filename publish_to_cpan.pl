@@ -12,7 +12,7 @@ use Carp;
 use Capture::Tiny ':all';
 use DateTime::Tiny;
 use Cwd 'abs_path';
-
+use version;
 use Gzip::Faster;
 
 use DDP;
@@ -56,7 +56,11 @@ my $tracker         = $json->decode($tracker_content);
 my $current_datetime = DateTime::Tiny->now->ymdhms;
 $current_datetime =~ s/[-T:]//g;    # strip down to just numbers
 $current_datetime =~ s/^\d{2}//;    # trim the year to 2 digets
+$current_datetime =~ s/\d{2}$//;    # rm seconds - so version->parse() works
 my $version = '0.000.000_' . $current_datetime;
+
+# Little sanity check
+print "Version now is: " . version->parse($version) . "\n";
 
 my $gh_http_tiny = HTTP::Tiny->new(
     default_headers => { 'Authorization' => "token $gh_token" } );
