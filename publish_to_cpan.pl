@@ -26,13 +26,19 @@ use DDP;
 # password PASSWORD
 # gh_token TOKEN
 
+# If you want to git add / git commit in the 'author' dir this
+# should be true
+my $GIT_MANAGE_AUTHOR_DIR = 1;
+
+# Some basic debugging messages
 my $debug = 1;
 my $json = JSON::MaybeXS->new( utf8 => 1, pretty => 1, canonical => 1 );
 
+# Find out what it already uploaded to CPAN by other authors
 my $on_cpan = _uploaded_to_cpan_by_other_authors();
 
 # username / password in ~/.pause file
-my $config   = CPAN::Uploader->read_config_file();
+my $config = CPAN::Uploader->read_config_file();
 $config->{subdir} = 'Perl6';
 my $gh_token = delete $config->{gh_token};
 my $uploader = CPAN::Uploader->new($config);
@@ -58,6 +64,8 @@ $current_datetime =~ s/[-T:]//g;    # strip down to just numbers
 $current_datetime =~ s/^\d{2}//;    # trim the year to 2 digets
 $current_datetime =~ s/\d{2}$//;    # rm seconds - so version->parse() works
 my $version = '0.000.000_' . $current_datetime;
+
+$version = '0.000.001';
 
 # Little sanity check
 print "Version now is: " . version->parse($version) . "\n";
@@ -113,7 +121,7 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
                 my $head = decode_json( $repo_response->{content} );
                 $sha = $head->{object}->{sha};
 
-                if ( my $track_data = $tracker->{ $source_url->as_string } ) {
+                if ( my $track_data = $tracker->{ $meta->{name} } ) {
 
                     # This repo has not been updated, no need to update
                     if ( $sha eq $track_data->{sha} ) {
@@ -215,9 +223,42 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
         # Delete repo clone as we do not need it now
         _delete_dist_clone($dist_dir);
+
+        # Save the author repo, just for kicks, after we've deleted the clone
+        my $commit_msg = sprintf 'Adding: %s version %s from %s',
+            $meta->{name}, $version, $sha;
+        _add_to_author_repo($commit_msg);
+
     }
 
-    exit;
+#    exit;
+
+}
+
+sub _add_to_author_repo {
+    my ($commit_msg) = @_;
+
+    return unless $GIT_MANAGE_AUTHOR_DIR;
+
+    chdir $authors_dir->stringify;
+
+    # Add it
+    {
+        my $cmd = "git add .";
+        my ( $stdout, $stderr, $exit ) = capture {
+            system($cmd );
+        };
+        die $stderr if $stderr;
+    }
+
+    # Check it in
+    {
+        my $cmd = "git cia -m'$commit_msg'";
+        my ( $stdout, $stderr, $exit ) = capture {
+            system($cmd );
+        };
+        die $stderr if $stderr;
+    }
 
 }
 
