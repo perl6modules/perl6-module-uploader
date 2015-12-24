@@ -1,8 +1,386 @@
 {
+   "ABC" : {
+      "name" : "ABC",
+      "sha" : "6e22abd7abb25701f02c57a1b5d4081ea204523b",
+      "source" : "git://github.com/colomon/ABC.git",
+      "version" : "0.000.001"
+   },
+   "Acme::Addslashes" : {
+      "name" : "Acme::Addslashes",
+      "sha" : "ff2907d0f019dc11cbcc5df8a4f17d84a3ca17c2",
+      "source" : "git://github.com/xfix/perl6-Acme-Addslashes.git",
+      "version" : "0.000.001"
+   },
    "Acme::Meow" : {
       "name" : "Acme::Meow",
       "sha" : "35286b14447d22516fbf68767c4d7e18b7396971",
       "source" : "git://github.com/tadzik/perl6-Acme-Meow.git",
+      "version" : "0.000.001"
+   },
+   "Adventure::Engine" : {
+      "name" : "Adventure::Engine",
+      "sha" : "5bb5425a2db05ba608a54905ce7747cf559ac4e8",
+      "source" : "git://github.com/masak/Adventure-Engine.git",
+      "version" : "0.000.001"
+   },
+   "Algorithm::Diff" : {
+      "name" : "Algorithm::Diff",
+      "sha" : "ccd948df57d38be2545f4a2bdc219f9942abdae4",
+      "source" : "git://github.com/Takadonet/Algorithm--Diff.git",
+      "version" : "0.000.001"
+   },
+   "Algorithm::Soundex" : {
+      "name" : "Algorithm::Soundex",
+      "sha" : "d8fd20b74c93d1a4e725a53613ff8db0672d4acc",
+      "source" : "git://github.com/leto/perl6-Algorithm-Soundex.git",
+      "version" : "0.000.001"
+   },
+   "Algorithm::Viterbi" : {
+      "name" : "Algorithm::Viterbi",
+      "sha" : "329f269db71b1f21269add626ffc8ab73e1b47f6",
+      "source" : "git://github.com/arnsholt/Algorithm-Viterbi.git",
+      "version" : "0.000.001"
+   },
+   "App::jsonv" : {
+      "name" : "App::jsonv",
+      "sha" : "b82fbcf51fa84d02fb3cd7355a85e474832da358",
+      "source" : "git://github.com/Miniconf/App-jsonv.git",
+      "version" : "0.000.001"
+   },
+   "Auth::PAM::Simple" : {
+      "name" : "Auth::PAM::Simple",
+      "sha" : "5816528e48534ee097b1edd41adc74cddd6e17e2",
+      "source" : "git://github.com/retupmoca/P6-Auth-PAM-Simple.git",
+      "version" : "0.000.001"
+   },
+   "Auth::SAML2" : {
+      "name" : "Auth::SAML2",
+      "sha" : "90a34112d901ca407940582b21c9b2700306de18",
+      "source" : "git://github.com/retupmoca/P6-SAML.git",
+      "version" : "0.000.001"
+   },
+   "BSON" : {
+      "name" : "BSON",
+      "sha" : "8ccfe939e4e2ed88d221fa966cb7d416661bbcd4",
+      "source" : "git://github.com/MARTIMM/BSON.git",
+      "version" : "0.000.001"
+   },
+   "Bailador" : {
+      "name" : "Bailador",
+      "sha" : "ce40ad48304469f86592b8883a6a3bbd6c2b1fb1",
+      "source" : "git://github.com/tadzik/Bailador.git",
+      "version" : "0.000.001"
+   },
+   "Bamboo" : {
+      "name" : "Bamboo",
+      "sha" : "b88e7c8899629fd4db6e1b721a425975f257fa38",
+      "source" : "git://github.com/sergot/bamboo.git",
+      "version" : "0.000.001"
+   },
+   "Benchmark" : {
+      "name" : "Benchmark",
+      "sha" : "175c2835defdb17067de06d8e383798568c43622",
+      "source" : "git://github.com/perlpilot/benchmark.git",
+      "version" : "0.000.001"
+   },
+   "Benchmark::Plot" : {
+      "name" : "Benchmark::Plot",
+      "sha" : "03fe6c2b8d23825244eade295375b0e40f9e3f8b",
+      "source" : "git://github.com/colomon/Benchmark-Plot.git",
+      "version" : "0.000.001"
+   },
+   "BioInfo" : {
+      "name" : "BioInfo",
+      "sha" : "63172f2776330fe4b792600872521de648cd031b",
+      "source" : "git://github.com/MattOates/BioInfo.git",
+      "version" : "0.000.001"
+   },
+   "BioPerl6" : {
+      "name" : "BioPerl6",
+      "sha" : "9b3af9509a0c539f8d293361427f220c70f3abba",
+      "source" : "git://github.com/cjfields/bioperl6.git",
+      "version" : "0.000.001"
+   },
+   "BreakDancer" : {
+      "name" : "BreakDancer",
+      "sha" : "80a1a4d59fc61d264b1d347dd80e2e60096f5004",
+      "source" : "git://github.com/sergot/BreakDancer.git",
+      "version" : "0.000.001"
+   },
+   "CGI::Application" : {
+      "name" : "CGI::Application",
+      "sha" : "59e1060999c70a28cd40cde0a77a7e55d53de3e4",
+      "source" : "git://github.com/moritz/CGI-Application.git",
+      "version" : "0.000.001"
+   },
+   "Cache::Memcached" : {
+      "name" : "Cache::Memcached",
+      "sha" : "47778b18e75e120c239351acc12daa04414f9aef",
+      "source" : "git://github.com/cosimo/perl6-cache-memcached.git",
+      "version" : "0.000.001"
+   },
+   "Class::Utils" : {
+      "name" : "Class::Utils",
+      "sha" : "de503e4d2491e9aba2237090d53244fbdfe308d2",
+      "source" : "git://github.com/sirrobert/Class-Utils.git",
+      "version" : "0.000.001"
+   },
+   "Compress::Zlib" : {
+      "name" : "Compress::Zlib",
+      "sha" : "86bacc12675614b078e665a36d24d89fba91e3cd",
+      "source" : "git://github.com/retupmoca/P6-Compress-Zlib.git",
+      "version" : "0.000.001"
+   },
+   "Compress::Zlib::Raw" : {
+      "name" : "Compress::Zlib::Raw",
+      "sha" : "3a7b0a8b98ffd069a2a1856e92a7a6c668aff42b",
+      "source" : "git://github.com/retupmoca/P6-Compress-Zlib-Raw.git",
+      "version" : "0.000.001"
+   },
+   "Config::INI" : {
+      "name" : "Config::INI",
+      "sha" : "b4e6d9a0427f2ed5f0c30157489cdb3e5383e13e",
+      "source" : "git://github.com/tadzik/perl6-Config-INI.git",
+      "version" : "0.000.001"
+   },
+   "Crust::Handler::SCGI" : {
+      "name" : "Crust::Handler::SCGI",
+      "sha" : "4fd3374f679768cacb1331ea70dcd5fcdb878d93",
+      "source" : "git://github.com/retupmoca/p6-Crust-Handler-SCGI.git",
+      "version" : "0.000.001"
+   },
+   "Crust::Middleware::Syslog" : {
+      "name" : "Crust::Middleware::Syslog",
+      "sha" : "c2b3b9a57b88d757a3891da8393dbd9c29269b39",
+      "source" : "git://github.com/retupmoca/P6-Crust-Middleware-Syslog.git",
+      "version" : "0.000.001"
+   },
+   "DB::Model::Easy" : {
+      "name" : "DB::Model::Easy",
+      "sha" : "e0faeb751f332b881f7a7d6da577ebfa8c100036",
+      "source" : "git://github.com/supernovus/perl6-db-model-easy.git",
+      "version" : "0.000.001"
+   },
+   "DBIish" : {
+      "name" : "DBIish",
+      "sha" : "b6a92ad01941a6bcede814d5ecad327a0d44cdfc",
+      "source" : "git://github.com/perl6/DBIish.git",
+      "version" : "0.000.001"
+   },
+   "Data::ICal" : {
+      "name" : "Data::ICal",
+      "sha" : "0d8251df03fecabf06dc7d1e0372f2f4bd377bd7",
+      "source" : "git://github.com/retupmoca/P6-iCal.git",
+      "version" : "0.000.001"
+   },
+   "Date::WorkdayCalendar" : {
+      "name" : "Date::WorkdayCalendar",
+      "sha" : "7cf7d2cad4aa8942731ec201869d36a62e329e65",
+      "source" : "git://github.com/perl6-community-modules/Date-WorkdayCalendar.git",
+      "version" : "0.000.001"
+   },
+   "DateTime::Format" : {
+      "name" : "DateTime::Format",
+      "sha" : "bfe24025f97f866685616519dbaa854f63f57fcb",
+      "source" : "git://github.com/supernovus/perl6-datetime-format.git",
+      "version" : "0.000.001"
+   },
+   "DateTime::Format::W3CDTF" : {
+      "name" : "DateTime::Format::W3CDTF",
+      "sha" : "5ec706febdbff63c229c1c7e64edbc2114b1b367",
+      "source" : "git://github.com/afiskon/p6-datetime-format-w3cdtf.git",
+      "version" : "0.000.001"
+   },
+   "DateTime::Math" : {
+      "name" : "DateTime::Math",
+      "sha" : "31d7e242fb81aba35a1e486bc15f36cf5af3ffbf",
+      "source" : "git://github.com/supernovus/perl6-datetime-math.git",
+      "version" : "0.000.001"
+   },
+   "DateTime::Parse" : {
+      "name" : "DateTime::Parse",
+      "sha" : "54f84565ada9a313ed71c8f6db994f8c74d96b72",
+      "source" : "git://github.com/sergot/datetime-parse.git",
+      "version" : "0.000.001"
+   },
+   "DateTime::TimeZone" : {
+      "name" : "DateTime::TimeZone",
+      "sha" : "db85bb553103e0a3d1f1ff73c6a561e936edf09b",
+      "source" : "git://github.com/supernovus/perl6-timezone.git",
+      "version" : "0.000.001"
+   },
+   "DateTime::Utils" : {
+      "name" : "DateTime::Utils",
+      "sha" : "d252041a07115b0a7e7d9998aa6cf6233bbda65b",
+      "source" : "git://github.com/supernovus/temporal-utils.git",
+      "version" : "0.000.001"
+   },
+   "Digest::HMAC" : {
+      "name" : "Digest::HMAC",
+      "sha" : "60ce11b32a84b3f17f31c08bc7f1ee8bbf84954c",
+      "source" : "git://github.com/retupmoca/P6-Digest-HMAC.git",
+      "version" : "0.000.001"
+   },
+   "Digest::MD5" : {
+      "name" : "Digest::MD5",
+      "sha" : "556a1bba2a4d4cd05c3aad71ff1f95a96f70e41b",
+      "source" : "git://github.com/cosimo/perl6-digest-md5.git",
+      "version" : "0.000.001"
+   },
+   "Digest::PSHA1" : {
+      "name" : "Digest::PSHA1",
+      "sha" : "797eefc9a184d88f908b48ec64b8611908de0db9",
+      "source" : "git://github.com/FROGGS/p6-Digest-PSHA1.git",
+      "version" : "0.000.001"
+   },
+   "Druid" : {
+      "name" : "Druid",
+      "sha" : "18cb5acec187d9170df3d4279a9a23f48d06c47a",
+      "source" : "git://github.com/masak/druid.git",
+      "version" : "0.000.001"
+   },
+   "Email::MIME" : {
+      "name" : "Email::MIME",
+      "sha" : "4aca97640fd5bd3da625b74ecb9930a74fd852c6",
+      "source" : "git://github.com/retupmoca/p6-Email-MIME.git",
+      "version" : "0.000.001"
+   },
+   "Email::Simple" : {
+      "name" : "Email::Simple",
+      "sha" : "7ec4267999b4d53a6b8646757006df1d9d1a828a",
+      "source" : "git://github.com/retupmoca/p6-Email-Simple.git",
+      "version" : "0.000.001"
+   },
+   "Facter" : {
+      "name" : "Facter",
+      "sha" : "fdfdf8afef716133ef5a36561697283b87d9cc55",
+      "source" : "git://github.com/cosimo/perl6-facter.git",
+      "version" : "0.000.001"
+   },
+   "FastCGI" : {
+      "name" : "FastCGI",
+      "sha" : "1a9baa7569ff8b865faa61e20495df652f255c5a",
+      "source" : "git://github.com/supernovus/perl6-fastcgi.git",
+      "version" : "0.000.001"
+   },
+   "File::Temp" : {
+      "name" : "File::Temp",
+      "sha" : "f988468d7634af410e40d4fbd56c6b4ccbaffaab",
+      "source" : "git://github.com/perlpilot/p6-File-Temp.git",
+      "version" : "0.000.001"
+   },
+   "Find::Bundled" : {
+      "name" : "Find::Bundled",
+      "sha" : "10677e4a9981ae33e9bb0f7409c399a60f1dc0c9",
+      "source" : "git://github.com/retupmoca/P6-Find-Bundled.git",
+      "version" : "0.000.001"
+   },
+   "Flower" : {
+      "name" : "Flower",
+      "sha" : "dc13c7cbc853b674d609dd9b3aaef93c955fdc48",
+      "source" : "git://github.com/supernovus/flower.git",
+      "version" : "0.000.001"
+   },
+   "Foo" : {
+      "name" : "Foo",
+      "sha" : "b9b31209bb198e585fa1568bc2a3e9d9993985e9",
+      "source" : "git://github.com/FROGGS/p6-Foo-v1.0.0.git",
+      "version" : "0.000.001"
+   },
+   "Form" : {
+      "name" : "Form",
+      "sha" : "797237da60ae589147fa705f516806cdd3fd823b",
+      "source" : "git://github.com/perl6/form.git",
+      "version" : "0.000.001"
+   },
+   "GGE" : {
+      "name" : "GGE",
+      "sha" : "d6a018cdd3e5391e59e1e8d20548997708c330be",
+      "source" : "git://github.com/masak/gge.git",
+      "version" : "0.000.001"
+   },
+   "Game::Crypt" : {
+      "name" : "Game::Crypt",
+      "sha" : "e8ed2f6e67d33188527ae383af25141ed17b43aa",
+      "source" : "git://github.com/masak/crypt.git",
+      "version" : "0.000.001"
+   },
+   "Games::BubbleBreaker" : {
+      "name" : "Games::BubbleBreaker",
+      "sha" : "fd544f3dea1c8d7db0261f04fb7beb618415d2b5",
+      "source" : "git://github.com/FROGGS/p6-Games-BubbleBreaker.git",
+      "version" : "0.000.001"
+   },
+   "GeoIP::City" : {
+      "name" : "GeoIP::City",
+      "sha" : "a79378c8b91812751893a956fdcd84b98245b3f4",
+      "source" : "git://github.com/bbkr/GeoIPerl6.git",
+      "version" : "0.000.001"
+   },
+   "Grammar::Debugger" : {
+      "name" : "Grammar::Debugger",
+      "sha" : "c1495065a9714845e95e9aa5607ebfda7b6beb87",
+      "source" : "git://github.com/jnthn/grammar-debugger.git",
+      "version" : "0.000.001"
+   },
+   "Grammar::Profiler::Simple" : {
+      "name" : "Grammar::Profiler::Simple",
+      "sha" : "f828d80e3774a5c81033027e8d8be4f66d1e7db1",
+      "source" : "git://github.com/perlpilot/Grammar-Profiler-Simple.git",
+      "version" : "0.000.001"
+   },
+   "HTML::Template" : {
+      "name" : "HTML::Template",
+      "sha" : "8ca6ec25b415a6686822dc9b12593e98393f8538",
+      "source" : "git://github.com/masak/html-template.git",
+      "version" : "0.000.001"
+   },
+   "HTTP::Client" : {
+      "name" : "HTTP::Client",
+      "sha" : "1a23afb63548bd303d23ef1dd5a6bcc5a9fefaeb",
+      "source" : "git://github.com/supernovus/perl6-http-client.git",
+      "version" : "0.000.001"
+   },
+   "HTTP::ParseParams" : {
+      "name" : "HTTP::ParseParams",
+      "sha" : "2a4a14083f9f183ba0ee27e5e0f572d531fccca9",
+      "source" : "git://github.com/retupmoca/P6-HTTP-ParseParams.git",
+      "version" : "0.000.001"
+   },
+   "HTTP::Server::Simple" : {
+      "name" : "HTTP::Server::Simple",
+      "sha" : "c4644bace8d0ecdcdb1c3748239e349404cb499a",
+      "source" : "git://github.com/mberends/http-server-simple.git",
+      "version" : "0.000.001"
+   },
+   "HTTP::Status" : {
+      "name" : "HTTP::Status",
+      "sha" : "a026ba89bcbad16344d988bf1212cc66bb5de6b7",
+      "source" : "git://github.com/supernovus/perl6-http-status.git",
+      "version" : "0.000.001"
+   },
+   "HTTP::UserAgent" : {
+      "name" : "HTTP::UserAgent",
+      "sha" : "6858d9bcce6d3720b0811504d4a48df3ed22d9dc",
+      "source" : "git://github.com/sergot/http-useragent.git",
+      "version" : "0.000.001"
+   },
+   "Hinges" : {
+      "name" : "Hinges",
+      "sha" : "c1e412d4845ecccad005726c83270de4b2e226ff",
+      "source" : "git://github.com/supernovus/hinges.git",
+      "version" : "0.000.001"
+   },
+   "IDNA::Punycode" : {
+      "name" : "IDNA::Punycode",
+      "sha" : "fe7dbfaa8578777cede0ac706c91304a662d72bd",
+      "source" : "git://github.com/FROGGS/p6-IDNA-Punycode.git",
+      "version" : "0.000.001"
+   },
+   "IO::Capture::Simple" : {
+      "name" : "IO::Capture::Simple",
+      "sha" : "19c2add17685e35c740ab3508553da2b3f9ced7c",
+      "source" : "git://github.com/sergot/IO-Capture-Simple.git",
       "version" : "0.000.001"
    },
    "IO::Prompter" : {
@@ -11,10 +389,112 @@
       "source" : "git://github.com/colomon/io-prompter.git",
       "version" : "0.000.001"
    },
+   "IRC::Utils" : {
+      "name" : "IRC::Utils",
+      "sha" : "9fdf7f628ff48dc1c83f93c008bae1cf36369926",
+      "source" : "git://github.com/perl6-community-modules/p6-irc-utils.git",
+      "version" : "0.000.001"
+   },
+   "IoC" : {
+      "name" : "IoC",
+      "sha" : "e7bb46254e149c1d3304c81ea24fc24512b1145d",
+      "source" : "git://github.com/jasonmay/perl6-ioc.git",
+      "version" : "0.000.001"
+   },
+   "JSON::Pretty" : {
+      "name" : "JSON::Pretty",
+      "sha" : "a8f6a9c3c5e7290cd2ff7c88bbe8cf35433730ec",
+      "source" : "git://github.com/FROGGS/p6-JSON-Pretty.git",
+      "version" : "0.000.001"
+   },
+   "JSON::RPC" : {
+      "name" : "JSON::RPC",
+      "sha" : "2aaf5bf096ca5b40c59d49972ccaf5b8b988665e",
+      "source" : "git://github.com/bbkr/jsonrpc.git",
+      "version" : "0.000.001"
+   },
    "JSON::Tiny" : {
       "name" : "JSON::Tiny",
       "sha" : "c75a04c1b31665b6a569dc954916a96ad7763edc",
       "source" : "git://github.com/moritz/json.git",
+      "version" : "0.000.001"
+   },
+   "LWP::Simple" : {
+      "name" : "LWP::Simple",
+      "sha" : "f422f802ffe1ea5fa760dae859d7aeecc1edc40f",
+      "source" : "git://github.com/perl6/perl6-lwp-simple.git",
+      "version" : "0.000.001"
+   },
+   "LibraryMake" : {
+      "name" : "LibraryMake",
+      "sha" : "8ab4b23a981ebfd63a74c11d1398750a472195aa",
+      "source" : "git://github.com/retupmoca/P6-LibraryMake.git",
+      "version" : "0.000.001"
+   },
+   "Lingua::EN::Numbers::Ordinal" : {
+      "name" : "Lingua::EN::Numbers::Ordinal",
+      "sha" : "b04e6c46b2c8cb4196094b131b30c6c887c6c5b9",
+      "source" : "git://github.com/lue/Lingua--EN--Numbers--Ordinal.git",
+      "version" : "0.000.001"
+   },
+   "List::Utils" : {
+      "name" : "List::Utils",
+      "sha" : "e1bf7b4587a32386a92aca7d25c8248284cfb00e",
+      "source" : "git://github.com/colomon/List-Utils.git",
+      "version" : "0.000.001"
+   },
+   "MIME::Base64" : {
+      "name" : "MIME::Base64",
+      "sha" : "bd197ed16935de3a264726a8669055c945515390",
+      "source" : "git://github.com/perl6/Perl6-MIME-Base64.git",
+      "version" : "0.000.001"
+   },
+   "MIME::QuotedPrint" : {
+      "name" : "MIME::QuotedPrint",
+      "sha" : "d51567544ed13c5a316ea48fdec87573e5d2f21f",
+      "source" : "git://github.com/retupmoca/p6-MIME-QuotedPrint.git",
+      "version" : "0.000.001"
+   },
+   "MIME::Types" : {
+      "name" : "MIME::Types",
+      "sha" : "dadf37aabafb67b880ba2fc27b38a2fe3d0e7f5b",
+      "source" : "git://github.com/supernovus/perl6-mime-types.git",
+      "version" : "0.000.001"
+   },
+   "MPD" : {
+      "name" : "MPD",
+      "sha" : "30410bd5436569a4128b1f7c3bd005de7ad34a7d",
+      "source" : "git://github.com/tadzik/perl6-MPD.git",
+      "version" : "0.000.001"
+   },
+   "Masquerade" : {
+      "name" : "Masquerade",
+      "sha" : "b2ea60c9dfe70fbe7fdd715a5cfab0980e81d363",
+      "source" : "git://github.com/sirrobert/Masquerade.git",
+      "version" : "0.000.001"
+   },
+   "Math::ChebyshevPolynomial" : {
+      "name" : "Math::ChebyshevPolynomial",
+      "sha" : "73c34ad7edde714699cbdf4454dc50d0abc4f522",
+      "source" : "git://github.com/colomon/Math-ChebyshevPolynomial.git",
+      "version" : "0.000.001"
+   },
+   "Math::ContinuedFractions" : {
+      "name" : "Math::ContinuedFractions",
+      "sha" : "d657704ad389fb3a0943d89547223fc0f1647467",
+      "source" : "git://github.com/colomon/Math-ContinuedFractions.git",
+      "version" : "0.000.001"
+   },
+   "Math::Model" : {
+      "name" : "Math::Model",
+      "sha" : "3863834c3f87bd2066c7797be20fe1fb832e9dd4",
+      "source" : "git://github.com/moritz/Math-Model.git",
+      "version" : "0.000.001"
+   },
+   "Math::OddFunctions" : {
+      "name" : "Math::OddFunctions",
+      "sha" : "0e77914c3f5a2e2b2fe39644b46f05eddfb99496",
+      "source" : "git://github.com/colomon/Math-Odd-Functions.git",
       "version" : "0.000.001"
    },
    "Math::Polynomial" : {
@@ -23,10 +503,280 @@
       "source" : "git://github.com/colomon/Math-Polynomial.git",
       "version" : "0.000.001"
    },
+   "Math::RungeKutta" : {
+      "name" : "Math::RungeKutta",
+      "sha" : "dce668b53e446ef2cedd7e37242501a9b62b800f",
+      "source" : "git://github.com/moritz/Math-RungeKutta.git",
+      "version" : "0.000.001"
+   },
    "Math::Vector" : {
       "name" : "Math::Vector",
       "sha" : "a31eed0671406b9953868f8db25cbef6db891320",
       "source" : "git://github.com/colomon/Math-Vector.git",
+      "version" : "0.000.001"
+   },
+   "MessagePack" : {
+      "name" : "MessagePack",
+      "sha" : "0a4808ec7c679583c6729ce64f15f9a91810137e",
+      "source" : "git://github.com/uasi/messagepack-pm6.git",
+      "version" : "0.000.001"
+   },
+   "Method::Modifiers" : {
+      "name" : "Method::Modifiers",
+      "sha" : "31189201c61419c46ec2593408c143fa80e920e6",
+      "source" : "git://github.com/supernovus/perl6-method-modifiers.git",
+      "version" : "0.000.001"
+   },
+   "MongoDB" : {
+      "name" : "MongoDB",
+      "sha" : "a0020565bbc838834c8f8ed71200f242a2ffa475",
+      "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
+      "version" : "0.000.001"
+   },
+   "Net::AMQP" : {
+      "name" : "Net::AMQP",
+      "sha" : "01e3af934c145b0e68735f17e29f28cfa25e690f",
+      "source" : "git://github.com/retupmoca/P6-Net-AMQP.git",
+      "version" : "0.000.001"
+   },
+   "Net::DNS" : {
+      "name" : "Net::DNS",
+      "sha" : "a4f410a6f765b4e60a48140ab99c3b13e48c7322",
+      "source" : "git://github.com/retupmoca/P6-Net-DNS.git",
+      "version" : "0.000.001"
+   },
+   "Net::IMAP" : {
+      "name" : "Net::IMAP",
+      "sha" : "b675077e83620f5387152717046ead8eb7802c5d",
+      "source" : "git://github.com/retupmoca/P6-Net-IMAP.git",
+      "version" : "0.000.001"
+   },
+   "Net::IRC::Bot" : {
+      "name" : "Net::IRC::Bot",
+      "sha" : "00195d3f8170e81d68662b1cb02ec9d201179298",
+      "source" : "git://github.com/TiMBuS/Net--IRC.git",
+      "version" : "0.000.001"
+   },
+   "Net::POP3" : {
+      "name" : "Net::POP3",
+      "sha" : "0cd55ce6d509cdea3ebf83a91229cdf09579bb64",
+      "source" : "git://github.com/retupmoca/P6-Net-POP3.git",
+      "version" : "0.000.001"
+   },
+   "Net::SMTP" : {
+      "name" : "Net::SMTP",
+      "sha" : "febdcb9e3dd998225e629efc7fc1ba3ff0bf70ed",
+      "source" : "git://github.com/retupmoca/P6-Net-SMTP.git",
+      "version" : "0.000.001"
+   },
+   "Net::SOCKS" : {
+      "name" : "Net::SOCKS",
+      "sha" : "626578c51d12ca40b5ae688d9187a438fcc9afed",
+      "source" : "git://github.com/retupmoca/P6-Net-SOCKS.git",
+      "version" : "0.000.001"
+   },
+   "Net::XMPP" : {
+      "name" : "Net::XMPP",
+      "sha" : "a5cf4d8c00c90b57b328414f0460e7ea5fd94eaf",
+      "source" : "git://github.com/retupmoca/P6-Net-XMPP.git",
+      "version" : "0.000.001"
+   },
+   "Netstring" : {
+      "name" : "Netstring",
+      "sha" : "79add8b0384c48970e0d2383ab6180cc0d53bfc3",
+      "source" : "git://github.com/supernovus/perl6-netstring.git",
+      "version" : "0.000.001"
+   },
+   "Nonongram" : {
+      "name" : "Nonongram",
+      "sha" : "214b981df37f2eb47c47713f9bb2396ea4d03637",
+      "source" : "git://github.com/moritz/Nonogram.git",
+      "version" : "0.000.001"
+   },
+   "November" : {
+      "name" : "November",
+      "sha" : "139a445887e8c250efe1dceec5a793f318c5fcec",
+      "source" : "git://github.com/viklund/november.git",
+      "version" : "0.000.001"
+   },
+   "OpenSSL" : {
+      "name" : "OpenSSL",
+      "sha" : "4a5a262812381dfaf5f921a7a56274c4899bc2e0",
+      "source" : "git://github.com/sergot/openssl.git",
+      "version" : "0.000.001"
+   },
+   "PSpec" : {
+      "name" : "PSpec",
+      "sha" : "f927f22325281e4af6b38848abdcedc3914a6a29",
+      "source" : "git://github.com/supernovus/PSpec.git",
+      "version" : "0.000.001"
+   },
+   "Perl6-Math-Quaternion" : {
+      "name" : "Perl6-Math-Quaternion",
+      "sha" : "8a927dca279a3177844980596755084dbfd81550",
+      "source" : "git://github.com/Util/Perl6-Math-Quaternion.git",
+      "version" : "0.000.001"
+   },
+   "Perl6::Literate" : {
+      "name" : "Perl6::Literate",
+      "sha" : "d9db04ccafa8743a4b498a3efc939bb37eb69c64",
+      "source" : "git://github.com/masak/perl6-literate.git",
+      "version" : "0.000.001"
+   },
+   "Plosurin" : {
+      "name" : "Plosurin",
+      "sha" : "8c55c5c43e28d4322a0a365c3aee18a053222f64",
+      "source" : "git://github.com/zag/plosurin.git",
+      "version" : "0.000.001"
+   },
+   "Pod::Parser" : {
+      "name" : "Pod::Parser",
+      "sha" : "adb64fc5bdd20e913b9af4039601ae63de324f29",
+      "source" : "git://github.com/szabgab/perl6-Pod-Parser.git",
+      "version" : "0.000.001"
+   },
+   "Pod::To::HTML" : {
+      "name" : "Pod::To::HTML",
+      "sha" : "9b4c4963cb90851e53ed315ea9e0965730d4ad9b",
+      "source" : "git://github.com/perl6/Pod-To-HTML.git",
+      "version" : "0.000.001"
+   },
+   "Redis" : {
+      "name" : "Redis",
+      "sha" : "5a04119aa570991bd4273f70847ea7e7113b3ec3",
+      "source" : "git://github.com/Cofyc/perl6-redis.git",
+      "version" : "0.000.001"
+   },
+   "SCGI" : {
+      "name" : "SCGI",
+      "sha" : "92bb31051456ed719821bfbf137e5cbecefef845",
+      "source" : "git://github.com/supernovus/SCGI.git",
+      "version" : "0.000.001"
+   },
+   "SDL" : {
+      "name" : "SDL",
+      "sha" : "e7cbce4be893cbee08ba41252dd2defb1aafd71c",
+      "source" : "git://github.com/PerlGameDev/SDL6.git",
+      "version" : "0.000.001"
+   },
+   "SOAP::Client" : {
+      "name" : "SOAP::Client",
+      "sha" : "2a3b2cc14cba117293566b0504bec8907684c60e",
+      "source" : "git://github.com/retupmoca/P6-SOAP.git",
+      "version" : "0.000.001"
+   },
+   "SVG" : {
+      "name" : "SVG",
+      "sha" : "26edc3bd93e3532163b9f2424ca9058c7bb946a5",
+      "source" : "git://github.com/moritz/svg.git",
+      "version" : "0.000.001"
+   },
+   "SVG::Plot" : {
+      "name" : "SVG::Plot",
+      "sha" : "f88d0b73e955f7ff00bf8d5d0fefa03894922902",
+      "source" : "git://github.com/moritz/svg-plot.git",
+      "version" : "0.000.001"
+   },
+   "Sitemap::XML::Parser" : {
+      "name" : "Sitemap::XML::Parser",
+      "sha" : "cb8774b6abcf1c0ae8f06fa750bb1e38b51d55fb",
+      "source" : "git://github.com/afiskon/p6-sitemap-xml-parser.git",
+      "version" : "0.000.001"
+   },
+   "Slang::Piersing" : {
+      "name" : "Slang::Piersing",
+      "sha" : "f7c58fa32ec6d2ecabc1a46f635272b6f228e741",
+      "source" : "git://github.com/FROGGS/p6-Slang-Piersing.git",
+      "version" : "0.000.001"
+   },
+   "Slang::Tuxic" : {
+      "name" : "Slang::Tuxic",
+      "sha" : "ab0b98a754976f4c2f859da7146811cfeb8c6f8b",
+      "source" : "git://github.com/FROGGS/p6-Slang-Tuxic.git",
+      "version" : "0.000.001"
+   },
+   "String::CRC32" : {
+      "name" : "String::CRC32",
+      "sha" : "1ddba1152beb69f6f29f2e87b5e95b3ebdd8226f",
+      "source" : "git://github.com/cosimo/perl6-string-crc32.git",
+      "version" : "0.000.001"
+   },
+   "Sum" : {
+      "name" : "Sum",
+      "sha" : "fd6f88d838e10d32b2d0c5225fc8aeacb3238aa2",
+      "source" : "git://github.com/skids/perl6sum.git",
+      "version" : "0.000.001"
+   },
+   "Syndication" : {
+      "name" : "Syndication",
+      "sha" : "ccbd058505a978f890e8ea9e130453dde1b9ca87",
+      "source" : "git://github.com/retupmoca/p6-syndication.git",
+      "version" : "0.000.001"
+   },
+   "Tardis" : {
+      "name" : "Tardis",
+      "sha" : "081cdb0616bcc886488903e1fcd2bbdeb10d47d2",
+      "source" : "git://github.com/masak/tardis.git",
+      "version" : "0.000.001"
+   },
+   "Task::Star" : {
+      "name" : "Task::Star",
+      "sha" : "8ff101ae15a0c779d18d81054dc518eb42dee359",
+      "source" : "git://github.com/tadzik/Task-Star.git",
+      "version" : "0.000.001"
+   },
+   "Template6" : {
+      "name" : "Template6",
+      "sha" : "2e078ff4120ad05e604b4ad475361b0ac301e7c9",
+      "source" : "git://github.com/supernovus/template6.git",
+      "version" : "0.000.001"
+   },
+   "Template::Mojo" : {
+      "name" : "Template::Mojo",
+      "sha" : "351fee475a36ce922745dc203980c857db0d1304",
+      "source" : "git://github.com/tadzik/Template-Mojo.git",
+      "version" : "0.000.001"
+   },
+   "Term::ANSIColor" : {
+      "name" : "Term::ANSIColor",
+      "sha" : "793f83e34e3b136e12275589f97b90c445a9939d",
+      "source" : "git://github.com/tadzik/perl6-Term-ANSIColor.git",
+      "version" : "0.000.001"
+   },
+   "Term::ProgressBar" : {
+      "name" : "Term::ProgressBar",
+      "sha" : "fff918108b22302f1ab4eecdff210808f726815d",
+      "source" : "git://github.com/sergot/Term--ProgressBar.git",
+      "version" : "0.000.001"
+   },
+   "Terminal::ANSIColor" : {
+      "name" : "Terminal::ANSIColor",
+      "sha" : "d79350878aaefb303406c9a9ab5695c7f83d056f",
+      "source" : "git://github.com/tadzik/Terminal-ANSIColor.git",
+      "version" : "0.000.001"
+   },
+   "Test::Builder" : {
+      "name" : "Test::Builder",
+      "sha" : "dbf135cc962337fd3c423938c7214f16b1b1309f",
+      "source" : "git://github.com/perl6-community-modules/p6-test-builder.git",
+      "version" : "0.000.001"
+   },
+   "Test::Junkie" : {
+      "name" : "Test::Junkie",
+      "sha" : "8a939bc07b05c92ccbd6623a3dc36f8968faea9b",
+      "source" : "git://github.com/colomon/Test-Junkie.git",
+      "version" : "0.000.001"
+   },
+   "Test::Mock" : {
+      "name" : "Test::Mock",
+      "sha" : "99c7a9a5c86847a6555364e0904449bff76b0197",
+      "source" : "git://github.com/jnthn/test-mock.git",
+      "version" : "0.000.001"
+   },
+   "TestML" : {
+      "name" : "TestML",
+      "sha" : "bf2f7cedc02b8bc1c1b412aad81ceab454936473",
+      "source" : "git://github.com/perl6-community-modules/testml-pm6.git",
       "version" : "0.000.001"
    },
    "Testing" : {
@@ -35,10 +785,172 @@
       "source" : "git://github.com/colomon/perl6-Testing.git",
       "version" : "0.000.001"
    },
+   "Text::Abbrev" : {
+      "name" : "Text::Abbrev",
+      "sha" : "6054b3910051ba47cee383ea01e9aada0dfde0c2",
+      "source" : "git://github.com/xfix/perl6-Text-Abbrev.git",
+      "version" : "0.000.001"
+   },
+   "Text::CSV" : {
+      "name" : "Text::CSV",
+      "sha" : "f01d6a2cf478b4524afc3beb8270ec202f335370",
+      "source" : "git://github.com/Tux/CSV.git",
+      "version" : "0.000.001"
+   },
+   "Text::Diff" : {
+      "name" : "Text::Diff",
+      "sha" : "f516ac13acf85865fcb8ed4fb99b094e124e5426",
+      "source" : "git://github.com/Takadonet/Text--Diff.git",
+      "version" : "0.000.001"
+   },
+   "Text::Markdown" : {
+      "name" : "Text::Markdown",
+      "sha" : "9950e23ed92ebbc76327a594ad32cae5a3f074a7",
+      "source" : "git://github.com/retupmoca/p6-markdown.git",
+      "version" : "0.000.001"
+   },
+   "Text::T9" : {
+      "name" : "Text::T9",
+      "sha" : "ca34c58c6d0546355524e92f8e2e907ea39098ad",
+      "source" : "git://github.com/tadzik/Text-T9.git",
+      "version" : "0.000.001"
+   },
+   "Text::Table::List" : {
+      "name" : "Text::Table::List",
+      "sha" : "89f58bb90624d58251c5c3acbf2284fdea68a86a",
+      "source" : "git://github.com/supernovus/perl6-text-table-list.git",
+      "version" : "0.000.001"
+   },
+   "Typed::Subroutines" : {
+      "name" : "Typed::Subroutines",
+      "sha" : "d617e35999e33a68e1a5a1bb0b957c2f7748b171",
+      "source" : "git://github.com/tadzik/Typed-Subroutines.git",
+      "version" : "0.000.001"
+   },
+   "URI" : {
+      "name" : "URI",
+      "sha" : "089c2340abe45c2ce8c3633d36157bfb4971432a",
+      "source" : "git://github.com/perl6-community-modules/uri.git",
+      "version" : "0.000.001"
+   },
+   "UUID" : {
+      "name" : "UUID",
+      "sha" : "68405133270020932c3940ae2560895ec4afc2b7",
+      "source" : "git://github.com/retupmoca/P6-UUID.git",
+      "version" : "0.000.001"
+   },
+   "Web" : {
+      "name" : "Web",
+      "sha" : "f257f9327acdf0c01e5eba90dba3ed590313bec1",
+      "source" : "git://github.com/supernovus/perl6-web.git",
+      "version" : "0.000.001"
+   },
+   "Web::App::Ballet" : {
+      "name" : "Web::App::Ballet",
+      "sha" : "841e3fc0e0de71404b9c5bc818ed9d0c1c46bf02",
+      "source" : "git://github.com/supernovus/perl6-web-app-ballet.git",
+      "version" : "0.000.001"
+   },
+   "Web::App::MVC" : {
+      "name" : "Web::App::MVC",
+      "sha" : "6871eb263974253f9e60c712e6d6829274ca897d",
+      "source" : "git://github.com/supernovus/perl6-web-app-mvc.git",
+      "version" : "0.000.001"
+   },
+   "Web::RF" : {
+      "name" : "Web::RF",
+      "sha" : "892ccf57aca31be78e95b350ed3bfc59534615e0",
+      "source" : "git://github.com/retupmoca/P6-Web-RF.git",
+      "version" : "0.000.001"
+   },
+   "Web::Template" : {
+      "name" : "Web::Template",
+      "sha" : "a4e4f5a67dbbb236f14a4f1d64394056dcbc01b5",
+      "source" : "git://github.com/supernovus/perl6-web-template.git",
+      "version" : "0.000.001"
+   },
+   "XML" : {
+      "name" : "XML",
+      "sha" : "dd3816129ddcdfcf4949028fd23560908190b883",
+      "source" : "git://github.com/supernovus/exemel.git",
+      "version" : "0.000.001"
+   },
+   "XML::Canonical" : {
+      "name" : "XML::Canonical",
+      "sha" : "221bd1a061ade757e547680b3193a62e834c8278",
+      "source" : "git://github.com/retupmoca/P6-XML-Canonical.git",
+      "version" : "0.000.001"
+   },
+   "XML::Parser::Tiny" : {
+      "name" : "XML::Parser::Tiny",
+      "sha" : "dcd10e3d22c1e1e0efe91185fce6e778709daf94",
+      "source" : "git://github.com/afiskon/p6-xml-parser-tiny.git",
+      "version" : "0.000.001"
+   },
+   "XML::Query" : {
+      "name" : "XML::Query",
+      "sha" : "c066166feb6ae757961b2ff6c7d517f534ede07e",
+      "source" : "git://github.com/supernovus/perl6-xml-query.git",
+      "version" : "0.000.001"
+   },
+   "XML::Signature" : {
+      "name" : "XML::Signature",
+      "sha" : "ff0dbb02a1fb032964891e6b9a7658f5f697af7f",
+      "source" : "git://github.com/retupmoca/P6-XML-Signature.git",
+      "version" : "0.000.001"
+   },
+   "XML::Writer" : {
+      "name" : "XML::Writer",
+      "sha" : "c230464a2cd5ed1c19fcba9acd496d72d227fd1f",
+      "source" : "git://github.com/masak/xml-writer.git",
+      "version" : "0.000.001"
+   },
+   "XXX" : {
+      "name" : "XXX",
+      "sha" : "e2d0bd61fcc230b0c0e5095b027cea89bc649fc8",
+      "source" : "git://github.com/ingydotnet/xxx-pm6.git",
+      "version" : "0.000.001"
+   },
+   "YAML" : {
+      "name" : "YAML",
+      "sha" : "86d98b8976848af4f5cc20dfcbaffc5d9c6a008e",
+      "source" : "git://github.com/perl6-community-modules/yaml-pm6.git",
+      "version" : "0.000.001"
+   },
+   "Yapsi" : {
+      "name" : "Yapsi",
+      "sha" : "a8617b6dd7efa8df58aac57435f4e43969dce4ea",
+      "source" : "git://github.com/masak/yapsi.git",
+      "version" : "0.000.001"
+   },
    "mandelbrot" : {
       "name" : "mandelbrot",
       "sha" : "bd6d4819f74d989a0d06a092bc43c8cc35c2283e",
       "source" : "git://github.com/colomon/mandelbrot.git",
+      "version" : "0.000.001"
+   },
+   "overload::constant" : {
+      "name" : "overload::constant",
+      "sha" : "49f5122f805e9804ab489820b9335d5e0a4c309c",
+      "source" : "git://github.com/FROGGS/p6-overload-constant.git",
+      "version" : "0.000.001"
+   },
+   "p6doc" : {
+      "name" : "p6doc",
+      "sha" : "b015b245d9208bbd640aa510791350e947c4e738",
+      "source" : "git://github.com/perl6/doc.git",
+      "version" : "0.000.001"
+   },
+   "panda" : {
+      "name" : "panda",
+      "sha" : "005eb6665f0021cde52ec5c32e3ca9c95568607d",
+      "source" : "git://github.com/tadzik/panda.git",
+      "version" : "0.000.001"
+   },
+   "ufo" : {
+      "name" : "ufo",
+      "sha" : "425ba45fed64644788fdf6b0997ef1c4a807e3b6",
+      "source" : "git://github.com/masak/ufo.git",
       "version" : "0.000.001"
    }
 }
