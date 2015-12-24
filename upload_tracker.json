@@ -1,2 +1,44 @@
 {
+   "Acme::Meow" : {
+      "name" : "Acme::Meow",
+      "sha" : "35286b14447d22516fbf68767c4d7e18b7396971",
+      "source" : "git://github.com/tadzik/perl6-Acme-Meow.git",
+      "version" : "0.000.001"
+   },
+   "IO::Prompter" : {
+      "name" : "IO::Prompter",
+      "sha" : "beb22ee26b58c65a05032f934bf4e055ab45e5f6",
+      "source" : "git://github.com/colomon/io-prompter.git",
+      "version" : "0.000.001"
+   },
+   "JSON::Tiny" : {
+      "name" : "JSON::Tiny",
+      "sha" : "c75a04c1b31665b6a569dc954916a96ad7763edc",
+      "source" : "git://github.com/moritz/json.git",
+      "version" : "0.000.001"
+   },
+   "Math::Polynomial" : {
+      "name" : "Math::Polynomial",
+      "sha" : "c041f72bd51239fccfa3e4c0a64bd36d48d590f9",
+      "source" : "git://github.com/colomon/Math-Polynomial.git",
+      "version" : "0.000.001"
+   },
+   "Math::Vector" : {
+      "name" : "Math::Vector",
+      "sha" : "a31eed0671406b9953868f8db25cbef6db891320",
+      "source" : "git://github.com/colomon/Math-Vector.git",
+      "version" : "0.000.001"
+   },
+   "Testing" : {
+      "name" : "Testing",
+      "sha" : "8d9a4de145bfe79a7dad2f04f7edc35ac4c6239c",
+      "source" : "git://github.com/colomon/perl6-Testing.git",
+      "version" : "0.000.001"
+   },
+   "mandelbrot" : {
+      "name" : "mandelbrot",
+      "sha" : "bd6d4819f74d989a0d06a092bc43c8cc35c2283e",
+      "source" : "git://github.com/colomon/mandelbrot.git",
+      "version" : "0.000.001"
+   }
 }
