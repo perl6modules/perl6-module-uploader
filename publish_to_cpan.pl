@@ -82,6 +82,9 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         # Fetch the meta info about the module repo
         my $meta = decode_json( $response->{content} );
 
+        # skip FROGGS test case for dups! - should fix this at some point!
+        next if $meta->{name} eq 'Foo';
+
         if ( $on_cpan->{ $meta->{name} } ) {
             print
                 "- Skipping, someone else is uploading this p6 module to CPAN\n"
