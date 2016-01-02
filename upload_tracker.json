@@ -155,6 +155,12 @@
       "source" : "git://github.com/jonathanstowe/Audio-Libshout.git",
       "version" : "0.000.002_1601022004"
    },
+   "Audio::Silan" : {
+      "name" : "Audio::Silan",
+      "sha" : "26b8d38cdefb45462391435e1d0748b5a5442ebc",
+      "source" : "git://github.com/jonathanstowe/Audio-Silan.git",
+      "version" : "0.000.002_1601022039"
+   },
    "Audio::Sndfile" : {
       "name" : "Audio::Sndfile",
       "sha" : "937c70bbbfd06489d3421668c4771482ccb1884c",
@@ -485,6 +491,12 @@
       "source" : "git://github.com/tony-o/perl6-data-dump.git",
       "version" : "0.000.002_1601022004"
    },
+   "Data::Dump::Tree" : {
+      "name" : "Data::Dump::Tree",
+      "sha" : "5af8e9bb911d87184910f1c12646cdf58dec77f0",
+      "source" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
+      "version" : "0.000.002_1601022039"
+   },
    "Data::ICal" : {
       "name" : "Data::ICal",
       "sha" : "0d8251df03fecabf06dc7d1e0372f2f4bd377bd7",
@@ -586,6 +598,12 @@
       "sha" : "f71043ea48433cafb7de185f7cb45b2d4d4012a0",
       "source" : "git://github.com/atweiden/digest-xxhash.git",
       "version" : "0.000.002_1601022004"
+   },
+   "Discord" : {
+      "name" : "Discord",
+      "sha" : "c802e50bbd6c06f37aa226246a24ff6f502fb954",
+      "source" : "git://github.com/Skarsnik/perl6-discord.git",
+      "version" : "0.000.002_1601022039"
    },
    "Druid" : {
       "name" : "Druid",
@@ -694,6 +712,12 @@
       "sha" : "73163dd1ee20fb449c23f25ec0efb388f967017a",
       "source" : "git://github.com/azawawi/File-HomeDir.git",
       "version" : "0.000.001"
+   },
+   "File::LibMagic" : {
+      "name" : "File::LibMagic",
+      "sha" : "c8075db5d348c5d02ffa09bda7e5722363a7d25a",
+      "source" : "git://github.com/autarch/perl6-File-LibMagic.git",
+      "version" : "0.000.002_1601022039"
    },
    "File::Spec::Case" : {
       "name" : "File::Spec::Case",
@@ -971,6 +995,18 @@
       "source" : "git://github.com/sergot/http-useragent.git",
       "version" : "0.000.002_1601022004"
    },
+   "Haikunator" : {
+      "name" : "Haikunator",
+      "sha" : "f9ff70e433d475288681b6bc7eae8e31793d3aa3",
+      "source" : "git://github.com/Atrox/haikunatorperl.git",
+      "version" : "0.000.002_1601022039"
+   },
+   "Hash::Consistent" : {
+      "name" : "Hash::Consistent",
+      "sha" : "867576bd3f185581020c16d2da674e1697ed95ee",
+      "source" : "git://github.com/bradclawsie/Hash-Consistent.git",
+      "version" : "0.000.002_1601022039"
+   },
    "Hash::MultiValue" : {
       "name" : "Hash::MultiValue",
       "sha" : "f5625665c060c2c4c72116e0cf66a7fed421aeef",
@@ -1060,6 +1096,12 @@
       "sha" : "a35dad2b1a755cdff3f11a19472090dbd661d48c",
       "source" : "git://github.com/zoffixznet/perl6-IRC-Client.git",
       "version" : "0.000.002_1601022004"
+   },
+   "IRC::Client::Plugin::HNY" : {
+      "name" : "IRC::Client::Plugin::HNY",
+      "sha" : "51d89f78679c3d66e792f50c8ba2e1abda9ef0f4",
+      "source" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-HNY.git",
+      "version" : "0.000.002_1601022039"
    },
    "IRC::Utils" : {
       "name" : "IRC::Utils",
@@ -1253,6 +1295,12 @@
       "source" : "git://github.com/hoelzro/p6-linenoise.git",
       "version" : "0.000.002_1601022004"
    },
+   "Lingua::Conjunction" : {
+      "name" : "Lingua::Conjunction",
+      "sha" : "137de5c2b679119e6585f8622caf0848fd97a815",
+      "source" : "git://github.com/zoffixznet/perl6-Lingua-Conjunction.git",
+      "version" : "0.000.002_1601022039"
+   },
    "Lingua::EN::Conjugate" : {
       "name" : "Lingua::EN::Conjugate",
       "sha" : "88f9ae00eddcb347188f5134514691f118f0c95c",
@@ -1360,6 +1408,12 @@
       "sha" : "30410bd5436569a4128b1f7c3bd005de7ad34a7d",
       "source" : "git://github.com/tadzik/perl6-MPD.git",
       "version" : "0.000.001"
+   },
+   "MQTT::Client" : {
+      "name" : "MQTT::Client",
+      "sha" : "f664d269f935bf609628097d8671e052ae80e1f8",
+      "source" : "git://github.com/Juerd/p6-mqtt.git",
+      "version" : "0.000.002_1601022039"
    },
    "Marpa" : {
       "name" : "Marpa",
@@ -1607,6 +1661,12 @@
       "source" : "git://github.com/viklund/november.git",
       "version" : "0.000.001"
    },
+   "Number::Denominate" : {
+      "name" : "Number::Denominate",
+      "sha" : "1649d4d63dad545dfccb7c1d8d15854411181d25",
+      "source" : "git://github.com/zoffixznet/perl6-Number-Denominate.git",
+      "version" : "0.000.002_1601022039"
+   },
    "OO::Actors" : {
       "name" : "OO::Actors",
       "sha" : "fae3efb13ab246fddbf2f262b4780f21ffd29741",
@@ -1811,6 +1871,12 @@
       "source" : "git://github.com/softmoth/perl6-pod-to-markdown.git",
       "version" : "0.000.001"
    },
+   "Pod::TreeWalker" : {
+      "name" : "Pod::TreeWalker",
+      "sha" : "f3d46aba42c0095740b85478dfd196f18651503e",
+      "source" : "git://github.com/autarch/perl6-Pod-TreeWalker.git",
+      "version" : "0.000.002_1601022039"
+   },
    "Pod::Walker" : {
       "name" : "Pod::Walker",
       "sha" : "0c20315a15d1876ff34d545b447bddec06766af4",
@@ -1834,6 +1900,12 @@
       "sha" : "70f5dad806501a5053c3ba3df68e44e44d1769ff",
       "source" : "https://github.com/cspencer/perl6-raspberry-pi.git",
       "version" : "0.000.002_1601022004"
+   },
+   "RPi::Device::DS18B20" : {
+      "name" : "RPi::Device::DS18B20",
+      "sha" : "51b5fb10f187222912c0286a5b82fb86a9411a52",
+      "source" : "https://github.com/cspencer/perl6-raspberry-pi-device-ds18b20.git",
+      "version" : "0.000.002_1601022039"
    },
    "Rakudo::Perl6::Format" : {
       "name" : "Rakudo::Perl6::Format",
@@ -1985,6 +2057,12 @@
       "source" : "git://github.com/MattOates/Stats.git",
       "version" : "0.000.001"
    },
+   "StrictNamedArguments" : {
+      "name" : "StrictNamedArguments",
+      "sha" : "4dda802103a270b4bc9bd82bafc88db7306de6de",
+      "source" : "git://github.com/nxadm/StrictNamedArguments.git",
+      "version" : "0.000.002_1601022039"
+   },
    "String::CRC32" : {
       "name" : "String::CRC32",
       "sha" : "1f0b00c7933b30a8b9dc85463883132274cf4bba",
@@ -2050,6 +2128,12 @@
       "sha" : "287feac8aaa8055853a9de74e3b5b14c3055465f",
       "source" : "git://github.com/Mouq/toml-pm6.git",
       "version" : "0.000.001"
+   },
+   "TXN" : {
+      "name" : "TXN",
+      "sha" : "ce1c3b1d5b75043c225adc5b906a33b7068690d5",
+      "source" : "git://github.com/atweiden/mktxn.git",
+      "version" : "0.000.002_1601022039"
    },
    "Tag" : {
       "name" : "Tag",
