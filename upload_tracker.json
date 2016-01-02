@@ -983,6 +983,12 @@
       "source" : "git://github.com/tokuhirom/p6-HTTP-Server-Tiny.git",
       "version" : "0.000.001"
    },
+   "HTTP::Signature" : {
+      "name" : "HTTP::Signature",
+      "sha" : "ed14f65fc0b29dd26dba7e1b36a389435eff69fc",
+      "source" : "git@github.com:pierre-vigier/Perl6-HTTP-Signature.git",
+      "version" : "0.000.002_1601022056"
+   },
    "HTTP::Status" : {
       "name" : "HTTP::Status",
       "sha" : "a026ba89bcbad16344d988bf1212cc66bb5de6b7",
@@ -1438,6 +1444,12 @@
       "sha" : "d657704ad389fb3a0943d89547223fc0f1647467",
       "source" : "git://github.com/colomon/Math-ContinuedFractions.git",
       "version" : "0.000.001"
+   },
+   "Math::Matrix" : {
+      "name" : "Math::Matrix",
+      "sha" : "e9a39d393f4f99307ae80e3474c0e8636d31d926",
+      "source" : "git@github.com:pierre-vigier/Perl6-Math-Matrix.git",
+      "version" : "0.000.002_1601022056"
    },
    "Math::Model" : {
       "name" : "Math::Model",

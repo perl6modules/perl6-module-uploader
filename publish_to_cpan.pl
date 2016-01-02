@@ -72,8 +72,8 @@ my $gh_http_tiny = HTTP::Tiny->new(
     default_headers => { 'Authorization' => "token $gh_token" } );
 
 # Use this to skip to a specific module
-my $skip_until       = 'perl6-WWW-You-reDoingItWrong';
-my $skip_until_match = 0;
+my $skip_until       = 'Perl6-HTTP-Signature';
+my $skip_until_match = 1;
 
 MODULE: while ( my $module_meta = shift @{$modules} ) {
 
@@ -122,8 +122,9 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
             next MODULE;
         }
 
-        # Create somewhere to checkit out to
-        my $author_path = file( $source_url->path )->dir;
+        # Create somewhere to checkit out to,
+        # Add the '/' for git@github.com:pierre-vigier/Perl6-Math-Matrix.git
+        my $author_path = file( '/' . $source_url->path )->dir;
         my $dist_repo   = file( $source_url->path )->basename;
         $dist_repo =~ s/\.git$//;
 
