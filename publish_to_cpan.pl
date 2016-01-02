@@ -63,9 +63,7 @@ my $current_datetime = DateTime::Tiny->now->ymdhms;
 $current_datetime =~ s/[-T:]//g;    # strip down to just numbers
 $current_datetime =~ s/^\d{2}//;    # trim the year to 2 digets
 $current_datetime =~ s/\d{2}$//;    # rm seconds - so version->parse() works
-my $version = '0.000.000_' . $current_datetime;
-
-$version = '0.000.001';
+my $version = '0.000.001_' . $current_datetime;
 
 # Little sanity check
 print "Version now is: " . version->parse($version) . "\n";
