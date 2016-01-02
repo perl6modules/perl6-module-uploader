@@ -63,7 +63,7 @@ my $current_datetime = DateTime::Tiny->now->ymdhms;
 $current_datetime =~ s/[-T:]//g;    # strip down to just numbers
 $current_datetime =~ s/^\d{2}//;    # trim the year to 2 digets
 $current_datetime =~ s/\d{2}$//;    # rm seconds - so version->parse() works
-my $version = '0.000.001_' . $current_datetime;
+my $version = '0.000.002_' . $current_datetime;
 
 # Little sanity check
 print "Version now is: " . version->parse($version) . "\n";
@@ -82,6 +82,9 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
         # skip FROGGS test case for dups! - should fix this at some point!
         next if $meta->{name} eq 'Foo';
+        # Not sure on tar.gz name for You'reDoingItWrong
+        # https://github.com/zoffixznet/perl6-WWW-You-reDoingItWrong
+        next if $meta->{name} =~ /'/;
 
         if ( $on_cpan->{ $meta->{name} } ) {
             print
