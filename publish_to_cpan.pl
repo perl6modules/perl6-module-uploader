@@ -71,9 +71,23 @@ print "Version now is: " . version->parse($version) . "\n";
 my $gh_http_tiny = HTTP::Tiny->new(
     default_headers => { 'Authorization' => "token $gh_token" } );
 
+# Use this to skip to a specific module
+my $skip_until       = 'perl6-WWW-You-reDoingItWrong';
+my $skip_until_match = 0;
+
 MODULE: while ( my $module_meta = shift @{$modules} ) {
 
     print "Checking: $module_meta\n" if $debug;
+
+    # See if we match the module
+    if ( $module_meta =~ /$skip_until/ ) {
+        $skip_until_match = 0;
+    }
+    if ($skip_until_match) {
+        print "- Skipping, code said to\n" if $debug;
+        next MODULE;
+    }
+
     my $response = HTTP::Tiny->new->get($module_meta);
     if ( $response->{success} ) {
 
@@ -82,6 +96,7 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
         # skip FROGGS test case for dups! - should fix this at some point!
         next if $meta->{name} eq 'Foo';
+
         # Not sure on tar.gz name for You'reDoingItWrong
         # https://github.com/zoffixznet/perl6-WWW-You-reDoingItWrong
         next if $meta->{name} =~ /'/;
@@ -235,7 +250,7 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
     }
 
-#    exit;
+    #    exit;
 
 }
 
