@@ -1,3 +1,4 @@
+di
 #!/usr/bin/env perl
 
 use strict;
@@ -73,7 +74,7 @@ my $gh_http_tiny = HTTP::Tiny->new(
 
 # Use this to skip to a specific module
 my $skip_until       = 'Perl6-HTTP-Signature';
-my $skip_until_match = 1;
+my $skip_until_match = 0;
 
 MODULE: while ( my $module_meta = shift @{$modules} ) {
 
@@ -200,7 +201,7 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         # Write out as META6.json
         $meta6_file->spew( $json->encode($meta) );
         {
-            my @cmds = ( "git add META6.json",
+            my @cmds = ( "git add -f META6.json",
                 "git commit -a -m 'add META6.json'" );
 
             foreach my $cmd (@cmds) {
