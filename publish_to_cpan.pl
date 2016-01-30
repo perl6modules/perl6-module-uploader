@@ -1,4 +1,3 @@
-di
 #!/usr/bin/env perl
 
 use strict;
