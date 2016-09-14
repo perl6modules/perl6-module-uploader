@@ -7,9 +7,9 @@
    },
    "ABC" : {
       "name" : "ABC",
-      "sha" : "b1865b11da02d5a70dcd1882ec05a934525f544f",
+      "sha" : "68855d0cccfbd9ce79b033c429fb48c55e2b93f7",
       "source" : "git://github.com/colomon/ABC.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.002_1609142056"
    },
    "ANTLR4" : {
       "name" : "ANTLR4",
@@ -259,15 +259,15 @@
    },
    "BioInfo" : {
       "name" : "BioInfo",
-      "sha" : "63172f2776330fe4b792600872521de648cd031b",
+      "sha" : "f412a7ac47c6fe95039e2e762f320e9ff6554bcc",
       "source" : "git://github.com/MattOates/BioInfo.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609142056"
    },
    "BioPerl6" : {
       "name" : "BioPerl6",
-      "sha" : "bfefabbbdca43d5d13c7b303f928c8aff5861577",
+      "sha" : "f972f094438ba0b1e66325a27949149c8bef4ecc",
       "source" : "git://github.com/cjfields/bioperl6.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609142056"
    },
    "BreakDancer" : {
       "name" : "BreakDancer",
@@ -436,6 +436,12 @@
       "sha" : "2d752831019f5d2ac38bbbf5496db73bf7117ed3",
       "source" : "git://github.com/ShaneKilkelly/perl6-config-clever.git",
       "version" : "0.000.001"
+   },
+   "Config::DataLang::Refine" : {
+      "name" : "Config::DataLang::Refine",
+      "sha" : "33fe1581d48278170c8adfd48ba2bb515235fe0e",
+      "source" : "git://github.com/MARTIMM/config-datalang-refine.git",
+      "version" : "0.000.002_1609142056"
    },
    "Config::INI" : {
       "name" : "Config::INI",
@@ -1045,9 +1051,9 @@
    },
    "HTTP::UserAgent" : {
       "name" : "HTTP::UserAgent",
-      "sha" : "545e15cccccc23c834a3924245c3b03b284c1326",
+      "sha" : "f457e478bf6fc398876c3a7c2b81d1c5116057c5",
       "source" : "git://github.com/sergot/http-useragent.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609142056"
    },
    "Haikunator" : {
       "name" : "Haikunator",
@@ -1111,9 +1117,9 @@
    },
    "IO::Capture::Simple" : {
       "name" : "IO::Capture::Simple",
-      "sha" : "baf8dcf6b43476c79d86438007e76aafaa0fb555",
+      "sha" : "21fa7a7cdc3aaa36429269701144a09ed4c2da9f",
       "source" : "git://github.com/sergot/IO-Capture-Simple.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.002_1609142056"
    },
    "IO::MiddleMan" : {
       "name" : "IO::MiddleMan",
@@ -1501,9 +1507,9 @@
    },
    "MIME::Base64" : {
       "name" : "MIME::Base64",
-      "sha" : "bd197ed16935de3a264726a8669055c945515390",
+      "sha" : "908be4eb73d77b6c1fae20815836371f5028fcd3",
       "source" : "git://github.com/perl6/Perl6-MIME-Base64.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609142056"
    },
    "MIME::QuotedPrint" : {
       "name" : "MIME::QuotedPrint",
@@ -1582,6 +1588,12 @@
       "sha" : "0e77914c3f5a2e2b2fe39644b46f05eddfb99496",
       "source" : "git://github.com/colomon/Math-Odd-Functions.git",
       "version" : "0.000.001"
+   },
+   "Math::PascalTriangle" : {
+      "name" : "Math::PascalTriangle",
+      "sha" : "a24763e77012a3d154123a6fef6b52a5ea400acb",
+      "source" : "git://github.com/FCO/Math-PascalTriangle.git",
+      "version" : "0.000.002_1609142056"
    },
    "Math::Polynomial" : {
       "name" : "Math::Polynomial",
@@ -2183,6 +2195,12 @@
       "source" : "git://github.com/sirrobert/Semantic-Versioning.git",
       "version" : "0.000.001"
    },
+   "Semaphore::ReadersWriters" : {
+      "name" : "Semaphore::ReadersWriters",
+      "sha" : "3b42f2e480d4365296d7811773418f09ff043fc2",
+      "source" : "git://github.com/MARTIMM/semaphore-readerswriters.git",
+      "version" : "0.000.002_1609142056"
+   },
    "Serialize::Naive" : {
       "name" : "Serialize::Naive",
       "sha" : "4f4c1f0c1e6fb6af7e95f86675817e2ff82a66a1",
@@ -2351,6 +2369,12 @@
       "source" : "git://github.com/tadzik/Task-Star.git",
       "version" : "0.000.001"
    },
+   "TelegramBot" : {
+      "name" : "TelegramBot",
+      "sha" : "0b051dee6a571765fa73cd2ddba63a760e5663b4",
+      "source" : "git@github.com:GildedHonour/TelegramBot.git",
+      "version" : "0.000.002_1609142056"
+   },
    "Template6" : {
       "name" : "Template6",
       "sha" : "45343afeaf456ba266d0c68a1b874120eebd969d",
@@ -2395,9 +2419,9 @@
    },
    "Term::ProgressBar" : {
       "name" : "Term::ProgressBar",
-      "sha" : "fff918108b22302f1ab4eecdff210808f726815d",
+      "sha" : "d3b65ffc854bef1acbc25ed97fc585c9850aeafc",
       "source" : "git://github.com/sergot/Term--ProgressBar.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609142056"
    },
    "Term::termios" : {
       "name" : "Term::termios",
