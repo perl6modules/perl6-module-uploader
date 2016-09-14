@@ -439,9 +439,9 @@
    },
    "Config::INI" : {
       "name" : "Config::INI",
-      "sha" : "b4e6d9a0427f2ed5f0c30157489cdb3e5383e13e",
+      "sha" : "884314a338502c86aa8ceb2429f07bdf2a76eedd",
       "source" : "git://github.com/tadzik/perl6-Config-INI.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609142047"
    },
    "Config::Simple" : {
       "name" : "Config::Simple",
@@ -1015,9 +1015,9 @@
    },
    "HTTP::Server::Simple" : {
       "name" : "HTTP::Server::Simple",
-      "sha" : "02ad4721ced8a3febaa7962a79a11de75e17e54f",
+      "sha" : "c695b7249fd9b8ac2993cc4b268ec42a867ce14d",
       "source" : "git://github.com/gfldex/http-server-simple.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609142047"
    },
    "HTTP::Server::Threaded" : {
       "name" : "HTTP::Server::Threaded",
@@ -1463,6 +1463,12 @@
       "source" : "git://github.com/colomon/List-Utils.git",
       "version" : "0.000.001"
    },
+   "Locale-Codes-Country" : {
+      "name" : "Locale-Codes-Country",
+      "sha" : "cd35e17a9d9c03b6fa6b6764751bc10518b671b4",
+      "source" : "https://github.com/PowellDean/Locale-Codes-Country.git",
+      "version" : "0.000.002_1609142047"
+   },
    "Locale::Codes" : {
       "name" : "Locale::Codes",
       "sha" : "bae43c255f449e16ad27794a90e369318d511288",
@@ -1552,6 +1558,12 @@
       "sha" : "d657704ad389fb3a0943d89547223fc0f1647467",
       "source" : "git://github.com/colomon/Math-ContinuedFractions.git",
       "version" : "0.000.001"
+   },
+   "Math::FourierTransform" : {
+      "name" : "Math::FourierTransform",
+      "sha" : "cfc2ebf73243e6135837583f71465f47a2ca976d",
+      "source" : "git://github.com/MattOates/Math--FourierTransform.git",
+      "version" : "0.000.002_1609142047"
    },
    "Math::Matrix" : {
       "name" : "Math::Matrix",
