@@ -1867,9 +1867,9 @@
    },
    "OpenSSL" : {
       "name" : "OpenSSL",
-      "sha" : "4fec5c76a249f819c7190c844e9994a72b3234ff",
+      "sha" : "d71196ffb83383879c3d35ece6160f6bee5f6020",
       "source" : "git://github.com/sergot/openssl.git",
-      "version" : "0.000.002_1601071848"
+      "version" : "0.000.002_1609162159"
    },
    "Operator::feq" : {
       "name" : "Operator::feq",
@@ -2797,9 +2797,9 @@
    },
    "XML" : {
       "name" : "XML",
-      "sha" : "c3b1cced46ded2df84bd53b3733800a86f5fe042",
+      "sha" : "d8ab611a73ac8e10a43bc8f12431a15a6710db6d",
       "source" : "git://github.com/supernovus/exemel.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.002_1609162159"
    },
    "XML::Canonical" : {
       "name" : "XML::Canonical",
@@ -2815,9 +2815,9 @@
    },
    "XML::Query" : {
       "name" : "XML::Query",
-      "sha" : "c066166feb6ae757961b2ff6c7d517f534ede07e",
+      "sha" : "cfc3869d1d55ca513773a4a7442e1d0ac54c396c",
       "source" : "git://github.com/supernovus/perl6-xml-query.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162159"
    },
    "XML::Signature" : {
       "name" : "XML::Signature",
@@ -2854,6 +2854,12 @@
       "sha" : "a8617b6dd7efa8df58aac57435f4e43969dce4ea",
       "source" : "git://github.com/masak/yapsi.git",
       "version" : "0.000.001"
+   },
+   "bamboo" : {
+      "name" : "bamboo",
+      "sha" : "9ffb6ceceb26e8ef2799bd261500a2ee0441a88f",
+      "source" : "git://github.com/sergot/bamboo.git",
+      "version" : "0.000.002_1609162159"
    },
    "colomon::App::TagTools" : {
       "name" : "colomon::App::TagTools",
