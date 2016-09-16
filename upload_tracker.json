@@ -223,15 +223,15 @@
    },
    "BSON" : {
       "name" : "BSON",
-      "sha" : "973fe06a99f1b9eaab6d18dcb11faefc47a09b3c",
+      "sha" : "6f53321957d2576b7574483140b70a9c64f984a9",
       "source" : "git://github.com/MARTIMM/BSON.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162201"
    },
    "Bailador" : {
       "name" : "Bailador",
-      "sha" : "840278082d9fb5dfee2193a65bf6dfdcb9c03e59",
-      "source" : "git://github.com/tadzik/Bailador.git",
-      "version" : "0.000.002_1601022004"
+      "sha" : "242520c5b64ead3b0416168d2f7695218464fb4a",
+      "source" : "git://github.com/ufobat/Bailador.git",
+      "version" : "0.000.002_1609162203"
    },
    "Bamboo" : {
       "name" : "Bamboo",
@@ -247,9 +247,9 @@
    },
    "Benchmark" : {
       "name" : "Benchmark",
-      "sha" : "175c2835defdb17067de06d8e383798568c43622",
+      "sha" : "f0fa2fb49a725aa072a1dce4ba7d0619f05d65e6",
       "source" : "git://github.com/perlpilot/benchmark.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Benchmark::Plot" : {
       "name" : "Benchmark::Plot",
@@ -277,9 +277,9 @@
    },
    "Browser::Open" : {
       "name" : "Browser::Open",
-      "sha" : "05ea4c9722823498fe78eb4455f234d029428d26",
+      "sha" : "4cc28b45431378c5ae2d969eadb44e5fb547889c",
       "source" : "git://github.com/azawawi/perl6-browser-open.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162205"
    },
    "Business::CreditCard" : {
       "name" : "Business::CreditCard",
@@ -349,9 +349,9 @@
    },
    "Cache::Memcached" : {
       "name" : "Cache::Memcached",
-      "sha" : "47778b18e75e120c239351acc12daa04414f9aef",
+      "sha" : "e6f6ac62e2532645308f261ab02ed48fd2a08c46",
       "source" : "git://github.com/cosimo/perl6-cache-memcached.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "CheckSocket" : {
       "name" : "CheckSocket",
@@ -421,9 +421,9 @@
    },
    "Compress::Zlib::Raw" : {
       "name" : "Compress::Zlib::Raw",
-      "sha" : "3a7b0a8b98ffd069a2a1856e92a7a6c668aff42b",
+      "sha" : "cf29d8c6a9d1fd8cb51c5d6f9bc52f2c612e5ecf",
       "source" : "git://github.com/retupmoca/P6-Compress-Zlib-Raw.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Concurrent::Iterator" : {
       "name" : "Concurrent::Iterator",
@@ -577,9 +577,9 @@
    },
    "DateTime::Math" : {
       "name" : "DateTime::Math",
-      "sha" : "31d7e242fb81aba35a1e486bc15f36cf5af3ffbf",
+      "sha" : "edf2920c2e1448f12dcc0b8f9a03f3c074019aa7",
       "source" : "git://github.com/supernovus/perl6-datetime-math.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "DateTime::Parse" : {
       "name" : "DateTime::Parse",
@@ -589,9 +589,9 @@
    },
    "DateTime::TimeZone" : {
       "name" : "DateTime::TimeZone",
-      "sha" : "db85bb553103e0a3d1f1ff73c6a561e936edf09b",
+      "sha" : "758b78a1a9181e7bd9908d32b7bcf118ff1c2b74",
       "source" : "git://github.com/supernovus/perl6-timezone.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "DateTime::Utils" : {
       "name" : "DateTime::Utils",
@@ -661,9 +661,9 @@
    },
    "Electron" : {
       "name" : "Electron",
-      "sha" : "5a0edc6dbd8276cb6ebe35119255544dd419f451",
+      "sha" : "1d21370692c902a15a11bef703e59d9d7dd36468",
       "source" : "git://github.com/azawawi/perl6-electron.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162208"
    },
    "Email::MIME" : {
       "name" : "Email::MIME",
@@ -781,15 +781,15 @@
    },
    "File::Which" : {
       "name" : "File::Which",
-      "sha" : "c25901586fe8ef84a01d5572228739e8afad30bf",
+      "sha" : "d1d9dbef35751e2383bec4ef6d3fb9aa2146eacf",
       "source" : "git://github.com/azawawi/perl6-file-which.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162208"
    },
    "File::Zip" : {
       "name" : "File::Zip",
-      "sha" : "c13b4c5d137bffb12189d14eaa9a453b788f922c",
+      "sha" : "956de593421adc4d1b33301effbd6bf3493982bb",
       "source" : "git://github.com/azawawi/perl6-file-zip.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162208"
    },
    "Finance::CompoundInterest" : {
       "name" : "Finance::CompoundInterest",
@@ -805,9 +805,9 @@
    },
    "Flower" : {
       "name" : "Flower",
-      "sha" : "dc13c7cbc853b674d609dd9b3aaef93c955fdc48",
+      "sha" : "6e0597b17ad765a72191a2fe8998d281d63f249f",
       "source" : "git://github.com/supernovus/flower.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "Font::AFM" : {
       "name" : "Font::AFM",
@@ -865,9 +865,9 @@
    },
    "GeoIP::City" : {
       "name" : "GeoIP::City",
-      "sha" : "3547ba04ffd52bad298d4f43b988a266adaa5299",
+      "sha" : "2b97fbb952b1d19aedca5cb7ff40503c219cb347",
       "source" : "git://github.com/bbkr/GeoIPerl6.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.002_1609162201"
    },
    "Git::PurePerl" : {
       "name" : "Git::PurePerl",
@@ -1321,9 +1321,9 @@
    },
    "JSON::RPC" : {
       "name" : "JSON::RPC",
-      "sha" : "2aaf5bf096ca5b40c59d49972ccaf5b8b988665e",
+      "sha" : "d75c3a7aca326b590b3ad737f5714e8b510ea455",
       "source" : "git://github.com/bbkr/jsonrpc.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "JSON::Tiny" : {
       "name" : "JSON::Tiny",
@@ -1369,9 +1369,9 @@
    },
    "LWP::Simple" : {
       "name" : "LWP::Simple",
-      "sha" : "f422f802ffe1ea5fa760dae859d7aeecc1edc40f",
+      "sha" : "4991a1b72c48452273bc1ea8bdb0cd6c4a634a93",
       "source" : "git://github.com/perl6/perl6-lwp-simple.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "LacunaCookbuk::Client" : {
       "name" : "LacunaCookbuk::Client",
@@ -1639,9 +1639,9 @@
    },
    "MessagePack" : {
       "name" : "MessagePack",
-      "sha" : "0a4808ec7c679583c6729ce64f15f9a91810137e",
+      "sha" : "0c6f62b7ba40e7fd7acdda8682d7602ff6973fa5",
       "source" : "git://github.com/uasi/messagepack-pm6.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Method::Modifiers" : {
       "name" : "Method::Modifiers",
@@ -1675,9 +1675,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "55defcac033110539b4a0818d0c5ad028ab52345",
+      "sha" : "b3fc7be6310b6dd53fd76d7570c5dceb2abd2c38",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162203"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -1687,9 +1687,9 @@
    },
    "NCurses" : {
       "name" : "NCurses",
-      "sha" : "755e63639eed811aa91979528c1c6e2c01da030f",
+      "sha" : "623c64049fa7429ac75d8615155bd03857a725d6",
       "source" : "git://github.com/azawawi/perl6-ncurses.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162208"
    },
    "NQP::Eval" : {
       "name" : "NQP::Eval",
@@ -1735,15 +1735,15 @@
    },
    "Net::Curl" : {
       "name" : "Net::Curl",
-      "sha" : "68129d57c503bb2e092dfc98ccdbe372c0b20e8e",
+      "sha" : "d1b518c2cb8ae2d12198e1b4011b5168105fd270",
       "source" : "git://github.com/azawawi/perl6-net-curl.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162208"
    },
    "Net::DNS" : {
       "name" : "Net::DNS",
-      "sha" : "a4f410a6f765b4e60a48140ab99c3b13e48c7322",
+      "sha" : "1746483c70f81c24d42c9978610acf8940dbc3ee",
       "source" : "git://github.com/retupmoca/P6-Net-DNS.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Net::FTP" : {
       "name" : "Net::FTP",
@@ -1753,15 +1753,15 @@
    },
    "Net::IMAP" : {
       "name" : "Net::IMAP",
-      "sha" : "b675077e83620f5387152717046ead8eb7802c5d",
+      "sha" : "2da35614a1e3b3f628d60b1ded094e3125f45177",
       "source" : "git://github.com/retupmoca/P6-Net-IMAP.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Net::IRC::Bot" : {
       "name" : "Net::IRC::Bot",
-      "sha" : "449e9b885e54dfa90452a817465021864e5fa0e2",
+      "sha" : "9b936ce73815f4554085413e1fe5ae0a131284dc",
       "source" : "git://github.com/TiMBuS/Net--IRC.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162201"
    },
    "Net::POP3" : {
       "name" : "Net::POP3",
@@ -1783,9 +1783,9 @@
    },
    "Net::SMTP" : {
       "name" : "Net::SMTP",
-      "sha" : "febdcb9e3dd998225e629efc7fc1ba3ff0bf70ed",
+      "sha" : "89ac1f6b8facd5d8f7aebdcaf0544cac2ad87ffd",
       "source" : "git://github.com/retupmoca/P6-Net-SMTP.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Net::SOCKS" : {
       "name" : "Net::SOCKS",
@@ -1813,9 +1813,9 @@
    },
    "Nonongram" : {
       "name" : "Nonongram",
-      "sha" : "214b981df37f2eb47c47713f9bb2396ea4d03637",
+      "sha" : "53c4a136964d04e258969f107ac682b904ffca8d",
       "source" : "git://github.com/moritz/Nonogram.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "November" : {
       "name" : "November",
@@ -1861,9 +1861,9 @@
    },
    "OpenCV" : {
       "name" : "OpenCV",
-      "sha" : "583e49e74c91c10fb5bc5c7946b95a0538d7b754",
+      "sha" : "e122bcf45b1bdec88c759661a24861d6a5435772",
       "source" : "git://github.com/azawawi/perl6-opencv.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162208"
    },
    "OpenSSL" : {
       "name" : "OpenSSL",
@@ -2047,9 +2047,9 @@
    },
    "Pod::To::HTML" : {
       "name" : "Pod::To::HTML",
-      "sha" : "6af3e408138551a42b12db4aaf29a0d5e19acd1e",
+      "sha" : "fbc5af1e216d9f501966cf00502ce932d676a82d",
       "source" : "git://github.com/perl6/Pod-To-HTML.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162203"
    },
    "Pod::To::Markdown" : {
       "name" : "Pod::To::Markdown",
@@ -2167,9 +2167,9 @@
    },
    "SSL" : {
       "name" : "SSL",
-      "sha" : "508fc944560b647f8986707c239584373b7269c6",
+      "sha" : "134b09059ac696fb7c35f7323beef3f3260a66b1",
       "source" : "git://github.com/grondilu/openssl.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162205"
    },
    "SVG" : {
       "name" : "SVG",
@@ -2179,15 +2179,15 @@
    },
    "SVG::Plot" : {
       "name" : "SVG::Plot",
-      "sha" : "f88d0b73e955f7ff00bf8d5d0fefa03894922902",
+      "sha" : "d2eae82bc529c618570d646524c969da59dfd6ad",
       "source" : "git://github.com/moritz/svg-plot.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "Selenium::WebDriver" : {
       "name" : "Selenium::WebDriver",
-      "sha" : "2141fca91983265d2a1b2a55a7a7ad4dbfccc079",
+      "sha" : "858404983997629dd155921e641aab04593f9644",
       "source" : "git://github.com/azawawi/perl6-selenium-webdriver.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162208"
    },
    "Semantic::Versioning" : {
       "name" : "Semantic::Versioning",
@@ -2305,9 +2305,9 @@
    },
    "Sum" : {
       "name" : "Sum",
-      "sha" : "0371a5e8b9c12f1dba99caca39b44c302ca07810",
+      "sha" : "0ce0055e15801ba2308728fd4feda2ab31340572",
       "source" : "https://github.com/skids/perl6sum.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.002_1609162205"
    },
    "Syndication" : {
       "name" : "Syndication",
@@ -2365,9 +2365,9 @@
    },
    "Task::Star" : {
       "name" : "Task::Star",
-      "sha" : "8ff101ae15a0c779d18d81054dc518eb42dee359",
+      "sha" : "becf486a053f219fe359e664321ba766ada5652c",
       "source" : "git://github.com/tadzik/Task-Star.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "TelegramBot" : {
       "name" : "TelegramBot",
@@ -2377,9 +2377,9 @@
    },
    "Template6" : {
       "name" : "Template6",
-      "sha" : "45343afeaf456ba266d0c68a1b874120eebd969d",
+      "sha" : "6cef15294f012ba72465246fe475e2e082127c77",
       "source" : "git://github.com/supernovus/template6.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.002_1609162201"
    },
    "Template::Anti" : {
       "name" : "Template::Anti",
@@ -2389,9 +2389,9 @@
    },
    "Template::Mojo" : {
       "name" : "Template::Mojo",
-      "sha" : "351fee475a36ce922745dc203980c857db0d1304",
+      "sha" : "6f0315bbd622b62156b2275f98c0cd7b35417ec2",
       "source" : "git://github.com/tadzik/Template-Mojo.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162205"
    },
    "Template::Mustache" : {
       "name" : "Template::Mustache",
@@ -2449,9 +2449,9 @@
    },
    "Test::Builder" : {
       "name" : "Test::Builder",
-      "sha" : "dbf135cc962337fd3c423938c7214f16b1b1309f",
+      "sha" : "5f28c8c11aec60797a890d9eae86cfb4d0fea78d",
       "source" : "git://github.com/perl6-community-modules/p6-test-builder.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Test::Harness" : {
       "name" : "Test::Harness",
@@ -2491,9 +2491,9 @@
    },
    "TestML" : {
       "name" : "TestML",
-      "sha" : "bf2f7cedc02b8bc1c1b412aad81ceab454936473",
+      "sha" : "eb76fff45b04752056378fe94882dde923e5f346",
       "source" : "git://github.com/perl6-community-modules/testml-pm6.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Testing" : {
       "name" : "Testing",
@@ -2503,9 +2503,9 @@
    },
    "Text::Abbrev" : {
       "name" : "Text::Abbrev",
-      "sha" : "6054b3910051ba47cee383ea01e9aada0dfde0c2",
+      "sha" : "224079443a54e041941c6b9bc90ce9764a10e278",
       "source" : "git://github.com/xfix/perl6-Text-Abbrev.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162205"
    },
    "Text::CSV" : {
       "name" : "Text::CSV",
@@ -2551,9 +2551,9 @@
    },
    "Text::Markdown" : {
       "name" : "Text::Markdown",
-      "sha" : "b14223a71dfee895a38fa2fe06665d4e22819ff8",
+      "sha" : "67e3d9c1d8ef9a742d75be46d03f6b212a4bf119",
       "source" : "git://github.com/retupmoca/p6-markdown.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162205"
    },
    "Text::Markdown::Discount" : {
       "name" : "Text::Markdown::Discount",
@@ -2647,9 +2647,9 @@
    },
    "URI" : {
       "name" : "URI",
-      "sha" : "089c2340abe45c2ce8c3633d36157bfb4971432a",
+      "sha" : "2e78b6c1ccf5795ab95b883244a7fb4dc9e12629",
       "source" : "git://github.com/perl6-community-modules/uri.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "URI::Encode" : {
       "name" : "URI::Encode",
@@ -2665,9 +2665,9 @@
    },
    "UUID" : {
       "name" : "UUID",
-      "sha" : "68405133270020932c3940ae2560895ec4afc2b7",
+      "sha" : "818f5bbdb245bc8be79773269bf7bce7d47cb528",
       "source" : "git://github.com/retupmoca/P6-UUID.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162203"
    },
    "Uni63" : {
       "name" : "Uni63",
@@ -2725,9 +2725,9 @@
    },
    "Web::Template" : {
       "name" : "Web::Template",
-      "sha" : "a4e4f5a67dbbb236f14a4f1d64394056dcbc01b5",
+      "sha" : "f221d8ab49c7884c8c1f386be0fafa1802e41424",
       "source" : "git://github.com/supernovus/perl6-web-template.git",
-      "version" : "0.000.001"
+      "version" : "0.000.002_1609162201"
    },
    "WebService::AWS::Auth::V4" : {
       "name" : "WebService::AWS::Auth::V4",
@@ -2887,15 +2887,15 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "45fa33a4a64ebe22966772dd122992b55796ee80",
+      "sha" : "1b67130b927e0ddfc764cde94efafdcbf4573ff4",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162205"
    },
    "panda" : {
       "name" : "panda",
-      "sha" : "04a9c3d50ba0f976b81756be6c9e4c6b73296bf6",
+      "sha" : "eb3199a47017aede51dc9c0bb8ecdf1dd2e95b18",
       "source" : "git://github.com/tadzik/panda.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.002_1609162201"
    },
    "sake" : {
       "name" : "sake",
