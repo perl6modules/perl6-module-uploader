@@ -60,10 +60,12 @@ my $tracker         = $json->decode($tracker_content);
 # Make up a version that isn't going to limit authors later on
 # but still increments
 my $current_datetime = DateTime::Tiny->now->ymdhms;
-$current_datetime =~ s/[-T:]//g;    # strip down to just numbers
-$current_datetime =~ s/^\d{2}//;    # trim the year to 2 digets
-$current_datetime =~ s/\d{2}$//;    # rm seconds - so version->parse() works
-my $version = '0.000.002_' . $current_datetime;
+
+$current_datetime =~ s/[-:]//g;   # strip down to just numbers
+$current_datetime =~ s/T.+$//;    # strip time - so version->parse() works
+my $version = '0.000.003_' . $current_datetime;
+
+print "V: $version\n";
 
 # Little sanity check
 print "Version now is: " . version->parse($version) . "\n";
