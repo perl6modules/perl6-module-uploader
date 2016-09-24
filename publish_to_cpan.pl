@@ -61,8 +61,8 @@ my $tracker         = $json->decode($tracker_content);
 # but still increments
 my $current_datetime = DateTime::Tiny->now->ymdhms;
 
-$current_datetime =~ s/[-:]//g;   # strip down to just numbers
-$current_datetime =~ s/T.+$//;    # strip time - so version->parse() works
+$current_datetime =~ s/[-:]//g;    # strip down to just numbers
+$current_datetime =~ s/T.+$//;     # strip time - so version->parse() works
 my $version = '0.000.003_' . $current_datetime;
 
 print "V: $version\n";
@@ -202,8 +202,10 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         # Write out as META6.json
         $meta6_file->spew( $json->encode($meta) );
         {
-            my @cmds = ( "git add -f META6.json",
-                "git commit -a -m 'add META6.json'" );
+            my @cmds = (
+                "git add -f META6.json",
+                "git commit -a -m 'add META6.json'"
+            );
 
             foreach my $cmd (@cmds) {
                 my ( $stdout, $stderr, $exit ) = capture {
@@ -229,7 +231,13 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
         }
 
         # UPLOAD file to CPAN!
-        $uploader->upload_file("$tar_file");
+        eval { $uploader->upload_file("$tar_file"); };
+
+        if ( my $error = $@ =~ /closed connection without sending any data/ )
+        {
+            print "second try upload";
+            $uploader->upload_file("$tar_file");
+        }
 
         # Track the sha that we used to upload
         $tracker->{ $meta->{name} } = {
