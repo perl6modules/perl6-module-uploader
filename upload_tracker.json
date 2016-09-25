@@ -871,9 +871,9 @@
    },
    "FileSystem::Capacity::VolumesInfo" : {
       "name" : "FileSystem::Capacity::VolumesInfo",
-      "sha" : "ff92db1cc0306a3393371fd5e5fe35bc9ff1413d",
+      "sha" : "85be3ff90f7f4467480cdc63c2516ad9188f843b",
       "source" : "git@github.com:ramiroencinas/perl6-FileSystem-Capacity.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20160925"
    },
    "Finance::CompoundInterest" : {
       "name" : "Finance::CompoundInterest",
@@ -2581,9 +2581,9 @@
    },
    "TXN::Parser" : {
       "name" : "TXN::Parser",
-      "sha" : "5b191a246412bf54cb9573ffd3965750a1bbda72",
+      "sha" : "fb8b6b9239b0539b3d2a2156732427f28f161d85",
       "source" : "git://github.com/atweiden/txn-parser.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20160925"
    },
    "TXN::Remarshal" : {
       "name" : "TXN::Remarshal",
@@ -3163,9 +3163,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "3ad38ad6823185b3b30b0eb55972e3c564c24b58",
+      "sha" : "03a21f8fb5a8c6034f3bcaf2836f039c63ba47fc",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20160925"
    },
    "panda" : {
       "name" : "panda",
