@@ -385,9 +385,9 @@
    },
    "Cache::Memcached" : {
       "name" : "Cache::Memcached",
-      "sha" : "e6f6ac62e2532645308f261ab02ed48fd2a08c46",
+      "sha" : "8555a08bf617b92c1ecc6d44cc7f8ce991a287f5",
       "source" : "git://github.com/cosimo/perl6-cache-memcached.git",
-      "version" : "0.000.002_1609162201"
+      "version" : "0.000.003_20160927"
    },
    "CheckSocket" : {
       "name" : "CheckSocket",
@@ -1123,9 +1123,9 @@
    },
    "HTTP::Server::Tiny" : {
       "name" : "HTTP::Server::Tiny",
-      "sha" : "62db56d08617c87859a25a687dd6966699db4332",
+      "sha" : "3d46c36343d76d8f9ff96e09ca421e5247c49e1f",
       "source" : "git://github.com/tokuhirom/p6-HTTP-Server-Tiny.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20160927"
    },
    "HTTP::Signature" : {
       "name" : "HTTP::Signature",
@@ -1351,9 +1351,9 @@
    },
    "Inline::Perl5" : {
       "name" : "Inline::Perl5",
-      "sha" : "a03cc7b8b9c1f1fa40f5b9d0dcad86463c8ec840",
+      "sha" : "8331ff26a352708939891a252aeb044228d211fa",
       "source" : "git://github.com/niner/Inline-Perl5.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20160927"
    },
    "Inline::Python" : {
       "name" : "Inline::Python",
@@ -2005,9 +2005,9 @@
    },
    "OpenSSL" : {
       "name" : "OpenSSL",
-      "sha" : "d71196ffb83383879c3d35ece6160f6bee5f6020",
+      "sha" : "e12bb3248be492ec46fc3735a4720c22722234ef",
       "source" : "git://github.com/sergot/openssl.git",
-      "version" : "0.000.002_1609162159"
+      "version" : "0.000.003_20160927"
    },
    "Operator::defined-alternation" : {
       "name" : "Operator::defined-alternation",
@@ -2242,6 +2242,12 @@
       "sha" : "ff130e4081f1c7b6ebf89b075831df30b7ca30d6",
       "source" : "git://github.com/carbin/p6-jdf.git",
       "version" : "0.000.001"
+   },
+   "ProblemSolver" : {
+      "name" : "ProblemSolver",
+      "sha" : "02065088a96d22e40ef1bf6925fdbd2e492c3fe9",
+      "source" : "git://github.com/FCO/ProblemSolver.git",
+      "version" : "0.000.003_20160927"
    },
    "Questhub" : {
       "name" : "Questhub",
@@ -2983,9 +2989,9 @@
    },
    "Web::App::MVC" : {
       "name" : "Web::App::MVC",
-      "sha" : "6871eb263974253f9e60c712e6d6829274ca897d",
+      "sha" : "d0b137f725465313d7ad10b05232cc1c9316a018",
       "source" : "git://github.com/supernovus/perl6-web-app-mvc.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20160927"
    },
    "Web::RF" : {
       "name" : "Web::RF",
@@ -3163,9 +3169,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "03a21f8fb5a8c6034f3bcaf2836f039c63ba47fc",
+      "sha" : "ba2cbe84bb7992ae208346ea04a0657f23ac60e5",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20160925"
+      "version" : "0.000.003_20160927"
    },
    "panda" : {
       "name" : "panda",
