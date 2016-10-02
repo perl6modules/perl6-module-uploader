@@ -115,9 +115,9 @@
    },
    "App::GPTrixie" : {
       "name" : "App::GPTrixie",
-      "sha" : "3c551559a1b06e86093be5bacbc9c9fd08a42cc5",
+      "sha" : "7ef499ca4546c097d2a5b8114bd4d55ab8095047",
       "source" : "git://github.com/Skarsnik/gptrixie.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20161002"
    },
    "App::Mi6" : {
       "name" : "App::Mi6",
@@ -241,9 +241,9 @@
    },
    "Auth::SCRAM" : {
       "name" : "Auth::SCRAM",
-      "sha" : "b99f6f1e410cf4935b261d920600ec10e5532e72",
-      "source" : "git://github.com/MARTIMM/Auth-SCRAM",
-      "version" : "0.000.003_20160924"
+      "sha" : "2ec6bed66886f5f79a803f7aa9a7596a31433155",
+      "source" : "git://github.com/MARTIMM/Auth-SCRAM.git",
+      "version" : "0.000.003_20161002"
    },
    "Avro" : {
       "name" : "Avro",
@@ -289,9 +289,9 @@
    },
    "Binary::Structured" : {
       "name" : "Binary::Structured",
-      "sha" : "77bb16e9ac6ea117a4d4d38faf1378405fea19db",
+      "sha" : "607c183352bc3a97112cc10cdfbdace6a03680b3",
       "source" : "git://github.com/avuserow/perl6-binary-structured.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20161002"
    },
    "BioInfo" : {
       "name" : "BioInfo",
@@ -367,9 +367,9 @@
    },
    "CSS::Writer" : {
       "name" : "CSS::Writer",
-      "sha" : "41b7c6ac59572a16278b9d9635b433b2ee5f413c",
+      "sha" : "6b23a3411425e8167907c89c52be3c24d7ae544a",
       "source" : "git://github.com/p6-css/perl6-CSS-Writer.git",
-      "version" : "0.000.002_1609181644"
+      "version" : "0.000.003_20161002"
    },
    "CSV::Parser" : {
       "name" : "CSV::Parser",
@@ -556,6 +556,12 @@
       "sha" : "f88ad26af8af0a238296ccb9ec18c4189a183455",
       "source" : "git://github.com/p6-pdf/perl6-Crypt-RC4.git",
       "version" : "0.000.001"
+   },
+   "Crypt::RSA" : {
+      "name" : "Crypt::RSA",
+      "sha" : "d31877d637f3ac1f2ccb93f7c362e4550f45d850",
+      "source" : "git://github.com/bduggan/p6-crypt-rsa.git",
+      "version" : "0.000.003_20161002"
    },
    "Crypt::Random" : {
       "name" : "Crypt::Random",
@@ -1123,9 +1129,9 @@
    },
    "HTTP::Server::Tiny" : {
       "name" : "HTTP::Server::Tiny",
-      "sha" : "3d46c36343d76d8f9ff96e09ca421e5247c49e1f",
+      "sha" : "5988930bafcee98ab622e2ec6444a0b1340de97e",
       "source" : "git://github.com/tokuhirom/p6-HTTP-Server-Tiny.git",
-      "version" : "0.000.003_20160927"
+      "version" : "0.000.003_20161002"
    },
    "HTTP::Signature" : {
       "name" : "HTTP::Signature",
@@ -1351,9 +1357,9 @@
    },
    "Inline::Perl5" : {
       "name" : "Inline::Perl5",
-      "sha" : "8331ff26a352708939891a252aeb044228d211fa",
+      "sha" : "61473e48627009260133428526ea09721c1fe994",
       "source" : "git://github.com/niner/Inline-Perl5.git",
-      "version" : "0.000.003_20160927"
+      "version" : "0.000.003_20161002"
    },
    "Inline::Python" : {
       "name" : "Inline::Python",
@@ -1477,9 +1483,9 @@
    },
    "LWP::Simple" : {
       "name" : "LWP::Simple",
-      "sha" : "7a26baaedf4040638780dee638f780d622ba56a9",
+      "sha" : "4c0dc2fdc7678ef129fce69578d87c9742f22edb",
       "source" : "git://github.com/perl6/perl6-lwp-simple.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20161002"
    },
    "LacunaCookbuk::Client" : {
       "name" : "LacunaCookbuk::Client",
@@ -1807,9 +1813,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "1eb56faa36495802f57bf9ba18524ec85ce160f9",
+      "sha" : "0e9aeb46a71b52b6a535b24c154706ec3b0501b3",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20161002"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -1849,9 +1855,9 @@
    },
    "NativeCall::TypeDiag" : {
       "name" : "NativeCall::TypeDiag",
-      "sha" : "cce3a94bbd904fcb5e54c797f51597714175b2eb",
+      "sha" : "c38e374775ace5eabca587d6121712ef2a9f63c2",
       "source" : "git://github.com/Skarsnik/nativecall-typediag.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.003_20161002"
    },
    "NativeHelpers::Array" : {
       "name" : "NativeHelpers::Array",
@@ -2957,6 +2963,12 @@
       "source" : "git://github.com/cygx/p6-uni63.git",
       "version" : "0.000.001"
    },
+   "Unicode::PRECIS" : {
+      "name" : "Unicode::PRECIS",
+      "sha" : "5128c105ed2ef93d6a8e3bdeb1476b0c3e0db9f7",
+      "source" : "git://github.com/MARTIMM/unicode-precis.git",
+      "version" : "0.000.003_20161002"
+   },
    "Unicode::UTF8-Parser" : {
       "name" : "Unicode::UTF8-Parser",
       "sha" : "a2927713ddb90fac6c7e18bb08781241bcb5b28a",
@@ -3079,9 +3091,9 @@
    },
    "XML" : {
       "name" : "XML",
-      "sha" : "d8ab611a73ac8e10a43bc8f12431a15a6710db6d",
+      "sha" : "f5661f6df8b47f41e289026ed806ad6d69b41b79",
       "source" : "git://github.com/supernovus/exemel.git",
-      "version" : "0.000.002_1609162159"
+      "version" : "0.000.003_20161002"
    },
    "XML::Canonical" : {
       "name" : "XML::Canonical",
@@ -3169,9 +3181,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "ba2cbe84bb7992ae208346ea04a0657f23ac60e5",
+      "sha" : "4a99a1a1415126c06d3423dd70a3d8905dc91982",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20160927"
+      "version" : "0.000.003_20161002"
    },
    "panda" : {
       "name" : "panda",
