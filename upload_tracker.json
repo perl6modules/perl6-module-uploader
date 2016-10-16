@@ -1867,9 +1867,9 @@
    },
    "Net::AMQP" : {
       "name" : "Net::AMQP",
-      "sha" : "63cab0aad09f0243d481befaa54d75ab8ccdb332",
+      "sha" : "e412a05da8a4201af48e471e8c2854f674b9d498",
       "source" : "git://github.com/retupmoca/P6-Net-AMQP.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.003_20161014"
    },
    "Net::Curl" : {
       "name" : "Net::Curl",
@@ -2641,9 +2641,9 @@
    },
    "Template::Anti" : {
       "name" : "Template::Anti",
-      "sha" : "7a18a0b77cf5638b38355c517074e0d26db46747",
+      "sha" : "d665b001ee389c3ffb82d89351905fe1b0490e1b",
       "source" : "git://github.com/zostay/Template-Anti.git",
-      "version" : "0.000.002_1609192042"
+      "version" : "0.000.003_20161014"
    },
    "Template::Mojo" : {
       "name" : "Template::Mojo",
@@ -3187,9 +3187,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "45b37017c06064b9ac7972e16d904ad924976eff",
+      "sha" : "df49af36901e92ee5db8dcd01b6061d5d0267eb1",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20161008"
+      "version" : "0.000.003_20161014"
    },
    "panda" : {
       "name" : "panda",
