@@ -7,9 +7,9 @@
    },
    "ABC" : {
       "name" : "ABC",
-      "sha" : "50d794b4ea67a712d887990ddaa39e3f8e5aac02",
+      "sha" : "222b5ccc49574e5fdc8f8f74c47eeb9559f4b433",
       "source" : "git://github.com/colomon/ABC.git",
-      "version" : "0.000.003_20161008"
+      "version" : "0.000.003_20161025"
    },
    "ANTLR4" : {
       "name" : "ANTLR4",
@@ -103,9 +103,9 @@
    },
    "Algorithm::Soundex" : {
       "name" : "Algorithm::Soundex",
-      "sha" : "d8fd20b74c93d1a4e725a53613ff8db0672d4acc",
+      "sha" : "81fe97829f311bc431182bc30ae59836f518912d",
       "source" : "git://github.com/leto/perl6-Algorithm-Soundex.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20161025"
    },
    "Algorithm::Viterbi" : {
       "name" : "Algorithm::Viterbi",
@@ -145,9 +145,9 @@
    },
    "App::Pray" : {
       "name" : "App::Pray",
-      "sha" : "2ba8cccaccd8ab5471899200b7b8ba1afc6da378",
+      "sha" : "6edba7b82aaea8b3ad54a2aa8269d9b1c9143ca7",
       "source" : "git://github.com/raydiak/pray.git",
-      "version" : "0.000.002_1609192028"
+      "version" : "0.000.003_20161025"
    },
    "App::ecoreadme" : {
       "name" : "App::ecoreadme",
@@ -481,9 +481,9 @@
    },
    "Config::DataLang::Refine" : {
       "name" : "Config::DataLang::Refine",
-      "sha" : "33fe1581d48278170c8adfd48ba2bb515235fe0e",
+      "sha" : "9eda7dd17d2a13b7822722d07411fc5f1e42aa19",
       "source" : "git://github.com/MARTIMM/config-datalang-refine.git",
-      "version" : "0.000.002_1609142056"
+      "version" : "0.000.003_20161025"
    },
    "Config::INI" : {
       "name" : "Config::INI",
@@ -1357,9 +1357,9 @@
    },
    "Inline::Perl5" : {
       "name" : "Inline::Perl5",
-      "sha" : "431344a8079f9b9298042c0a4d7429eb34e07bf3",
+      "sha" : "b6bc0fc36645a7d97b2bd364a1bcd9badc956b4f",
       "source" : "git://github.com/niner/Inline-Perl5.git",
-      "version" : "0.000.003_20161016"
+      "version" : "0.000.003_20161025"
    },
    "Inline::Python" : {
       "name" : "Inline::Python",
@@ -1483,9 +1483,9 @@
    },
    "LWP::Simple" : {
       "name" : "LWP::Simple",
-      "sha" : "a9b891fae1702625545d2991153d9ea0e2835471",
+      "sha" : "a07ed1d679cf6c523c62a824273805fb56913a83",
       "source" : "git://github.com/perl6/perl6-lwp-simple.git",
-      "version" : "0.000.003_20161016"
+      "version" : "0.000.003_20161025"
    },
    "LacunaCookbuk::Client" : {
       "name" : "LacunaCookbuk::Client",
@@ -1717,9 +1717,9 @@
    },
    "Math::OddFunctions" : {
       "name" : "Math::OddFunctions",
-      "sha" : "0e77914c3f5a2e2b2fe39644b46f05eddfb99496",
+      "sha" : "2d80bdcdaab321ad1c9a09e717fd102819b6adea",
       "source" : "git://github.com/colomon/Math-Odd-Functions.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20161025"
    },
    "Math::PascalTriangle" : {
       "name" : "Math::PascalTriangle",
@@ -1729,9 +1729,9 @@
    },
    "Math::Polynomial" : {
       "name" : "Math::Polynomial",
-      "sha" : "c041f72bd51239fccfa3e4c0a64bd36d48d590f9",
+      "sha" : "9c838ff41807729f7b81ce81e7fdd1f3386c41cf",
       "source" : "git://github.com/colomon/Math-Polynomial.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20161025"
    },
    "Math::Random" : {
       "name" : "Math::Random",
@@ -1765,9 +1765,9 @@
    },
    "Math::Vector" : {
       "name" : "Math::Vector",
-      "sha" : "a31eed0671406b9953868f8db25cbef6db891320",
+      "sha" : "4a9758ec16fb8b98e0b25f4cb1cab7d7b75eea18",
       "source" : "git://github.com/colomon/Math-Vector.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20161025"
    },
    "Memoize" : {
       "name" : "Memoize",
@@ -2641,9 +2641,9 @@
    },
    "Template::Anti" : {
       "name" : "Template::Anti",
-      "sha" : "d665b001ee389c3ffb82d89351905fe1b0490e1b",
+      "sha" : "cf92b0b06281676e8423797330b08facd9f1c4db",
       "source" : "git://github.com/zostay/Template-Anti.git",
-      "version" : "0.000.003_20161014"
+      "version" : "0.000.003_20161025"
    },
    "Template::Mojo" : {
       "name" : "Template::Mojo",
@@ -2941,9 +2941,9 @@
    },
    "URI" : {
       "name" : "URI",
-      "sha" : "2e78b6c1ccf5795ab95b883244a7fb4dc9e12629",
+      "sha" : "0a4d267069c2a2507f3e4e5a729c4c0a8af3b646",
       "source" : "git://github.com/perl6-community-modules/uri.git",
-      "version" : "0.000.002_1609162203"
+      "version" : "0.000.003_20161025"
    },
    "URI::Encode" : {
       "name" : "URI::Encode",
@@ -3187,15 +3187,15 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "7bd27cbf792d0da719cdb70c2adafd0d6246d9f2",
+      "sha" : "7eef1f453ed328718835118ce5ee255af083535c",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20161016"
+      "version" : "0.000.003_20161025"
    },
    "panda" : {
       "name" : "panda",
-      "sha" : "200a3a73852bfcff2f2c33e1a3f90d824b3d66b1",
+      "sha" : "38dfdfb2067bf1b7b0e6f4c924da73dc80223b52",
       "source" : "git://github.com/tadzik/panda.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20161025"
    },
    "python::itertools" : {
       "name" : "python::itertools",
