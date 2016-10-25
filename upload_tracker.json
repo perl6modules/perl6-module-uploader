@@ -1357,9 +1357,9 @@
    },
    "Inline::Perl5" : {
       "name" : "Inline::Perl5",
-      "sha" : "9be9e5a07073c99ff680422597dd97fe5f1df198",
+      "sha" : "431344a8079f9b9298042c0a4d7429eb34e07bf3",
       "source" : "git://github.com/niner/Inline-Perl5.git",
-      "version" : "0.000.003_20161008"
+      "version" : "0.000.003_20161016"
    },
    "Inline::Python" : {
       "name" : "Inline::Python",
@@ -1483,9 +1483,9 @@
    },
    "LWP::Simple" : {
       "name" : "LWP::Simple",
-      "sha" : "4c0dc2fdc7678ef129fce69578d87c9742f22edb",
+      "sha" : "a9b891fae1702625545d2991153d9ea0e2835471",
       "source" : "git://github.com/perl6/perl6-lwp-simple.git",
-      "version" : "0.000.003_20161002"
+      "version" : "0.000.003_20161016"
    },
    "LacunaCookbuk::Client" : {
       "name" : "LacunaCookbuk::Client",
@@ -3187,9 +3187,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "df49af36901e92ee5db8dcd01b6061d5d0267eb1",
+      "sha" : "7bd27cbf792d0da719cdb70c2adafd0d6246d9f2",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20161014"
+      "version" : "0.000.003_20161016"
    },
    "panda" : {
       "name" : "panda",
