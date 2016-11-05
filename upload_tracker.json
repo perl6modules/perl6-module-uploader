@@ -1,9 +1,9 @@
 {
    "007" : {
       "name" : "007",
-      "sha" : "c9d730ad3db4ec51c1f32e18fec273995e0bf9c1",
+      "sha" : "02d2979700576838d7478686af9fd66c5cd87e2a",
       "source" : "git://github.com/masak/007.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "ABC" : {
       "name" : "ABC",
@@ -31,9 +31,9 @@
    },
    "Acme::Addslashes" : {
       "name" : "Acme::Addslashes",
-      "sha" : "6f5e894d453673e33becaa8db7191c9b9957b603",
+      "sha" : "7959e7d029b00c194348c62258b8ed67becef433",
       "source" : "git://github.com/xfix/perl6-Acme-Addslashes.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Acme::DSON" : {
       "name" : "Acme::DSON",
@@ -253,9 +253,9 @@
    },
    "BSON" : {
       "name" : "BSON",
-      "sha" : "0dc2fee72fbf677abfda8e2e940e3a9c626ff2f4",
+      "sha" : "4996606f13506d279ae3dd723dbd9f7c66c29e8c",
       "source" : "git://github.com/MARTIMM/BSON.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Bailador" : {
       "name" : "Bailador",
@@ -499,9 +499,9 @@
    },
    "Config::TOML" : {
       "name" : "Config::TOML",
-      "sha" : "e1567f22e572735c17d89fadf01da01d9da151a0",
+      "sha" : "8c2804b6ca93b8383fe6f9a84c79d7d7804622ee",
       "source" : "git://github.com/atweiden/config-toml.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20161105"
    },
    "Coro::Simple" : {
       "name" : "Coro::Simple",
@@ -631,9 +631,9 @@
    },
    "DateTime::Format" : {
       "name" : "DateTime::Format",
-      "sha" : "75c102ce549a045ada1ea2e92005d05832b26c46",
+      "sha" : "f361756f7b362775fd17559827efcbb83e754d4c",
       "source" : "git://github.com/supernovus/perl6-datetime-format.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "DateTime::Format::LikeGo" : {
       "name" : "DateTime::Format::LikeGo",
@@ -709,9 +709,9 @@
    },
    "Digest::xxHash" : {
       "name" : "Digest::xxHash",
-      "sha" : "22835e99b64c2b4296cd99d64562f516d4da6c68",
+      "sha" : "fcae503a9f604cf88fbaf9d2d58bbc15d6bffc73",
       "source" : "git://github.com/atweiden/digest-xxhash.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Discord" : {
       "name" : "Discord",
@@ -1123,9 +1123,9 @@
    },
    "HTTP::Server::Threaded" : {
       "name" : "HTTP::Server::Threaded",
-      "sha" : "c2f2ed3cf74770d0252db178a76c39beda02f978",
+      "sha" : "77acd1bc32f966411551755419a1beca1355a036",
       "source" : "git://github.com/tony-o/perl6-http-server-threaded.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "HTTP::Server::Tiny" : {
       "name" : "HTTP::Server::Tiny",
@@ -1357,9 +1357,9 @@
    },
    "Inline::Perl5" : {
       "name" : "Inline::Perl5",
-      "sha" : "65ceb50ebe06dde70d37c7737d6aa96917ac06f9",
+      "sha" : "f1310c192eafaffc7fba61cad7681b151c01658a",
       "source" : "git://github.com/niner/Inline-Perl5.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Inline::Python" : {
       "name" : "Inline::Python",
@@ -1483,9 +1483,9 @@
    },
    "LWP::Simple" : {
       "name" : "LWP::Simple",
-      "sha" : "3c4871fe6e0fc06e2da3b8b70162532451f78dc3",
+      "sha" : "2a021dbe017e620f46b59b4ab8adf818626d5ff5",
       "source" : "git://github.com/perl6/perl6-lwp-simple.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "LacunaCookbuk::Client" : {
       "name" : "LacunaCookbuk::Client",
@@ -1645,9 +1645,9 @@
    },
    "MIME::Types" : {
       "name" : "MIME::Types",
-      "sha" : "db6b5e74798c44c58f0844d826c0b5d50f93f867",
+      "sha" : "c5deae4379068e14554169a5f259ae26feb53491",
       "source" : "git://github.com/supernovus/perl6-mime-types.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "MPD" : {
       "name" : "MPD",
@@ -1783,9 +1783,9 @@
    },
    "Method::Modifiers" : {
       "name" : "Method::Modifiers",
-      "sha" : "8e3a1d98c1ae749fda7225fbed3073d3c5d306e5",
+      "sha" : "4a4180e88badf102be62c7cf99edbcd31b31a449",
       "source" : "git://github.com/supernovus/perl6-method-modifiers.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Modular" : {
       "name" : "Modular",
@@ -2083,9 +2083,9 @@
    },
    "PSpec" : {
       "name" : "PSpec",
-      "sha" : "6606795741228094bfd7ef13cd0ab046662bf42b",
+      "sha" : "cabad26c7f51a6ca29467a056b450e5aa8c9c367",
       "source" : "git://github.com/supernovus/PSpec.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Parse::Selenese" : {
       "name" : "Parse::Selenese",
@@ -2143,9 +2143,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "95eca5a60a8797afaa1bb9b6b15062c152a12c52",
+      "sha" : "1a738762f0e7f3099dc61ec3463f004622f89782",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -2227,9 +2227,9 @@
    },
    "Pod::To::HTML" : {
       "name" : "Pod::To::HTML",
-      "sha" : "172db6ad5d15ccad70a2b483fde144ab9e988dec",
+      "sha" : "830b70761d92151e9937caa97de1bd5a086da6a5",
       "source" : "git://github.com/perl6/Pod-To-HTML.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Pod::To::Markdown" : {
       "name" : "Pod::To::Markdown",
@@ -2599,9 +2599,9 @@
    },
    "TXN" : {
       "name" : "TXN",
-      "sha" : "4d3144df9a334509b66ed2a43ab868527d0c2a6a",
+      "sha" : "76776492f51b68a2bbb06340e22be97760d4e905",
       "source" : "git://github.com/atweiden/mktxn.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20161105"
    },
    "TXN::Parser" : {
       "name" : "TXN::Parser",
@@ -2647,9 +2647,9 @@
    },
    "Template::Anti" : {
       "name" : "Template::Anti",
-      "sha" : "124866072652c39a65a080000404e93247c4e982",
+      "sha" : "81935805f2dde0f9b1f5157afbc480354587945d",
       "source" : "git://github.com/zostay/Template-Anti.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Template::Mojo" : {
       "name" : "Template::Mojo",
@@ -3013,9 +3013,9 @@
    },
    "Web::App::MVC" : {
       "name" : "Web::App::MVC",
-      "sha" : "403dad44acf455c450caab1f1c9f51ce012e5463",
+      "sha" : "c5a14960acd14de7442e808375ceb1b446381295",
       "source" : "git://github.com/supernovus/perl6-web-app-mvc.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "Web::RF" : {
       "name" : "Web::RF",
@@ -3193,9 +3193,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "f4fd7faa17bf57ebfff14841e6fb7bd4afac7572",
+      "sha" : "027db9ef50fafe0db9fca1ef729ddd3cc85e2f51",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20161105"
    },
    "panda" : {
       "name" : "panda",
