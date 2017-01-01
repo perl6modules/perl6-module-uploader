@@ -283,7 +283,7 @@ sub _add_to_author_repo {
 
     # Check it in
     {
-        my $cmd = "git cia -m'$commit_msg'";
+        my $cmd = "git commit -a -m'$commit_msg'";
         my ( $stdout, $stderr, $exit ) = capture {
             system($cmd );
         };
