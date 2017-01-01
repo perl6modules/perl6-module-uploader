@@ -1,0 +1,9 @@
+requires 'HTTP::Tiny', '0';
+requires 'CPAN::Uploader', '0';
+requires 'JSON::MaybeXS', '0';
+requires 'Path::Class', '0';
+requires 'URI', '0';
+requires 'Capture::Tiny', '0';
+requires 'DateTime::Tiny', '0';
+requires 'Gzip::Faster', '0';
+requires 'DDP', '0';
