@@ -373,9 +373,9 @@
    },
    "CSS::Writer" : {
       "name" : "CSS::Writer",
-      "sha" : "ddc6ca2b09c3448c2612fc6ebbdbd6c6eb8bbaf4",
+      "sha" : "9a6db01cb12911be6fa986e9116a0d2158d8d536",
       "source" : "git://github.com/p6-css/perl6-CSS-Writer.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170102"
    },
    "CSV::Parser" : {
       "name" : "CSV::Parser",
@@ -2167,9 +2167,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "8daac2f372cde432f01e2d0651ad0585b4db1ad3",
+      "sha" : "ddf248216239e97118bbcb05ebc6bec7c1a0ac8b",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170102"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -2509,9 +2509,9 @@
    },
    "Sparrowdo::Archive" : {
       "name" : "Sparrowdo::Archive",
-      "sha" : "c079f018234bebe9d71cffcb667dbc24aa1d808b",
+      "sha" : "20b3d06639aee2d27a118f7b5d0cfcd1e5b5a073",
       "source" : "https://github.com/melezhik/sparrowdo-archive.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170102"
    },
    "Sparrowdo::Chef::Client" : {
       "name" : "Sparrowdo::Chef::Client",
@@ -3241,9 +3241,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "3d5e0646fbfc3212118fa405b0c09445bd8c836f",
+      "sha" : "d048c11693ebd95d42c5c2fd6e7920fc30d100fc",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170102"
    },
    "panda" : {
       "name" : "panda",
