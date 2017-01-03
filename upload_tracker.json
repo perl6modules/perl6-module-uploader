@@ -307,9 +307,9 @@
    },
    "BioPerl6" : {
       "name" : "BioPerl6",
-      "sha" : "1733a7574ba09306d4d4218191ec58ca2b703fab",
+      "sha" : "4d18c31fdba81c681f651e408a83464e39159cd8",
       "source" : "git://github.com/cjfields/bioperl6.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170103"
    },
    "BreakDancer" : {
       "name" : "BreakDancer",
@@ -2167,9 +2167,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "ddf248216239e97118bbcb05ebc6bec7c1a0ac8b",
+      "sha" : "ff426f8b7518a9efcb35c88abb6f475aba63119e",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170102"
+      "version" : "0.000.003_20170103"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -3241,9 +3241,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "d048c11693ebd95d42c5c2fd6e7920fc30d100fc",
+      "sha" : "e708888d5c677e610ea2b0a9af62fcfe2cf505ee",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170102"
+      "version" : "0.000.003_20170103"
    },
    "panda" : {
       "name" : "panda",
