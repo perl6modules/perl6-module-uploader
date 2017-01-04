@@ -259,9 +259,9 @@
    },
    "BSON" : {
       "name" : "BSON",
-      "sha" : "dc44095d98f5e9ba2a2a9a083ef03487c74fa14d",
+      "sha" : "014e106b16165be3a65a1243d356f43645dd7312",
       "source" : "git://github.com/MARTIMM/BSON.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170104"
    },
    "Bailador" : {
       "name" : "Bailador",
@@ -1387,9 +1387,9 @@
    },
    "Inline::Python" : {
       "name" : "Inline::Python",
-      "sha" : "0660c00cb9ec0336268283a544ab412c3388deac",
+      "sha" : "4222945a716558dd86db970163755a69be913974",
       "source" : "git://github.com/niner/Inline-Python.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170104"
    },
    "Inline::Ruby" : {
       "name" : "Inline::Ruby",
@@ -1837,9 +1837,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "ecf86fef0896deb61adb1cf39f279cf9f134b54b",
+      "sha" : "bb5674bbc44a72d7c102945a84cb355e551a4a63",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170104"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -2503,9 +2503,9 @@
    },
    "Sparrowdo" : {
       "name" : "Sparrowdo",
-      "sha" : "b5c21bfdb4f68074c581349061cbde4bf765096f",
+      "sha" : "568efb9c57e9ef1efbb3fe0834a9f335a3ff88a8",
       "source" : "https://github.com/melezhik/sparrowdo.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170104"
    },
    "Sparrowdo::Archive" : {
       "name" : "Sparrowdo::Archive",
@@ -3241,9 +3241,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "e708888d5c677e610ea2b0a9af62fcfe2cf505ee",
+      "sha" : "707efdbbce4688d8b6395663c971411c66ac5fcb",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170103"
+      "version" : "0.000.003_20170104"
    },
    "panda" : {
       "name" : "panda",
