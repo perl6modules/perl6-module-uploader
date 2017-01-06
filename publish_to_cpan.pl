@@ -31,7 +31,7 @@ use DDP;
 my $GIT_MANAGE_AUTHOR_DIR = 1;
 
 # Some basic debugging messages
-my $debug = 1;
+my $debug = 0;
 my $json = JSON::MaybeXS->new( utf8 => 1, pretty => 1, canonical => 1 );
 
 # Find out what it already uploaded to CPAN by other authors
@@ -65,10 +65,10 @@ $current_datetime =~ s/[-:]//g;    # strip down to just numbers
 $current_datetime =~ s/T.+$//;     # strip time - so version->parse() works
 my $version = '0.000.003_' . $current_datetime;
 
-print "V: $version\n";
+print "V: $version\n" if $debug;
 
 # Little sanity check
-print "Version now is: " . version->parse($version) . "\n";
+print "Version now is: " . version->parse($version) . "\n" if $debug;
 
 my $gh_http_tiny = HTTP::Tiny->new(
     default_headers => { 'Authorization' => "token $gh_token" } );
@@ -208,10 +208,7 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
             );
 
             foreach my $cmd (@cmds) {
-                my ( $stdout, $stderr, $exit ) = capture {
-                    system($cmd );
-                };
-                die $stderr if $stderr;
+                _run_cmd($cmd);
             }
         }
 
@@ -224,10 +221,7 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
             # Create an archive of this version
             my $cmd = 'git archive --format=tar --prefix='
                 . "$tar_base/ HEAD | gzip > $tar_file";
-            my ( $stdout, $stderr, $exit ) = capture {
-                system($cmd );
-            };
-            die $stderr if $stderr;
+            _run_cmd($cmd);
         }
 
         # UPLOAD file to CPAN!
@@ -235,7 +229,7 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
         if ( my $error = $@ =~ /closed connection without sending any data/ )
         {
-            print "second try upload";
+            print "second try upload" if $debug;
             $uploader->upload_file("$tar_file");
         }
 
@@ -261,7 +255,32 @@ MODULE: while ( my $module_meta = shift @{$modules} ) {
 
     }
 
-    #    exit;
+}
+
+if ( $ENV{'RUN_GIT_PUSH'} ) {
+    _commit_and_push();
+
+} else {
+    print "Remember to commit the changes to upload_tracker.json\n";
+
+}
+
+#--------- PRIVATE METHODS ----------#
+
+sub _commit_and_push {
+
+    chdir $my_dir->stringify;
+
+    # Check it in
+    _run_cmd("git commit -a -m'$version updated'");
+
+    # Push perl6-module-uploader
+    _run_cmd("git push");
+
+    chdir $authors_dir->stringify;
+
+    # Push author
+    _run_cmd("git push");
 
 }
 
@@ -273,26 +292,21 @@ sub _add_to_author_repo {
     chdir $authors_dir->stringify;
 
     # Add it
-    {
-        my $cmd = "git add .";
-        my ( $stdout, $stderr, $exit ) = capture {
-            system($cmd );
-        };
-        die $stderr if $stderr;
-    }
+    _run_cmd("git add .");
 
     # Check it in
-    {
-        my $cmd = "git commit -a -m'$commit_msg'";
-        my ( $stdout, $stderr, $exit ) = capture {
-            system($cmd );
-        };
-        die $stderr if $stderr;
-    }
+    _run_cmd("git commit -a -m'$commit_msg'");
 
 }
 
-print "Remember to commit the changes to upload_tracker.json\n";
+sub _run_cmd {
+    my $cmd = shift;
+    my ( $stdout, $stderr, $exit ) = capture {
+        system($cmd );
+    };
+    die $stderr if $stderr;
+
+}
 
 sub _delete_dist_clone {
     my $dist_dir = shift;
