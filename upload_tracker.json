@@ -799,9 +799,9 @@
    },
    "Facter" : {
       "name" : "Facter",
-      "sha" : "fdfdf8afef716133ef5a36561697283b87d9cc55",
+      "sha" : "e70fcdcd18ba74e5a3b1d4b7b675efcf3c261094",
       "source" : "git://github.com/cosimo/perl6-facter.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170106"
    },
    "Farabi6" : {
       "name" : "Farabi6",
@@ -1045,9 +1045,9 @@
    },
    "Gumbo" : {
       "name" : "Gumbo",
-      "sha" : "1c3304b39918293d152d5eeb534fe31e3a3138d9",
+      "sha" : "5fd8a809cd1fbebab32f05a393b66f29802a407e",
       "source" : "git://github.com/Skarsnik/perl6-gumbo.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170106"
    },
    "HTML::Entity" : {
       "name" : "HTML::Entity",
@@ -1153,9 +1153,9 @@
    },
    "HTTP::Server::Tiny" : {
       "name" : "HTTP::Server::Tiny",
-      "sha" : "9f61cd599343da253d767dafe4686759b5a5087e",
+      "sha" : "a03e1190b0108bf8837e573795afd46b59c5f15f",
       "source" : "git://github.com/tokuhirom/p6-HTTP-Server-Tiny.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170106"
    },
    "HTTP::Signature" : {
       "name" : "HTTP::Signature",
@@ -1919,6 +1919,12 @@
       "source" : "git://github.com/retupmoca/P6-Net-IMAP.git",
       "version" : "0.000.002_1609162203"
    },
+   "Net::IP::Parse" : {
+      "name" : "Net::IP::Parse",
+      "sha" : "c1e7ed1641e66f53d44cc1a3e440cb29428abc3a",
+      "source" : "git://github.com/bradclawsie/Net-IP-Parse.git",
+      "version" : "0.000.003_20170106"
+   },
    "Net::IRC::Bot" : {
       "name" : "Net::IRC::Bot",
       "sha" : "b197a3f3a6716f8ea3c016b6c59328905cedb1cf",
@@ -2167,9 +2173,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "ff426f8b7518a9efcb35c88abb6f475aba63119e",
+      "sha" : "d5bad7b3bafb10c43924bbb32b8465a9b267ee64",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170103"
+      "version" : "0.000.003_20170106"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -2503,9 +2509,9 @@
    },
    "Sparrowdo" : {
       "name" : "Sparrowdo",
-      "sha" : "568efb9c57e9ef1efbb3fe0834a9f335a3ff88a8",
+      "sha" : "c7d18f5a04943727757711806f6e95830b80aa41",
       "source" : "https://github.com/melezhik/sparrowdo.git",
-      "version" : "0.000.003_20170104"
+      "version" : "0.000.003_20170106"
    },
    "Sparrowdo::Archive" : {
       "name" : "Sparrowdo::Archive",
@@ -2575,9 +2581,9 @@
    },
    "String::CRC32" : {
       "name" : "String::CRC32",
-      "sha" : "1f0b00c7933b30a8b9dc85463883132274cf4bba",
+      "sha" : "ad76d4e110df1ec076cd155bb7c181a3fbe155d5",
       "source" : "git://github.com/cosimo/perl6-string-crc32.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.003_20170106"
    },
    "String::Koremutake" : {
       "name" : "String::Koremutake",
@@ -3241,9 +3247,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "707efdbbce4688d8b6395663c971411c66ac5fcb",
+      "sha" : "dfbca44bc81f99b0fc57f8ef670da5a3a09925c3",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170104"
+      "version" : "0.000.003_20170106"
    },
    "panda" : {
       "name" : "panda",
