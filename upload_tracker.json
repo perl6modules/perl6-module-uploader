@@ -1117,9 +1117,9 @@
    },
    "HTTP::Server::Async" : {
       "name" : "HTTP::Server::Async",
-      "sha" : "4c3349af4391a0b48a61cc8097742685d53dfac5",
+      "sha" : "284e40cac796fa2668a3a0d39d099acf49145b6c",
       "source" : "git://github.com/tony-o/perl6-http-server-async.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170108"
    },
    "HTTP::Server::Async::Plugins::Router::Simple" : {
       "name" : "HTTP::Server::Async::Plugins::Router::Simple",
@@ -1207,9 +1207,9 @@
    },
    "Hiker" : {
       "name" : "Hiker",
-      "sha" : "d0c73dac29caace941f6b861973664295447d5a5",
+      "sha" : "4a87e9091b13fdd4467cd1254c700c95c778f6c3",
       "source" : "git://github.com/tony-o/perl6-hiker.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170108"
    },
    "Hinges" : {
       "name" : "Hinges",
@@ -2173,9 +2173,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "d5bad7b3bafb10c43924bbb32b8465a9b267ee64",
+      "sha" : "e76f9fb8ac1246a308752026df7b81bfde4154c0",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170106"
+      "version" : "0.000.003_20170108"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -2365,9 +2365,9 @@
    },
    "Redis" : {
       "name" : "Redis",
-      "sha" : "b5ffca19b76242ff484c27ef07c094731727de92",
+      "sha" : "94c821bab3fe344ea03c1627bf88f43b2f65da62",
       "source" : "git://github.com/Cofyc/perl6-redis.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170108"
    },
    "Rototo" : {
       "name" : "Rototo",
@@ -2509,9 +2509,9 @@
    },
    "Sparrowdo" : {
       "name" : "Sparrowdo",
-      "sha" : "c7d18f5a04943727757711806f6e95830b80aa41",
+      "sha" : "f491edeca43188582e6746a629dce96a3d0fef9c",
       "source" : "https://github.com/melezhik/sparrowdo.git",
-      "version" : "0.000.003_20170106"
+      "version" : "0.000.003_20170108"
    },
    "Sparrowdo::Archive" : {
       "name" : "Sparrowdo::Archive",
@@ -3247,9 +3247,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "dfbca44bc81f99b0fc57f8ef670da5a3a09925c3",
+      "sha" : "77aa498ad2dee987ff530065271ba39e6782f3e8",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170106"
+      "version" : "0.000.003_20170108"
    },
    "panda" : {
       "name" : "panda",
