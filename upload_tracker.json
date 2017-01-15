@@ -355,9 +355,9 @@
    },
    "CSS::Module" : {
       "name" : "CSS::Module",
-      "sha" : "1fcad116066d98c35f052fdc67cd1c22276a8ed8",
+      "sha" : "6d275dc26caac801eaede15aa940ee31c4a88d5d",
       "source" : "git://github.com/p6-css/perl6-CSS-Module.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170115"
    },
    "CSS::Module::CSS3::Selectors" : {
       "name" : "CSS::Module::CSS3::Selectors",
@@ -889,9 +889,9 @@
    },
    "File::Which" : {
       "name" : "File::Which",
-      "sha" : "d1d9dbef35751e2383bec4ef6d3fb9aa2146eacf",
+      "sha" : "c3c172b3c6f764412131083ba270ec3249d9c500",
       "source" : "git://github.com/azawawi/perl6-file-which.git",
-      "version" : "0.000.002_1609162208"
+      "version" : "0.000.003_20170115"
    },
    "File::Zip" : {
       "name" : "File::Zip",
@@ -997,9 +997,9 @@
    },
    "Git::Wrapper" : {
       "name" : "Git::Wrapper",
-      "sha" : "4723d7953d2c9d3b3c90ecc84450399b44876b74",
-      "source" : "git://github.com/perlpilot/p6-Git-Wrapper.git",
-      "version" : "0.000.001"
+      "sha" : "7e6aa806a5d2c0c0e0fe922b6e6bba37d18e354f",
+      "source" : "git://github.com/nicqrocks/p6-Git-Wrapper.git",
+      "version" : "0.000.003_20170115"
    },
    "Graffiks" : {
       "name" : "Graffiks",
@@ -1381,9 +1381,9 @@
    },
    "Inline::Perl5" : {
       "name" : "Inline::Perl5",
-      "sha" : "5781f8cf36227880f2d0078173c15a7ecf195395",
+      "sha" : "81135cfc7d39ce78f6c8fda2ea6ed54b19fa5d68",
       "source" : "git://github.com/niner/Inline-Perl5.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170115"
    },
    "Inline::Python" : {
       "name" : "Inline::Python",
@@ -2173,9 +2173,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "e76f9fb8ac1246a308752026df7b81bfde4154c0",
+      "sha" : "9cd27c2098b3c0c99924a412ceeedfe9b319970c",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170108"
+      "version" : "0.000.003_20170115"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -2765,6 +2765,12 @@
       "source" : "git://github.com/perl6-community-modules/p6-test-builder.git",
       "version" : "0.000.003_20170101"
    },
+   "Test::Fuzz" : {
+      "name" : "Test::Fuzz",
+      "sha" : "0da38dc582e0eafa5d0b174b63eb0e47cf59d080",
+      "source" : "git://github.com/FCO/Test-Fuzz.git",
+      "version" : "0.000.003_20170115"
+   },
    "Test::Harness" : {
       "name" : "Test::Harness",
       "sha" : "03397d437511749dfd8b1989a7dd721c9b45a727",
@@ -3247,9 +3253,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "77aa498ad2dee987ff530065271ba39e6782f3e8",
+      "sha" : "de71ebd927edce5f90f73eebbba14368806c005e",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170108"
+      "version" : "0.000.003_20170115"
    },
    "panda" : {
       "name" : "panda",
