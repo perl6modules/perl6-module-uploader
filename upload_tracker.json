@@ -355,9 +355,9 @@
    },
    "CSS::Module" : {
       "name" : "CSS::Module",
-      "sha" : "6d275dc26caac801eaede15aa940ee31c4a88d5d",
+      "sha" : "9712f6561c17a42009a9d9ee062a053d5c2e1a05",
       "source" : "git://github.com/p6-css/perl6-CSS-Module.git",
-      "version" : "0.000.003_20170115"
+      "version" : "0.000.003_20170119"
    },
    "CSS::Module::CSS3::Selectors" : {
       "name" : "CSS::Module::CSS3::Selectors",
@@ -367,9 +367,9 @@
    },
    "CSS::Specification" : {
       "name" : "CSS::Specification",
-      "sha" : "9d9b6e977d34c8c2c923d05a977d33532128059f",
+      "sha" : "48b79a329ed631b3205c61f4f6491f73aec714c4",
       "source" : "git://github.com/p6-css/perl6-CSS-Specification.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170119"
    },
    "CSS::Writer" : {
       "name" : "CSS::Writer",
@@ -997,9 +997,9 @@
    },
    "Git::Wrapper" : {
       "name" : "Git::Wrapper",
-      "sha" : "7e6aa806a5d2c0c0e0fe922b6e6bba37d18e354f",
+      "sha" : "f83f70e9b98b5d4d925d59995afe23976011dceb",
       "source" : "git://github.com/nicqrocks/p6-Git-Wrapper.git",
-      "version" : "0.000.003_20170115"
+      "version" : "0.000.003_20170119"
    },
    "Graffiks" : {
       "name" : "Graffiks",
@@ -2173,9 +2173,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "cb6af3c95cea0080180cba87cc19cbc352fc9aaf",
+      "sha" : "c0926a64d64e7013e90b4171660c1b548c56a4f8",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170116"
+      "version" : "0.000.003_20170119"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -2989,9 +2989,9 @@
    },
    "Typesafe::XHTML::Writer" : {
       "name" : "Typesafe::XHTML::Writer",
-      "sha" : "77e1f2a3f56c1196c0a79888fdf6dab03419a386",
+      "sha" : "967f85bea1221bb53686217db4f6adfa870487eb",
       "source" : "git://github.com/gfldex/perl6-typesafe-xhtml-writer.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170119"
    },
    "UNIX::Privileges" : {
       "name" : "UNIX::Privileges",
@@ -3253,9 +3253,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "54faec717b91836c46e74d81164d097e83ab60c4",
+      "sha" : "bbae187a35a9ae4401b79b7b9b8a58e305d08a63",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170116"
+      "version" : "0.000.003_20170119"
    },
    "panda" : {
       "name" : "panda",
