@@ -367,9 +367,9 @@
    },
    "CSS::Specification" : {
       "name" : "CSS::Specification",
-      "sha" : "48b79a329ed631b3205c61f4f6491f73aec714c4",
+      "sha" : "1ccc397caa7ccadf58187c6d923d5fa5670ccb3e",
       "source" : "git://github.com/p6-css/perl6-CSS-Specification.git",
-      "version" : "0.000.003_20170119"
+      "version" : "0.000.003_20170120"
    },
    "CSS::Writer" : {
       "name" : "CSS::Writer",
@@ -1837,9 +1837,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "bb5674bbc44a72d7c102945a84cb355e551a4a63",
+      "sha" : "801505b139cdbcd32c4e11aed8d34eb85483f219",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.003_20170104"
+      "version" : "0.000.003_20170120"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -2047,9 +2047,9 @@
    },
    "Operator::defined-alternation" : {
       "name" : "Operator::defined-alternation",
-      "sha" : "90928cf8cd4858d73c3744c483eb1af47b299664",
+      "sha" : "45f0751d8869d86a29b6b6afdca3632a82dc27f9",
       "source" : "git://github.com/gfldex/perl6-operator-defined-alternation.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20170120"
    },
    "Operator::feq" : {
       "name" : "Operator::feq",
@@ -3157,9 +3157,9 @@
    },
    "XHTML::Writer" : {
       "name" : "XHTML::Writer",
-      "sha" : "f127471454d1e518a6cfc5e649cddece725b1391",
+      "sha" : "7a4cebe1da08dfe0b119aca5d6190fe766d64767",
       "source" : "git://github.com/gfldex/perl6-xhtml-writer.git",
-      "version" : "0.000.002_1601302010"
+      "version" : "0.000.003_20170120"
    },
    "XML" : {
       "name" : "XML",
