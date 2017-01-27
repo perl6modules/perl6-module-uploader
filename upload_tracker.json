@@ -523,9 +523,9 @@
    },
    "Crane" : {
       "name" : "Crane",
-      "sha" : "563d30d42157813bcba02571de6ed23e9027ccb0",
+      "sha" : "03a514af2b884b8ff7834926f09cf4c6a4291c6a",
       "source" : "git://github.com/atweiden/crane.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170127"
    },
    "Crust::Handler::SCGI" : {
       "name" : "Crust::Handler::SCGI",
@@ -1063,9 +1063,9 @@
    },
    "HTML::Parser::XML" : {
       "name" : "HTML::Parser::XML",
-      "sha" : "30617a90f69794ae72a112b2433f29476ef7aa32",
+      "sha" : "bc7a57360fc729282edbb050684a9eb22a51a314",
       "source" : "git://github.com/tony-o/perl6-html-parser-xml.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170127"
    },
    "HTML::Restrict" : {
       "name" : "HTML::Restrict",
@@ -1837,9 +1837,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "801505b139cdbcd32c4e11aed8d34eb85483f219",
+      "sha" : "f889cb2b11ff196473e1e93769f7339e354cdf13",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.003_20170120"
+      "version" : "0.000.003_20170127"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -2173,9 +2173,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "c0926a64d64e7013e90b4171660c1b548c56a4f8",
+      "sha" : "5c4ccfa2c6040f5073304d126472b7d40b992836",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170119"
+      "version" : "0.000.003_20170127"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -2257,9 +2257,9 @@
    },
    "Pod::To::BigPage" : {
       "name" : "Pod::To::BigPage",
-      "sha" : "b78e2df69ef59e807fdcb8849b3241eb3b18e2fa",
+      "sha" : "39a648b61fd2fc80dd175e143295687b790e53f1",
       "source" : "git://github.com/gfldex/perl6-pod-to-bigpage.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170127"
    },
    "Pod::To::HTML" : {
       "name" : "Pod::To::HTML",
@@ -2359,9 +2359,9 @@
    },
    "Readline" : {
       "name" : "Readline",
-      "sha" : "427c2193609c1012294bcfc059f863cfa83c5ec9",
+      "sha" : "181fdda785ff50e9812b44b43b58ec4bc715fdc3",
       "source" : "git://github.com/drforr/perl6-readline.git",
-      "version" : "0.000.002_1609192042"
+      "version" : "0.000.003_20170127"
    },
    "Redis" : {
       "name" : "Redis",
@@ -3019,9 +3019,9 @@
    },
    "URL::Find" : {
       "name" : "URL::Find",
-      "sha" : "42f025f4ecd79dfbf9a64b1eb9d1c70bd80b366d",
+      "sha" : "8c573e26b34235decd0d6ed4de534a9ba9a9810b",
       "source" : "git://github.com/samcv/URL-Find.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170127"
    },
    "UUID" : {
       "name" : "UUID",
@@ -3253,9 +3253,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "bbae187a35a9ae4401b79b7b9b8a58e305d08a63",
+      "sha" : "bd5ef73553df9c6460219a94ddc89fc5784b75cf",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170119"
+      "version" : "0.000.003_20170127"
    },
    "panda" : {
       "name" : "panda",

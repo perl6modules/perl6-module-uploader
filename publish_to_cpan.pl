@@ -306,7 +306,7 @@ sub _run_cmd {
     my ( $stdout, $stderr, $exit ) = capture {
         system($cmd );
     };
-    die $stderr if $stderr;
+    die $stderr if $stderr && $stderr !~ /master -> master/;
 
 }
 
