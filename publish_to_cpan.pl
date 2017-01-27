@@ -279,8 +279,6 @@ sub _commit_and_push {
 
     chdir $authors_dir->stringify;
 
-print "CD to: " . $authors_dir->stringify . "\n";
-
     # Push author
     _run_cmd("git push");
 
