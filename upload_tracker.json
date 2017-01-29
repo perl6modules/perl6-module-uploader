@@ -1,9 +1,9 @@
 {
    "007" : {
       "name" : "007",
-      "sha" : "944efc049c5b78b50a074b7669a0129b9e7bff54",
+      "sha" : "22321a87e632e63b94c2fe4236db9b423d67888e",
       "source" : "git://github.com/masak/007.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170129"
    },
    "ABC" : {
       "name" : "ABC",
@@ -1837,9 +1837,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "f889cb2b11ff196473e1e93769f7339e354cdf13",
+      "sha" : "5a2422140ac473f55501ead4b380ecf8daab1731",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.003_20170127"
+      "version" : "0.000.003_20170129"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -2755,9 +2755,9 @@
    },
    "Terminal::WCWidth" : {
       "name" : "Terminal::WCWidth",
-      "sha" : "4e9736ebdb21728c3329ce51ae6e8f4746f2403f",
+      "sha" : "bb88164bd300db70becc163d30ce9750771cf8a1",
       "source" : "git://github.com/bluebear94/Terminal-WCWidth.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.003_20170129"
    },
    "Test::Builder" : {
       "name" : "Test::Builder",
@@ -3253,9 +3253,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "bd5ef73553df9c6460219a94ddc89fc5784b75cf",
+      "sha" : "10b8f1a2fa01e972371f2d0b89757342add2afc2",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170127"
+      "version" : "0.000.003_20170129"
    },
    "panda" : {
       "name" : "panda",
