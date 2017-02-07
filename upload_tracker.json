@@ -1,15 +1,15 @@
 {
    "007" : {
       "name" : "007",
-      "sha" : "22321a87e632e63b94c2fe4236db9b423d67888e",
+      "sha" : "244f5da7c7be9e1a013583c8ddb49575bd3063d1",
       "source" : "git://github.com/masak/007.git",
-      "version" : "0.000.003_20170129"
+      "version" : "0.000.003_20170207"
    },
    "ABC" : {
       "name" : "ABC",
-      "sha" : "4a1f13ea6b0a29c0ed9134d1716cc74f92f287db",
+      "sha" : "459422158399523767427d89cc570cda7d679306",
       "source" : "git://github.com/colomon/ABC.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170207"
    },
    "ANTLR4" : {
       "name" : "ANTLR4",
@@ -265,9 +265,9 @@
    },
    "Bailador" : {
       "name" : "Bailador",
-      "sha" : "08ca9499835ac034c1db344b61fe715a23a91511",
+      "sha" : "6ae4f620a26ac48f209bde94cc6f3430b99ed56a",
       "source" : "git://github.com/ufobat/Bailador.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170207"
    },
    "Bamboo" : {
       "name" : "Bamboo",
@@ -457,9 +457,9 @@
    },
    "Compress::Snappy" : {
       "name" : "Compress::Snappy",
-      "sha" : "de717a2673b925be48cc77ada5d880033db86b41",
+      "sha" : "a098abc498b522dcf6fe158839519f2d9c30d0ba",
       "source" : "git://github.com/avuserow/perl6-compress-snappy.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170207"
    },
    "Compress::Zlib" : {
       "name" : "Compress::Zlib",
@@ -655,9 +655,9 @@
    },
    "DateTime::Format::LikeGo" : {
       "name" : "DateTime::Format::LikeGo",
-      "sha" : "99afff9b7ed4f830f8604bc5839e98cf7835a37a",
+      "sha" : "b34f1c5cecf4860b72e358f40b10cb32f88c233a",
       "source" : "git://github.com/avuserow/perl6-datetime-format-likego.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170207"
    },
    "DateTime::Format::W3CDTF" : {
       "name" : "DateTime::Format::W3CDTF",
@@ -1015,9 +1015,9 @@
    },
    "Grammar::Debugger" : {
       "name" : "Grammar::Debugger",
-      "sha" : "685ecf030190ab252146960bf11c2cca9a656b22",
+      "sha" : "c005ee0a007f6b02ada0f6aabd78aa6a7825d468",
       "source" : "git://github.com/jnthn/grammar-debugger.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170207"
    },
    "Grammar::Highlighter" : {
       "name" : "Grammar::Highlighter",
@@ -2101,9 +2101,9 @@
    },
    "PKafka" : {
       "name" : "PKafka",
-      "sha" : "7a00b1051f7f60109888a2105fcdeea5a8868a9c",
+      "sha" : "af325401b1d6e8f382dd3a160450399109199229",
       "source" : "git://github.com/mempko/PKafka.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170207"
    },
    "POSIX" : {
       "name" : "POSIX",
@@ -2173,9 +2173,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "5c4ccfa2c6040f5073304d126472b7d40b992836",
+      "sha" : "8c1ceaafa26ff2f7c7d61b598ce8683978463082",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170127"
+      "version" : "0.000.003_20170207"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -2359,9 +2359,9 @@
    },
    "Readline" : {
       "name" : "Readline",
-      "sha" : "181fdda785ff50e9812b44b43b58ec4bc715fdc3",
+      "sha" : "d08f84c7ff66181135cf3659019eb7121ca81a21",
       "source" : "git://github.com/drforr/perl6-readline.git",
-      "version" : "0.000.003_20170127"
+      "version" : "0.000.003_20170207"
    },
    "Redis" : {
       "name" : "Redis",
@@ -3253,9 +3253,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "10b8f1a2fa01e972371f2d0b89757342add2afc2",
+      "sha" : "db18ecae1cbd002e93c135cbeaf0cab462e4bbd2",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170129"
+      "version" : "0.000.003_20170207"
    },
    "panda" : {
       "name" : "panda",
