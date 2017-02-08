@@ -1,0 +1,154 @@
+#!/usr/bin/env perl
+
+# from https://github.com/karenetheridge/misc/blob/master/install/generic/bin/pause-cleanup
+
+use 5.010;
+use strict;
+use warnings;
+
+use Carp;
+use CPAN::DistnameInfo;
+use File::Spec;
+use WWW::Mechanize;
+
+# keep the last N stable dists
+my $keep = shift || 2;
+
+my $home = $ENV{HOME} || '.';
+my $rc   = File::Spec->catfile($home, '.pause');
+
+my $USAGE=
+"usage: $0 <keep>
+or: $0 <keep> USER PASS
+
+<keep> is the number of versions to keep
+       defaults to 2
+       optional if USER and PASS are not passed on the command line
+
+$home/.pause format: 
+user <username>
+password <password>
+";
+
+# Process .pause
+open my $pauserc, '<', $rc or die "can't open $rc for reading: $!";
+
+my %arg;
+
+while (<$pauserc>) {
+  chomp;
+  next unless $_ and $_ !~ /^\s*#/;
+
+  my ($k, $v) = /^\s*(\w+)\s+(.+)$/;
+  croak "multiple enties for $k" if $arg{$k};
+  $arg{$k} = $v;
+}
+
+if (@ARGV) {
+  die $USAGE unless @ARGV == 2;
+  @arg{ qw(user password) } = @ARGV;
+}
+
+my $username = $arg{user};
+
+die "couldn't get username" unless length $username;
+die "no password found"     unless $arg{password};
+
+my $mech = WWW::Mechanize->new;
+$mech->credentials($username, $arg{password});
+
+my $res = $mech->get(
+  q{https://pause.perl.org/pause/authenquery?ACTION=delete_files}
+);
+
+my @files = grep { defined }
+            map  { $_->possible_values }
+            grep { $_->type eq 'checkbox' }
+            $mech->form_number(1)->inputs;
+
+my %found;
+
+FILE: for my $file (@files) {
+  next FILE if $file eq 'CHECKSUMS';
+
+  my $path = sprintf "authors/id/%s/%s/%s/%s",
+    substr($username, 0, 1),
+    substr($username, 0, 2),
+    $username,
+    $file;
+
+  my $dni;
+
+  if ($file =~ m{\.(readme|meta)\z}) {
+    (my $fake = $path) =~ s{\.$1\z}{.tar.gz};
+
+    $dni = CPAN::DistnameInfo->new($fake);
+  } else {
+    $dni = CPAN::DistnameInfo->new($path);
+
+    unless (defined $dni->extension) {
+      warn "ignoring unknown path type: $path";
+      next FILE;
+    }
+  }
+
+  # lol that'll be the day
+  next if $dni->dist eq 'perl';
+
+  my $by_name = $found{ $dni->dist } ||= {};
+  my $dist = $by_name->{ $dni->version } ||= { values => [] };
+  push @{ $dist->{values} }, $file;
+}
+
+use YAML::XS;
+
+$mech->form_number(1);
+
+my %ticked;
+
+for my $key (sort keys %found) {
+  my $dist = $found{ $key };
+  next unless keys %$dist > $keep;
+
+  # this is a dumb sort, but ought to work out as long as I don't change
+  # version number formats midway in a way that disrupts sorting (because I
+  # know that breaks distro packagers too, I don't do that!)
+  my @versions = sort { $b cmp $a } keys %$dist;
+
+  # we keep the last $keep *stable* releases - work through all releases in
+  # reverse order until we've found that many
+  my $found_stable = 0;
+  my $index;
+  for ($index = 0; $index < @versions; ++$index)
+  {
+      ++$found_stable if $versions[$index] !~ /_/
+          and $versions[$index] !~ qr/-TRIAL$/;
+      last if $found_stable >= $keep;
+  }
+
+  for my $version (map { $versions[$_] } $index+1 .. $#versions) {
+
+    for my $file (@{ $dist->{ $version }{values} }) {
+      print "scheduling $file for deletion\n";
+      $ticked{ $file } ++;
+    }
+  }
+}
+
+print "ticked ", scalar keys %ticked, " ticky boxes\n";
+
+for my $input (
+  $mech->find_all_inputs(name => 'pause99_delete_files_FILE')
+) {
+  for my $val ($input->possible_values) {
+    next if !defined $val || !$ticked{$val};
+    $input->value($val);
+    last;
+  }
+}
+
+$mech->click('SUBMIT_pause99_delete_files_delete');
+# print $mech->content;
+
+
+print "Now go to https://pause.perl.org/pause/authenquery?ACTION=delete_files and confirm that all is well.\n";

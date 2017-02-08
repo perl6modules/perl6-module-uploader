@@ -7,3 +7,6 @@ requires 'Capture::Tiny', '0';
 requires 'DateTime::Tiny', '0';
 requires 'Gzip::Faster', '0';
 requires 'DDP', '0';
+requires 'CPAN::DistnameInfo','0';
+requires 'File::Spec','0';
+requires 'WWW::Mechanize', '0';
