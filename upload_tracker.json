@@ -3253,9 +3253,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "db18ecae1cbd002e93c135cbeaf0cab462e4bbd2",
+      "sha" : "290223265ecf2d3f4f5030bfb91deadcec99d834",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170207"
+      "version" : "0.000.003_20170208"
    },
    "panda" : {
       "name" : "panda",
