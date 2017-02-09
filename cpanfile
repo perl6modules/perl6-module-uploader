@@ -1,3 +1,4 @@
+requires 'YAML::XS', '0';
 requires 'HTTP::Tiny', '0';
 requires 'CPAN::Uploader', '0';
 requires 'JSON::MaybeXS', '0';

@@ -1111,15 +1111,15 @@
    },
    "HTTP::Server" : {
       "name" : "HTTP::Server",
-      "sha" : "fa6c2918dcdd9b5041faf0611a811a2c47775c6f",
-      "source" : "git://github.com/tony-o/perl6-http-server.git",
-      "version" : "0.000.003_20170101"
+      "sha" : "17c40eac1e8f3db0f7fa7fca3843c7826aa5b915",
+      "source" : "git://github.com/perl6/perl6-http-server.git",
+      "version" : "0.000.003_20170209"
    },
    "HTTP::Server::Async" : {
       "name" : "HTTP::Server::Async",
-      "sha" : "284e40cac796fa2668a3a0d39d099acf49145b6c",
-      "source" : "git://github.com/tony-o/perl6-http-server-async.git",
-      "version" : "0.000.003_20170108"
+      "sha" : "9e12a568681a10a84280e4335a62f9d5d23c09be",
+      "source" : "git://github.com/perl6/perl6-http-server-async.git",
+      "version" : "0.000.003_20170209"
    },
    "HTTP::Server::Async::Plugins::Router::Simple" : {
       "name" : "HTTP::Server::Async::Plugins::Router::Simple",
