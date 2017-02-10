@@ -121,8 +121,7 @@ for my $key (sort keys %found) {
   my $index;
   for ($index = 0; $index < @versions; ++$index)
   {
-      ++$found_stable if $versions[$index] !~ /_/
-          and $versions[$index] !~ qr/-TRIAL$/;
+      ++$found_stable if $versions[$index] !~ qr/-TRIAL$/;
       last if $found_stable >= $keep;
   }
 

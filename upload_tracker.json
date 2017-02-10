@@ -235,9 +235,9 @@
    },
    "Auth::PAM::Simple" : {
       "name" : "Auth::PAM::Simple",
-      "sha" : "5816528e48534ee097b1edd41adc74cddd6e17e2",
+      "sha" : "4901f79a077d1573c6d89dac3451ae79ee138727",
       "source" : "git://github.com/retupmoca/P6-Auth-PAM-Simple.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Auth::SAML2" : {
       "name" : "Auth::SAML2",
@@ -463,15 +463,15 @@
    },
    "Compress::Zlib" : {
       "name" : "Compress::Zlib",
-      "sha" : "dc75c9656d80eac7bf3e97116d4442e2b14d8fc0",
+      "sha" : "07ea7c9c2243674a140f57dac41cc6db52d6e3a1",
       "source" : "git://github.com/retupmoca/P6-Compress-Zlib.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.003_20170210"
    },
    "Compress::Zlib::Raw" : {
       "name" : "Compress::Zlib::Raw",
-      "sha" : "cf29d8c6a9d1fd8cb51c5d6f9bc52f2c612e5ecf",
+      "sha" : "164231840b5f69b5fb5f19024f69303ebae7a5b4",
       "source" : "git://github.com/retupmoca/P6-Compress-Zlib-Raw.git",
-      "version" : "0.000.002_1609162203"
+      "version" : "0.000.003_20170210"
    },
    "Concurrent::Iterator" : {
       "name" : "Concurrent::Iterator",
@@ -529,9 +529,9 @@
    },
    "Crust::Handler::SCGI" : {
       "name" : "Crust::Handler::SCGI",
-      "sha" : "4fd3374f679768cacb1331ea70dcd5fcdb878d93",
+      "sha" : "e5358b8e1d54ff4d75ac401a94e99de639dbfc1b",
       "source" : "git://github.com/retupmoca/p6-Crust-Handler-SCGI.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Crust::Middleware::Session::Store::DBIish" : {
       "name" : "Crust::Middleware::Session::Store::DBIish",
@@ -541,9 +541,9 @@
    },
    "Crust::Middleware::Syslog" : {
       "name" : "Crust::Middleware::Syslog",
-      "sha" : "c2b3b9a57b88d757a3891da8393dbd9c29269b39",
+      "sha" : "598e563ab87ceda46f05ae34ce286c9cbf73120f",
       "source" : "git://github.com/retupmoca/P6-Crust-Middleware-Syslog.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Crypt::Argon2" : {
       "name" : "Crypt::Argon2",
@@ -625,9 +625,9 @@
    },
    "Data::ICal" : {
       "name" : "Data::ICal",
-      "sha" : "0d8251df03fecabf06dc7d1e0372f2f4bd377bd7",
+      "sha" : "6a2feb31a42851e8104a3e42ced6cf7a70664e1d",
       "source" : "git://github.com/retupmoca/P6-iCal.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Data::Pretty" : {
       "name" : "Data::Pretty",
@@ -709,9 +709,9 @@
    },
    "Digest::HMAC" : {
       "name" : "Digest::HMAC",
-      "sha" : "60ce11b32a84b3f17f31c08bc7f1ee8bbf84954c",
+      "sha" : "de353de80fb692d3e4cd1eadc270a1fd96030e1d",
       "source" : "git://github.com/retupmoca/P6-Digest-HMAC.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Digest::MD5" : {
       "name" : "Digest::MD5",
@@ -763,9 +763,9 @@
    },
    "Email::MIME" : {
       "name" : "Email::MIME",
-      "sha" : "4aca97640fd5bd3da625b74ecb9930a74fd852c6",
+      "sha" : "893ea94b611ca28f7cc1ca2e79079d1c85ab0dea",
       "source" : "git://github.com/retupmoca/p6-Email-MIME.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Email::Notmuch" : {
       "name" : "Email::Notmuch",
@@ -775,9 +775,9 @@
    },
    "Email::Simple" : {
       "name" : "Email::Simple",
-      "sha" : "7ec4267999b4d53a6b8646757006df1d9d1a828a",
+      "sha" : "2662832c075e710019b80eced9e994df3a4c4d97",
       "source" : "git://github.com/retupmoca/p6-Email-Simple.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Email::Valid" : {
       "name" : "Email::Valid",
@@ -913,9 +913,9 @@
    },
    "Find::Bundled" : {
       "name" : "Find::Bundled",
-      "sha" : "10677e4a9981ae33e9bb0f7409c399a60f1dc0c9",
+      "sha" : "6ae62c478e4ab19f1b38d96110850c1bd37ffc63",
       "source" : "git://github.com/retupmoca/P6-Find-Bundled.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Flower" : {
       "name" : "Flower",
@@ -997,9 +997,9 @@
    },
    "Git::Wrapper" : {
       "name" : "Git::Wrapper",
-      "sha" : "f83f70e9b98b5d4d925d59995afe23976011dceb",
+      "sha" : "8bb00556da8e011094f43784dd9d1cdc88a81bad",
       "source" : "git://github.com/nicqrocks/p6-Git-Wrapper.git",
-      "version" : "0.000.003_20170119"
+      "version" : "0.000.003_20170210"
    },
    "Graffiks" : {
       "name" : "Graffiks",
@@ -1099,9 +1099,9 @@
    },
    "HTTP::ParseParams" : {
       "name" : "HTTP::ParseParams",
-      "sha" : "2a4a14083f9f183ba0ee27e5e0f572d531fccca9",
+      "sha" : "43fa66d01c51075b15f39a7f38be2758bb77877a",
       "source" : "git://github.com/retupmoca/P6-HTTP-ParseParams.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "HTTP::Router::Blind" : {
       "name" : "HTTP::Router::Blind",
@@ -1117,9 +1117,9 @@
    },
    "HTTP::Server::Async" : {
       "name" : "HTTP::Server::Async",
-      "sha" : "9e12a568681a10a84280e4335a62f9d5d23c09be",
+      "sha" : "582038a7cad93fb0bdb40a90574c8e2e3ae12d2a",
       "source" : "git://github.com/perl6/perl6-http-server-async.git",
-      "version" : "0.000.003_20170209"
+      "version" : "0.000.003_20170210"
    },
    "HTTP::Server::Async::Plugins::Router::Simple" : {
       "name" : "HTTP::Server::Async::Plugins::Router::Simple",
@@ -1537,9 +1537,9 @@
    },
    "LibraryMake" : {
       "name" : "LibraryMake",
-      "sha" : "8ab4b23a981ebfd63a74c11d1398750a472195aa",
+      "sha" : "cb5bd3417f5fc812a9957d35a7df2b2bcf9a621c",
       "source" : "git://github.com/retupmoca/P6-LibraryMake.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Linenoise" : {
       "name" : "Linenoise",
@@ -1663,9 +1663,9 @@
    },
    "MIME::QuotedPrint" : {
       "name" : "MIME::QuotedPrint",
-      "sha" : "d51567544ed13c5a316ea48fdec87573e5d2f21f",
+      "sha" : "7889c1b9675963e4bce75ba6ea16da7bf6d4ac6b",
       "source" : "git://github.com/retupmoca/p6-MIME-QuotedPrint.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "MIME::Types" : {
       "name" : "MIME::Types",
@@ -1903,9 +1903,9 @@
    },
    "Net::DNS" : {
       "name" : "Net::DNS",
-      "sha" : "1746483c70f81c24d42c9978610acf8940dbc3ee",
+      "sha" : "00937f796c0094a9abb3b92e467aab91ca0b4cad",
       "source" : "git://github.com/retupmoca/P6-Net-DNS.git",
-      "version" : "0.000.002_1609162203"
+      "version" : "0.000.003_20170210"
    },
    "Net::FTP" : {
       "name" : "Net::FTP",
@@ -1915,9 +1915,9 @@
    },
    "Net::IMAP" : {
       "name" : "Net::IMAP",
-      "sha" : "2da35614a1e3b3f628d60b1ded094e3125f45177",
+      "sha" : "607a13c17affe9246c8ec40c4521538bac20541a",
       "source" : "git://github.com/retupmoca/P6-Net-IMAP.git",
-      "version" : "0.000.002_1609162203"
+      "version" : "0.000.003_20170210"
    },
    "Net::IP::Parse" : {
       "name" : "Net::IP::Parse",
@@ -1939,9 +1939,9 @@
    },
    "Net::POP3" : {
       "name" : "Net::POP3",
-      "sha" : "0cd55ce6d509cdea3ebf83a91229cdf09579bb64",
+      "sha" : "b7bf9ae01f9a496cd4d3c70293c3ea418e668fcb",
       "source" : "git://github.com/retupmoca/P6-Net-POP3.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Net::Packet" : {
       "name" : "Net::Packet",
@@ -1957,15 +1957,15 @@
    },
    "Net::SMTP" : {
       "name" : "Net::SMTP",
-      "sha" : "89ac1f6b8facd5d8f7aebdcaf0544cac2ad87ffd",
+      "sha" : "37405ea72dcb39744e92789823408f7e8055f260",
       "source" : "git://github.com/retupmoca/P6-Net-SMTP.git",
-      "version" : "0.000.002_1609162203"
+      "version" : "0.000.003_20170210"
    },
    "Net::SOCKS" : {
       "name" : "Net::SOCKS",
-      "sha" : "626578c51d12ca40b5ae688d9187a438fcc9afed",
+      "sha" : "d3d9aa5d2bd8876705f60c40f3d4505d8aa539a0",
       "source" : "git://github.com/retupmoca/P6-Net-SOCKS.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Net::XMPP" : {
       "name" : "Net::XMPP",
@@ -2389,9 +2389,9 @@
    },
    "SOAP::Client" : {
       "name" : "SOAP::Client",
-      "sha" : "2a3b2cc14cba117293566b0504bec8907684c60e",
+      "sha" : "10738bcdc24890ba6ee21165d90a0794c0e51f7f",
       "source" : "git://github.com/retupmoca/P6-SOAP.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "SP6" : {
       "name" : "SP6",
@@ -2611,9 +2611,9 @@
    },
    "Syndication" : {
       "name" : "Syndication",
-      "sha" : "ccbd058505a978f890e8ea9e130453dde1b9ca87",
+      "sha" : "a5bec2bc112a1cd8d3d87f49bcd0ed4fb9a4b305",
       "source" : "git://github.com/retupmoca/p6-syndication.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Sys::Lastlog" : {
       "name" : "Sys::Lastlog",
@@ -2881,9 +2881,9 @@
    },
    "Text::Markdown" : {
       "name" : "Text::Markdown",
-      "sha" : "67e3d9c1d8ef9a742d75be46d03f6b212a4bf119",
+      "sha" : "fc9e759144c554ee55a0eb2bfa082359ac5eb916",
       "source" : "git://github.com/retupmoca/p6-markdown.git",
-      "version" : "0.000.002_1609162205"
+      "version" : "0.000.003_20170210"
    },
    "Text::Markdown::Discount" : {
       "name" : "Text::Markdown::Discount",
@@ -3001,9 +3001,9 @@
    },
    "URI" : {
       "name" : "URI",
-      "sha" : "7d3f8c185b86a99e1cbb8c4365dd370f23f4b4fd",
+      "sha" : "ba321e328d7bc5ee20656507cd21271ba037865d",
       "source" : "git://github.com/perl6-community-modules/uri.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170210"
    },
    "URI::Encode" : {
       "name" : "URI::Encode",
@@ -3025,9 +3025,9 @@
    },
    "UUID" : {
       "name" : "UUID",
-      "sha" : "818f5bbdb245bc8be79773269bf7bce7d47cb528",
+      "sha" : "76f052d85aa72ce8fa9a5869aeb6f6666bfc7bae",
       "source" : "git://github.com/retupmoca/P6-UUID.git",
-      "version" : "0.000.002_1609162203"
+      "version" : "0.000.003_20170210"
    },
    "Uni63" : {
       "name" : "Uni63",
@@ -3079,9 +3079,9 @@
    },
    "Web::RF" : {
       "name" : "Web::RF",
-      "sha" : "892ccf57aca31be78e95b350ed3bfc59534615e0",
+      "sha" : "bdbec1131a6a0e736201137797c69a1f0a75ec8f",
       "source" : "git://github.com/retupmoca/P6-Web-RF.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "Web::Scraper" : {
       "name" : "Web::Scraper",
@@ -3169,9 +3169,9 @@
    },
    "XML::Canonical" : {
       "name" : "XML::Canonical",
-      "sha" : "221bd1a061ade757e547680b3193a62e834c8278",
+      "sha" : "7fcea241c8b24164abab6062fd8ae3f7c1a37f87",
       "source" : "git://github.com/retupmoca/P6-XML-Canonical.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "XML::Parser::Tiny" : {
       "name" : "XML::Parser::Tiny",
@@ -3187,9 +3187,9 @@
    },
    "XML::Signature" : {
       "name" : "XML::Signature",
-      "sha" : "ff0dbb02a1fb032964891e6b9a7658f5f697af7f",
+      "sha" : "00c1fcd7d1cac5862b976e79dfd58ad14ab295ca",
       "source" : "git://github.com/retupmoca/P6-XML-Signature.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170210"
    },
    "XML::Writer" : {
       "name" : "XML::Writer",
@@ -3253,9 +3253,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "290223265ecf2d3f4f5030bfb91deadcec99d834",
+      "sha" : "54fa9b43249549dab6922a8cf3e35376a0441ba8",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170208"
+      "version" : "0.000.003_20170210"
    },
    "panda" : {
       "name" : "panda",
