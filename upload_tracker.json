@@ -7,9 +7,9 @@
    },
    "ABC" : {
       "name" : "ABC",
-      "sha" : "459422158399523767427d89cc570cda7d679306",
+      "sha" : "773a1334553790cff29e53ff801a7d2d9a4098c3",
       "source" : "git://github.com/colomon/ABC.git",
-      "version" : "0.000.003_20170207"
+      "version" : "0.000.003_20170211"
    },
    "ANTLR4" : {
       "name" : "ANTLR4",
@@ -3253,9 +3253,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "54fa9b43249549dab6922a8cf3e35376a0441ba8",
+      "sha" : "cfb60e385ae35354111270681a8857556386d507",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170210"
+      "version" : "0.000.003_20170211"
    },
    "panda" : {
       "name" : "panda",
