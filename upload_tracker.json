@@ -7,9 +7,9 @@
    },
    "ABC" : {
       "name" : "ABC",
-      "sha" : "773a1334553790cff29e53ff801a7d2d9a4098c3",
+      "sha" : "a7850a4ce8fef1eb7b5a13084f510b04b1ea4d9e",
       "source" : "git://github.com/colomon/ABC.git",
-      "version" : "0.000.003_20170211"
+      "version" : "0.000.003_20170212"
    },
    "ANTLR4" : {
       "name" : "ANTLR4",
@@ -1465,9 +1465,9 @@
    },
    "JSON::Unmarshal" : {
       "name" : "JSON::Unmarshal",
-      "sha" : "9279de98ba3b528bde2e4056b693cf6d2dbec14b",
+      "sha" : "2e09d90ab674ee2a1fea91b9cbae66f29a21b047",
       "source" : "git://github.com/tadzik/JSON-Unmarshal.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170212"
    },
    "JSON::WebToken" : {
       "name" : "JSON::WebToken",
@@ -3197,6 +3197,12 @@
       "source" : "git://github.com/masak/xml-writer.git",
       "version" : "0.000.003_20161102"
    },
+   "XML::XPath" : {
+      "name" : "XML::XPath",
+      "sha" : "4f3a1c258d76ab84a4a193ae0786f0ec2d82382d",
+      "source" : "git://github.com/ufobat/p6-XML-XPath.git",
+      "version" : "0.000.003_20170212"
+   },
    "XXX" : {
       "name" : "XXX",
       "sha" : "e2d0bd61fcc230b0c0e5095b027cea89bc649fc8",
@@ -3253,9 +3259,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "cfb60e385ae35354111270681a8857556386d507",
+      "sha" : "e425ca4d1954959bebc3844e56148f5d195260d9",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170211"
+      "version" : "0.000.003_20170212"
    },
    "panda" : {
       "name" : "panda",
