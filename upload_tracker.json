@@ -265,9 +265,9 @@
    },
    "Bailador" : {
       "name" : "Bailador",
-      "sha" : "6ae4f620a26ac48f209bde94cc6f3430b99ed56a",
+      "sha" : "86320db3859eb6ac64a2211cbc57346566d08618",
       "source" : "git://github.com/ufobat/Bailador.git",
-      "version" : "0.000.003_20170207"
+      "version" : "0.000.003_20170213"
    },
    "Bamboo" : {
       "name" : "Bamboo",
@@ -2173,9 +2173,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "8c1ceaafa26ff2f7c7d61b598ce8683978463082",
+      "sha" : "bf561b58d349945ce5f2066ae0a68d3996e75580",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170207"
+      "version" : "0.000.003_20170213"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -3259,9 +3259,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "e425ca4d1954959bebc3844e56148f5d195260d9",
+      "sha" : "c0b61c92479ad1b80939d28dda9752f39ce82c45",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170212"
+      "version" : "0.000.003_20170213"
    },
    "panda" : {
       "name" : "panda",
