@@ -2173,9 +2173,9 @@
    },
    "Perl6-Parser" : {
       "name" : "Perl6-Parser",
-      "sha" : "c49b88cd59611121fc8cce4733ba95131306711b",
+      "sha" : "110734b506e14bfebf71f5865507c5e4a1d22bed",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170214"
+      "version" : "0.000.003_20170215"
    },
    "Perl6::Literate" : {
       "name" : "Perl6::Literate",
@@ -3259,9 +3259,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "5a14552dd73d45ffa04900507e43c979b662cce8",
+      "sha" : "6c1c54ee99d0ee25f695d3eebb9429d56e530c42",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170214"
+      "version" : "0.000.003_20170215"
    },
    "panda" : {
       "name" : "panda",
