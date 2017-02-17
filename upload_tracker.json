@@ -2183,6 +2183,12 @@
       "source" : "git://github.com/masak/perl6-literate.git",
       "version" : "0.000.001"
    },
+   "Perl6::Parser" : {
+      "name" : "Perl6::Parser",
+      "sha" : "682b4e79a17b8133649d5cde49828436ccad0583",
+      "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
+      "version" : "0.000.003_20170217"
+   },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
       "sha" : "7b366becfadaad907eed9d944856e744bc82a38f",
@@ -3259,9 +3265,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "a7f74fe9f914687a352a899e3b2fa1f95549810a",
+      "sha" : "99aa1b7065fcecdb37a891ed05964d28e9a199c9",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170216"
+      "version" : "0.000.003_20170217"
    },
    "panda" : {
       "name" : "panda",
