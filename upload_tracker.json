@@ -487,9 +487,9 @@
    },
    "Config::DataLang::Refine" : {
       "name" : "Config::DataLang::Refine",
-      "sha" : "f07af861a7db5ea85d4d4f9cf6450c721e823347",
+      "sha" : "a566757aa5b9903b0504013af053f4ded079c9dc",
       "source" : "git://github.com/MARTIMM/config-datalang-refine.git",
-      "version" : "0.000.003_20170219"
+      "version" : "0.000.003_20170220"
    },
    "Config::INI" : {
       "name" : "Config::INI",
@@ -2041,9 +2041,9 @@
    },
    "OpenSSL" : {
       "name" : "OpenSSL",
-      "sha" : "6d931bfdc1f336fafabd2a5423369c439b2b50b2",
+      "sha" : "c5599e4b13e1fc4a041bb848b55bf7533bc088eb",
       "source" : "git://github.com/sergot/openssl.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170220"
    },
    "Operator::defined-alternation" : {
       "name" : "Operator::defined-alternation",
@@ -2185,9 +2185,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "0c28bd00ff6564f83b0be8bef8eb6da679af2c1a",
+      "sha" : "0ded44ee3a7484b45b51becdfe9445d3da72c4db",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170219"
+      "version" : "0.000.003_20170220"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
@@ -2503,9 +2503,9 @@
    },
    "Slang::Tuxic" : {
       "name" : "Slang::Tuxic",
-      "sha" : "bd166e38ac28bec9cd7c467dcf6430ecf3cc715f",
+      "sha" : "0af6050155c2f1ec7695ef083eef33e9b1985709",
       "source" : "git://github.com/FROGGS/p6-Slang-Tuxic.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170220"
    },
    "Software::License" : {
       "name" : "Software::License",
@@ -3265,9 +3265,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "fdf275abd21738cb0ec11cd16515edeb176a53bf",
+      "sha" : "e3ce0985fed27c6c024cd4e0b2707d0d9a139540",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170219"
+      "version" : "0.000.003_20170220"
    },
    "panda" : {
       "name" : "panda",
