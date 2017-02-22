@@ -1171,9 +1171,9 @@
    },
    "HTTP::UserAgent" : {
       "name" : "HTTP::UserAgent",
-      "sha" : "f052995417ce7c7f4718d6957021b94b5dca2d2b",
+      "sha" : "163b3d5ce3e6f39cdaf9d5483a10db8e5013d58e",
       "source" : "git://github.com/sergot/http-useragent.git",
-      "version" : "0.000.003_20170219"
+      "version" : "0.000.003_20170222"
    },
    "Haikunator" : {
       "name" : "Haikunator",
@@ -1426,6 +1426,12 @@
       "sha" : "cf66d75c2e3852f9d3b0fc68fd44d974876a952a",
       "source" : "git://github.com/jonathanstowe/JSON-Infer.git",
       "version" : "0.000.002_1601301941"
+   },
+   "JSON::JWT" : {
+      "name" : "JSON::JWT",
+      "sha" : "0d251313fdf1a3c6c410e6b970a6d204acb59511",
+      "source" : "git://github.com/retupmoca/P6-JSON-JWT.git",
+      "version" : "0.000.003_20170222"
    },
    "JSON::Marshal" : {
       "name" : "JSON::Marshal",
@@ -2185,9 +2191,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "0ded44ee3a7484b45b51becdfe9445d3da72c4db",
+      "sha" : "518357708759154cfaa5f21b3fa6af63a86b8a27",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170220"
+      "version" : "0.000.003_20170222"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
@@ -3265,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "1e1985c2964f6f82f0b9af697425d6a39879037e",
+      "sha" : "97f2eca0c1f6b34a0d91fdaec7413c53424c78cb",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170221"
+      "version" : "0.000.003_20170222"
    },
    "panda" : {
       "name" : "panda",
