@@ -163,9 +163,9 @@
    },
    "App::jsonv" : {
       "name" : "App::jsonv",
-      "sha" : "b82fbcf51fa84d02fb3cd7355a85e474832da358",
+      "sha" : "40c3e255e82770f07d39ce0bfe7668a3692cb66d",
       "source" : "git://github.com/Miniconf/App-jsonv.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170223"
    },
    "Archive::SimpleZip" : {
       "name" : "Archive::SimpleZip",
@@ -1831,9 +1831,9 @@
    },
    "Module::Minter" : {
       "name" : "Module::Minter",
-      "sha" : "615c6c99d493fb5e429cb5cbd31cebe158bec68f",
+      "sha" : "e16464945b73deeca0690a9e882f77133dd56016",
       "source" : "git://github.com/dnmfarrell/Module-Minter.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.003_20170223"
    },
    "Module::Skeleton" : {
       "name" : "Module::Skeleton",
@@ -1843,9 +1843,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "5a2422140ac473f55501ead4b380ecf8daab1731",
+      "sha" : "957f364a657f6669848d4468c4170b1fe199a693",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.003_20170129"
+      "version" : "0.000.003_20170223"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -2191,9 +2191,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "518357708759154cfaa5f21b3fa6af63a86b8a27",
+      "sha" : "76e0f6c303501bef2ead0fc34cf31c2ebab0757a",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170222"
+      "version" : "0.000.003_20170223"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
@@ -2245,15 +2245,15 @@
    },
    "Pod::Perl5" : {
       "name" : "Pod::Perl5",
-      "sha" : "f895f5552d984e9d46afd2a24c9878a39fd3218c",
+      "sha" : "0f404ce4f7fe7b7ecafb63e6de132c6ffc02b717",
       "source" : "git://github.com/dnmfarrell/Pod-Perl5.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.003_20170223"
    },
    "Pod::PerlTricks" : {
       "name" : "Pod::PerlTricks",
-      "sha" : "0b520c2fa6f0945b89026e8f9233acc25cd89bb3",
+      "sha" : "b9318e7c3f413ed0b22a2ab949bc0bc229909898",
       "source" : "git://github.com/dnmfarrell/Pod-PerlTricks.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170223"
    },
    "Pod::Render" : {
       "name" : "Pod::Render",
@@ -2515,9 +2515,9 @@
    },
    "Software::License" : {
       "name" : "Software::License",
-      "sha" : "f25d7ca2fc897aa79e4eb9a466d061472a0be0a9",
+      "sha" : "675e7732d4c441e1f02818703a41d5021cf6e6d8",
       "source" : "git://github.com/sillymoose/Software-License.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.003_20170223"
    },
    "Sparrowdo" : {
       "name" : "Sparrowdo",
@@ -2641,9 +2641,9 @@
    },
    "System::Passwd" : {
       "name" : "System::Passwd",
-      "sha" : "ee047c5a73eadbd926fc166506e7d13a2740db49",
+      "sha" : "86a7f6bcef34a080821fb859cb21425eb0059999",
       "source" : "git://github.com/dnmfarrell/System-Passwd.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170223"
    },
    "TAP::Harness" : {
       "name" : "TAP::Harness",
@@ -3019,9 +3019,9 @@
    },
    "URI::Encode" : {
       "name" : "URI::Encode",
-      "sha" : "5aa6a2245c25a3d76157873426ef4b58b966180d",
+      "sha" : "937b890a525a802b62822832ee5c10810769673e",
       "source" : "git://github.com/dnmfarrell/URI-Encode.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170223"
    },
    "URI::Template" : {
       "name" : "URI::Template",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "97f2eca0c1f6b34a0d91fdaec7413c53424c78cb",
+      "sha" : "00d98337d52bd3597cfe6b33bd2b5ee7aefe9243",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170222"
+      "version" : "0.000.003_20170223"
    },
    "panda" : {
       "name" : "panda",
