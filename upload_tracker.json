@@ -259,9 +259,9 @@
    },
    "BSON" : {
       "name" : "BSON",
-      "sha" : "014e106b16165be3a65a1243d356f43645dd7312",
+      "sha" : "4ffb4b118211c2974862e27209603f85cf09bb56",
       "source" : "git://github.com/MARTIMM/BSON.git",
-      "version" : "0.000.003_20170104"
+      "version" : "0.000.003_20170225"
    },
    "Bailador" : {
       "name" : "Bailador",
@@ -1843,9 +1843,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "957f364a657f6669848d4468c4170b1fe199a693",
+      "sha" : "99e0e2e66de040ae224f28a97f013481ab6a9a3a",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.003_20170223"
+      "version" : "0.000.003_20170225"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "94034897862e1fac6e4a2275470fb7aa9f3e154c",
+      "sha" : "6d2afb711352e90a1f38eddfe203fff970ecba91",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170224"
+      "version" : "0.000.003_20170225"
    },
    "panda" : {
       "name" : "panda",
