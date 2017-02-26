@@ -259,9 +259,9 @@
    },
    "BSON" : {
       "name" : "BSON",
-      "sha" : "4ffb4b118211c2974862e27209603f85cf09bb56",
+      "sha" : "e62725c69ade08b897306d00c070b7f6c7458405",
       "source" : "git://github.com/MARTIMM/BSON.git",
-      "version" : "0.000.003_20170225"
+      "version" : "0.000.003_20170226"
    },
    "Bailador" : {
       "name" : "Bailador",
@@ -1015,9 +1015,9 @@
    },
    "Grammar::Debugger" : {
       "name" : "Grammar::Debugger",
-      "sha" : "cfdd791fefe4a60fa23858de26b924505c48d0f0",
+      "sha" : "a2b244c576b7e81e267fb27989780900417bbe90",
       "source" : "git://github.com/jnthn/grammar-debugger.git",
-      "version" : "0.000.003_20170216"
+      "version" : "0.000.003_20170226"
    },
    "Grammar::Highlighter" : {
       "name" : "Grammar::Highlighter",
@@ -2191,9 +2191,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "efe95aef884b74f2f34ea6b5c52895ffe2fe05e8",
+      "sha" : "fe53faf4a87c89ceb492cec659c06e495120e79a",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170224"
+      "version" : "0.000.003_20170226"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "6d2afb711352e90a1f38eddfe203fff970ecba91",
+      "sha" : "07ebaebaf25210a534652b88af3bd957f324d92d",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170225"
+      "version" : "0.000.003_20170226"
    },
    "panda" : {
       "name" : "panda",
