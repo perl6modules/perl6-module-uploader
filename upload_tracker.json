@@ -1915,9 +1915,9 @@
    },
    "Net::FTP" : {
       "name" : "Net::FTP",
-      "sha" : "42c486c7a02e3276e8d9bf50337f0634a75a30cc",
+      "sha" : "43cb287b111f64e85f37604491e0cae3457c10f5",
       "source" : "git://github.com/araraloren/Net-FTP.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20170301"
    },
    "Net::IMAP" : {
       "name" : "Net::IMAP",
@@ -2191,9 +2191,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "890fd1f711f29279728e6458ed0086a2ffed4f57",
+      "sha" : "0c8b6cdb5a5f84638c5c55d3b314166d6a2fd1bf",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170228"
+      "version" : "0.000.003_20170301"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
@@ -3223,9 +3223,9 @@
    },
    "YAML" : {
       "name" : "YAML",
-      "sha" : "69c454f2f0c95cabf2f18df8759a2c8b29d1cdb3",
+      "sha" : "224b49627f55aaba3131934996ddbe620aa644db",
       "source" : "git://github.com/perl6-community-modules/yaml-pm6.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170301"
    },
    "YAMLish" : {
       "name" : "YAMLish",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "3ed1803f11a3bf06de2400db5b7f9159c54dddb8",
+      "sha" : "352cd94f02f3066b1056a8c1e913fe44f41c45ef",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170228"
+      "version" : "0.000.003_20170301"
    },
    "panda" : {
       "name" : "panda",
