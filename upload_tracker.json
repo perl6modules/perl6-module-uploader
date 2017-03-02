@@ -859,9 +859,9 @@
    },
    "File::Ignore" : {
       "name" : "File::Ignore",
-      "sha" : "d9f11efa762042533bb0734799cdb3fbe98b0112",
+      "sha" : "aed6d64a193d4206f11ded96f863b27a3ccebd99",
       "source" : "https://github.com/jnthn/p6-file-ignore.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170302"
    },
    "File::LibMagic" : {
       "name" : "File::LibMagic",
@@ -1039,9 +1039,9 @@
    },
    "Green" : {
       "name" : "Green",
-      "sha" : "c3231048ddbf4d582306c89021b78851ae9b0b32",
+      "sha" : "33ffe6007e60593a7befd9248805d6e3e0a2c58e",
       "source" : "git://github.com/tony-o/perl6-green.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170302"
    },
    "Gumbo" : {
       "name" : "Gumbo",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "352cd94f02f3066b1056a8c1e913fe44f41c45ef",
+      "sha" : "37b65252c010a00568c8bf7f1a586d5ad8f52f9d",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170301"
+      "version" : "0.000.003_20170302"
    },
    "panda" : {
       "name" : "panda",
