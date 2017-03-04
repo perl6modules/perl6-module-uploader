@@ -2953,9 +2953,9 @@
    },
    "Time::Crontab" : {
       "name" : "Time::Crontab",
-      "sha" : "ea230056ce6ebccf2bb6561dc7ac5ed11d08673c",
+      "sha" : "5ae42c4ac591aa316fd77e1738f45b746ed870ae",
       "source" : "https://github.com/ufobat/p6-time-crontab.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20170304"
    },
    "Time::Duration" : {
       "name" : "Time::Duration",
@@ -3211,9 +3211,9 @@
    },
    "XML::XPath" : {
       "name" : "XML::XPath",
-      "sha" : "4f3a1c258d76ab84a4a193ae0786f0ec2d82382d",
+      "sha" : "0a7f133c4269567884d1f4a62e1d24838fc6b227",
       "source" : "git://github.com/ufobat/p6-XML-XPath.git",
-      "version" : "0.000.003_20170212"
+      "version" : "0.000.003_20170304"
    },
    "XXX" : {
       "name" : "XXX",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "45a79315b3f8643e67037565a8cc008b1fb08ca4",
+      "sha" : "5ba57ef4dff4954b1655507ebf08d0f9021f4556",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170303"
+      "version" : "0.000.003_20170304"
    },
    "panda" : {
       "name" : "panda",
