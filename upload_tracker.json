@@ -2191,9 +2191,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "f88e2106c2670285c9710e57afc291b5d14b9dc4",
+      "sha" : "86020bd98eb08f25fa5a66015a7213d3456f527c",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170303"
+      "version" : "0.000.003_20170305"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "5ba57ef4dff4954b1655507ebf08d0f9021f4556",
+      "sha" : "35e69981b2df84e1151ad2f4117bb27df6534ba2",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170304"
+      "version" : "0.000.003_20170305"
    },
    "panda" : {
       "name" : "panda",
