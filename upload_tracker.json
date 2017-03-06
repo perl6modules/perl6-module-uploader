@@ -619,9 +619,9 @@
    },
    "Data::Dump::Tree" : {
       "name" : "Data::Dump::Tree",
-      "sha" : "a7075a82e626e9c1e0d2ffbb80a051b3b1cf8893",
+      "sha" : "e2a5be96779aee0445f6bedc1708970ec770f717",
       "source" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170306"
    },
    "Data::ICal" : {
       "name" : "Data::ICal",
@@ -2191,9 +2191,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "86020bd98eb08f25fa5a66015a7213d3456f527c",
+      "sha" : "be465665facf8ef37ffdfa3dd73b82b73288d33b",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170305"
+      "version" : "0.000.003_20170306"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
@@ -2347,9 +2347,9 @@
    },
    "RPi::Wiring::Pi" : {
       "name" : "RPi::Wiring::Pi",
-      "sha" : "78475661dfb5cbb40a58898bb99c2ee295fe4742",
+      "sha" : "3455d7767f99e60bb1f197aed199419ff550e4ed",
       "source" : "git://github.com/sufrostico/perl6-wiringpi.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170306"
    },
    "Rakudo::Perl6::Format" : {
       "name" : "Rakudo::Perl6::Format",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "35e69981b2df84e1151ad2f4117bb27df6534ba2",
+      "sha" : "4ee2630a90605c49241f5791b6b0ffbc432b7dc0",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170305"
+      "version" : "0.000.003_20170306"
    },
    "panda" : {
       "name" : "panda",
