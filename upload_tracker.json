@@ -1513,9 +1513,9 @@
    },
    "LWP::Simple" : {
       "name" : "LWP::Simple",
-      "sha" : "01b3edfeb4027ecc51d549356449c68620845dbd",
+      "sha" : "9fa4d8abb3b814f62567b652aa88929aa6c6a9da",
       "source" : "git://github.com/perl6/perl6-lwp-simple.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170309"
    },
    "LacunaCookbuk::Client" : {
       "name" : "LacunaCookbuk::Client",
@@ -2191,9 +2191,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "d0392c504d7cce9d51a51f0a5145bcacec9c97c5",
+      "sha" : "45e73efa03a31e60724de295dcdaa96a69ee6e7e",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170308"
+      "version" : "0.000.003_20170309"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
