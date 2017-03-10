@@ -1171,9 +1171,9 @@
    },
    "HTTP::UserAgent" : {
       "name" : "HTTP::UserAgent",
-      "sha" : "163b3d5ce3e6f39cdaf9d5483a10db8e5013d58e",
+      "sha" : "b862208c4f5ee196e13faa9831e8065823e5f78c",
       "source" : "git://github.com/sergot/http-useragent.git",
-      "version" : "0.000.003_20170222"
+      "version" : "0.000.003_20170310"
    },
    "Haikunator" : {
       "name" : "Haikunator",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "c9cce414a1ad021cc31cc284c4b5b04fef715066",
+      "sha" : "8c7795d380fe1c8932d0578b436006947ad3a831",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170308"
+      "version" : "0.000.003_20170310"
    },
    "panda" : {
       "name" : "panda",
