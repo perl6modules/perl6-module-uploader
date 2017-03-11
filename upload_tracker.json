@@ -511,9 +511,9 @@
    },
    "Coro::Simple" : {
       "name" : "Coro::Simple",
-      "sha" : "19b17e93fdcb4c4ae7359d8bf5846f00b16cca64",
+      "sha" : "75ee4f6c207d50e7e44ca4e9ba8e21034ea10d2e",
       "source" : "git://github.com/marcoonroad/Coro-Simple.git",
-      "version" : "0.000.002_1609181644"
+      "version" : "0.000.003_20170311"
    },
    "Coroutines" : {
       "name" : "Coroutines",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "8c7795d380fe1c8932d0578b436006947ad3a831",
+      "sha" : "9c2b7269f606813c82d8a0e20e2d79c515b7e096",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170310"
+      "version" : "0.000.003_20170311"
    },
    "panda" : {
       "name" : "panda",
