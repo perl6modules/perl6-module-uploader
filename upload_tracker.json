@@ -7,9 +7,9 @@
    },
    "ABC" : {
       "name" : "ABC",
-      "sha" : "a7850a4ce8fef1eb7b5a13084f510b04b1ea4d9e",
+      "sha" : "5bd5967a6952ac02569c9a265d9c93e9523151ae",
       "source" : "git://github.com/colomon/ABC.git",
-      "version" : "0.000.003_20170212"
+      "version" : "0.000.003_20170312"
    },
    "ANTLR4" : {
       "name" : "ANTLR4",
@@ -2191,9 +2191,9 @@
    },
    "Perl6::Parser" : {
       "name" : "Perl6::Parser",
-      "sha" : "45e73efa03a31e60724de295dcdaa96a69ee6e7e",
+      "sha" : "d4c9a026414e4ebf72e538c45fd80705be44697b",
       "source" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-      "version" : "0.000.003_20170309"
+      "version" : "0.000.003_20170312"
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "9c2b7269f606813c82d8a0e20e2d79c515b7e096",
+      "sha" : "9d408f005141015bfef543350960668aa799df13",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170311"
+      "version" : "0.000.003_20170312"
    },
    "panda" : {
       "name" : "panda",
