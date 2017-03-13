@@ -7,9 +7,9 @@
    },
    "ABC" : {
       "name" : "ABC",
-      "sha" : "5bd5967a6952ac02569c9a265d9c93e9523151ae",
+      "sha" : "4b1191e691828e4c820a61e59591ba7d3be0028d",
       "source" : "git://github.com/colomon/ABC.git",
-      "version" : "0.000.003_20170312"
+      "version" : "0.000.003_20170313"
    },
    "ANTLR4" : {
       "name" : "ANTLR4",
@@ -265,9 +265,9 @@
    },
    "Bailador" : {
       "name" : "Bailador",
-      "sha" : "ce354f66cb48b7c82bdc866022e1f0a0cbf2385d",
+      "sha" : "a847075f683c29806b274e2a2fa4e4134b97ffb2",
       "source" : "git://github.com/ufobat/Bailador.git",
-      "version" : "0.000.003_20170227"
+      "version" : "0.000.003_20170313"
    },
    "Bamboo" : {
       "name" : "Bamboo",
@@ -2953,9 +2953,9 @@
    },
    "Time::Crontab" : {
       "name" : "Time::Crontab",
-      "sha" : "5ae42c4ac591aa316fd77e1738f45b746ed870ae",
+      "sha" : "ce97e755eb42d75d8de5a3b41752b16f9631f8cd",
       "source" : "https://github.com/ufobat/p6-time-crontab.git",
-      "version" : "0.000.003_20170304"
+      "version" : "0.000.003_20170313"
    },
    "Time::Duration" : {
       "name" : "Time::Duration",
@@ -3211,9 +3211,9 @@
    },
    "XML::XPath" : {
       "name" : "XML::XPath",
-      "sha" : "0a7f133c4269567884d1f4a62e1d24838fc6b227",
+      "sha" : "0987e8c0dedaeb573e7cf648864fd19890f3cb8a",
       "source" : "git://github.com/ufobat/p6-XML-XPath.git",
-      "version" : "0.000.003_20170304"
+      "version" : "0.000.003_20170313"
    },
    "XXX" : {
       "name" : "XXX",
