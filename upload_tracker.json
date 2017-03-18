@@ -619,9 +619,9 @@
    },
    "Data::Dump::Tree" : {
       "name" : "Data::Dump::Tree",
-      "sha" : "e2a5be96779aee0445f6bedc1708970ec770f717",
+      "sha" : "a2b7a954dc1709fd78f94bfc250338efde21b3ea",
       "source" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
-      "version" : "0.000.003_20170306"
+      "version" : "0.000.003_20170318"
    },
    "Data::ICal" : {
       "name" : "Data::ICal",
@@ -1513,9 +1513,9 @@
    },
    "LWP::Simple" : {
       "name" : "LWP::Simple",
-      "sha" : "9fa4d8abb3b814f62567b652aa88929aa6c6a9da",
+      "sha" : "349408cf06eac91b68d29bcf8349ead7a146c2a9",
       "source" : "git://github.com/perl6/perl6-lwp-simple.git",
-      "version" : "0.000.003_20170309"
+      "version" : "0.000.003_20170318"
    },
    "LacunaCookbuk::Client" : {
       "name" : "LacunaCookbuk::Client",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "bcfaf4c8b6b2a3cfde0dd3cc9256d15b20e4c68e",
+      "sha" : "1ba43da5a4cd9f685d315bdd23591032f2d009e3",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170317"
+      "version" : "0.000.003_20170318"
    },
    "panda" : {
       "name" : "panda",
