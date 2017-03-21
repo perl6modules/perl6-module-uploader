@@ -307,9 +307,9 @@
    },
    "BioPerl6" : {
       "name" : "BioPerl6",
-      "sha" : "4d18c31fdba81c681f651e408a83464e39159cd8",
+      "sha" : "335c4848f0673c7fed1545bb762ba5bbed1f4b7c",
       "source" : "git://github.com/cjfields/bioperl6.git",
-      "version" : "0.000.003_20170103"
+      "version" : "0.000.003_20170321"
    },
    "BreakDancer" : {
       "name" : "BreakDancer",
@@ -2269,9 +2269,9 @@
    },
    "Pod::To::BigPage" : {
       "name" : "Pod::To::BigPage",
-      "sha" : "39a648b61fd2fc80dd175e143295687b790e53f1",
+      "sha" : "ab6b32b01039b21c1bb05db9ef0800be4771e54e",
       "source" : "git://github.com/gfldex/perl6-pod-to-bigpage.git",
-      "version" : "0.000.003_20170127"
+      "version" : "0.000.003_20170321"
    },
    "Pod::To::HTML" : {
       "name" : "Pod::To::HTML",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "912ea75cfba4f19b57df22ac099e7c6ae77cd2af",
+      "sha" : "59f692564be0d0dc5978cc0d3876602be75e365a",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170320"
+      "version" : "0.000.003_20170321"
    },
    "panda" : {
       "name" : "panda",
