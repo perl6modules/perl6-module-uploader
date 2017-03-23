@@ -1,9 +1,9 @@
 {
    "007" : {
       "name" : "007",
-      "sha" : "244f5da7c7be9e1a013583c8ddb49575bd3063d1",
+      "sha" : "626dfc13a5cbb2773b2e7ff803cd08c38f37b004",
       "source" : "git://github.com/masak/007.git",
-      "version" : "0.000.003_20170207"
+      "version" : "0.000.003_20170323"
    },
    "ABC" : {
       "name" : "ABC",
@@ -1117,9 +1117,9 @@
    },
    "HTTP::Server::Async" : {
       "name" : "HTTP::Server::Async",
-      "sha" : "582038a7cad93fb0bdb40a90574c8e2e3ae12d2a",
+      "sha" : "974d33d6191ba87053c63d4da0f189d10ed1efad",
       "source" : "git://github.com/perl6/perl6-http-server-async.git",
-      "version" : "0.000.003_20170210"
+      "version" : "0.000.003_20170323"
    },
    "HTTP::Server::Async::Plugins::Router::Simple" : {
       "name" : "HTTP::Server::Async::Plugins::Router::Simple",
@@ -1135,9 +1135,9 @@
    },
    "HTTP::Server::Router" : {
       "name" : "HTTP::Server::Router",
-      "sha" : "8292ce1748ff97365079c1d8bdf35ed3cdac2b99",
+      "sha" : "5b295e5de6a031fd7063db2ba44054dd3a306ac8",
       "source" : "git://github.com/tony-o/perl6-http-server-router.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170323"
    },
    "HTTP::Server::Simple" : {
       "name" : "HTTP::Server::Simple",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "c52bbd6a9a88be94d6d241ece1e4366234a8a943",
+      "sha" : "61ef0f6a4eb9a1c92e6851010f7a9d9603c3169c",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170322"
+      "version" : "0.000.003_20170323"
    },
    "panda" : {
       "name" : "panda",
