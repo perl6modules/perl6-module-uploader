@@ -1171,9 +1171,9 @@
    },
    "HTTP::UserAgent" : {
       "name" : "HTTP::UserAgent",
-      "sha" : "46365a6af40f999d9fa6a6d5a2b186c6f327b98a",
+      "sha" : "07ade940ae4be58f275f2e90d82820f7ee423707",
       "source" : "git://github.com/sergot/http-useragent.git",
-      "version" : "0.000.003_20170316"
+      "version" : "0.000.003_20170324"
    },
    "Haikunator" : {
       "name" : "Haikunator",
@@ -1207,9 +1207,9 @@
    },
    "Hiker" : {
       "name" : "Hiker",
-      "sha" : "4a87e9091b13fdd4467cd1254c700c95c778f6c3",
+      "sha" : "2ac5217e8ec33c20aaf7fc675742192c2d3ca5f8",
       "source" : "git://github.com/tony-o/perl6-hiker.git",
-      "version" : "0.000.003_20170108"
+      "version" : "0.000.003_20170324"
    },
    "Hinges" : {
       "name" : "Hinges",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "61ef0f6a4eb9a1c92e6851010f7a9d9603c3169c",
+      "sha" : "3cf943d86bef3744146e31e106815a00a2a81f4a",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170323"
+      "version" : "0.000.003_20170324"
    },
    "panda" : {
       "name" : "panda",
