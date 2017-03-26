@@ -307,9 +307,9 @@
    },
    "BioPerl6" : {
       "name" : "BioPerl6",
-      "sha" : "335c4848f0673c7fed1545bb762ba5bbed1f4b7c",
+      "sha" : "d1f1af2710a5cdb8287b15c8f41c90e888da28a2",
       "source" : "git://github.com/cjfields/bioperl6.git",
-      "version" : "0.000.003_20170321"
+      "version" : "0.000.003_20170326"
    },
    "BreakDancer" : {
       "name" : "BreakDancer",
@@ -691,9 +691,9 @@
    },
    "Debugger::UI::CommandLine" : {
       "name" : "Debugger::UI::CommandLine",
-      "sha" : "67368f04b731641bac8a25a72072c893978c75c4",
+      "sha" : "f3c3350d34e1377a59705cca4ffe591339eb3222",
       "source" : "git://github.com/jnthn/rakudo-debugger.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170326"
    },
    "Dependency::Sort" : {
       "name" : "Dependency::Sort",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "3cf943d86bef3744146e31e106815a00a2a81f4a",
+      "sha" : "46be212f6f81dfbebd972a61d237d81caecdbf47",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170324"
+      "version" : "0.000.003_20170326"
    },
    "panda" : {
       "name" : "panda",
