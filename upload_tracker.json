@@ -997,9 +997,9 @@
    },
    "Git::Wrapper" : {
       "name" : "Git::Wrapper",
-      "sha" : "8bb00556da8e011094f43784dd9d1cdc88a81bad",
+      "sha" : "5a77f1406147c81886c25a8be6d18606fd63fc74",
       "source" : "git://github.com/nicqrocks/p6-Git-Wrapper.git",
-      "version" : "0.000.003_20170210"
+      "version" : "0.000.003_20170327"
    },
    "Graffiks" : {
       "name" : "Graffiks",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "46be212f6f81dfbebd972a61d237d81caecdbf47",
+      "sha" : "1f08eaacd904badff8d84c000e13ad333e5fed50",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170326"
+      "version" : "0.000.003_20170327"
    },
    "panda" : {
       "name" : "panda",
