@@ -2047,9 +2047,9 @@
    },
    "OpenSSL" : {
       "name" : "OpenSSL",
-      "sha" : "c5599e4b13e1fc4a041bb848b55bf7533bc088eb",
+      "sha" : "9e748f77ecf531b9c67b3bfef0ba6b4dfaed88bb",
       "source" : "git://github.com/sergot/openssl.git",
-      "version" : "0.000.003_20170220"
+      "version" : "0.000.003_20170401"
    },
    "Operator::defined-alternation" : {
       "name" : "Operator::defined-alternation",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "d1f2c6ac97af8cead0df9c05fad034f22140c89d",
+      "sha" : "a01a18e4d6e64a98c53f25db7c550d39a1758f1f",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170330"
+      "version" : "0.000.003_20170401"
    },
    "panda" : {
       "name" : "panda",
