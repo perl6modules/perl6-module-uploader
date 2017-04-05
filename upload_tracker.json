@@ -1009,9 +1009,9 @@
    },
    "Grammar::BNF" : {
       "name" : "Grammar::BNF",
-      "sha" : "14f51ca5882f00f0acee643c9845ab37559b5119",
+      "sha" : "4e95ceaab2e8427884ebcd1e373112bdb5dc24f0",
       "source" : "https://github.com/tadzik/Grammar-BNF.git",
-      "version" : "0.000.002_1601301941"
+      "version" : "0.000.003_20170405"
    },
    "Grammar::Debugger" : {
       "name" : "Grammar::Debugger",
@@ -2647,9 +2647,9 @@
    },
    "TAP::Harness" : {
       "name" : "TAP::Harness",
-      "sha" : "935e41e8c521de5278442bc287416af16ded6e11",
+      "sha" : "5f142d5850e57d127b4982aa81f00e9118d56544",
       "source" : "git://github.com/leont/tap-harness6.git",
-      "version" : "0.000.002_1609181644"
+      "version" : "0.000.003_20170405"
    },
    "TOML" : {
       "name" : "TOML",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "b81148c7fee654544f80d0fabe5972c981b97d0a",
+      "sha" : "951f5f6c5a3418285bc2c3e732385c70b1b22765",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170404"
+      "version" : "0.000.003_20170405"
    },
    "panda" : {
       "name" : "panda",
