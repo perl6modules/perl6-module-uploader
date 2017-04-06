@@ -301,9 +301,9 @@
    },
    "BioInfo" : {
       "name" : "BioInfo",
-      "sha" : "f412a7ac47c6fe95039e2e762f320e9ff6554bcc",
+      "sha" : "2eb671ca17f3116c6da763de9c9dee38123afcf5",
       "source" : "git://github.com/MattOates/BioInfo.git",
-      "version" : "0.000.002_1609142056"
+      "version" : "0.000.003_20170406"
    },
    "BioPerl6" : {
       "name" : "BioPerl6",
@@ -2581,9 +2581,9 @@
    },
    "Stats" : {
       "name" : "Stats",
-      "sha" : "4b09289b864ea3f4055bcef470411fab95980e58",
+      "sha" : "fd9b1dd2cd8e32c3986582c6d14c2c108ee3939c",
       "source" : "git://github.com/MattOates/Stats.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170406"
    },
    "StrictNamedArguments" : {
       "name" : "StrictNamedArguments",
@@ -2647,9 +2647,9 @@
    },
    "TAP::Harness" : {
       "name" : "TAP::Harness",
-      "sha" : "5f142d5850e57d127b4982aa81f00e9118d56544",
-      "source" : "git://github.com/leont/tap-harness6.git",
-      "version" : "0.000.003_20170405"
+      "sha" : "8175fbc042b8e7791cbe3994fd93d330cb4faf8d",
+      "source" : "git://github.com/perl6/tap-harness6.git",
+      "version" : "0.000.003_20170406"
    },
    "TOML" : {
       "name" : "TOML",
@@ -2863,9 +2863,9 @@
    },
    "Text::Emotion" : {
       "name" : "Text::Emotion",
-      "sha" : "80a83f0407e7bfb3e0a5573b0ecc6e18d4d0b599",
+      "sha" : "9582ceccc7f6013153218877cc34a8f9519490d1",
       "source" : "git://github.com/MattOates/Text--Emotion.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.003_20170406"
    },
    "Text::Fortune" : {
       "name" : "Text::Fortune",
@@ -2875,9 +2875,9 @@
    },
    "Text::Homoglyph" : {
       "name" : "Text::Homoglyph",
-      "sha" : "2e6843d694fde6db8b01a9fb01fc134279e82195",
+      "sha" : "bf97c832da81addaa138b28884e902669668c50f",
       "source" : "git://github.com/MattOates/Text--Homoglyph.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170406"
    },
    "Text::Indented" : {
       "name" : "Text::Indented",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "951f5f6c5a3418285bc2c3e732385c70b1b22765",
+      "sha" : "bc31a8842958e2339e118077d7d459eaabba5be9",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170405"
+      "version" : "0.000.003_20170406"
    },
    "panda" : {
       "name" : "panda",
