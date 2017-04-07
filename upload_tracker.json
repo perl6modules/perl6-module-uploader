@@ -2821,9 +2821,9 @@
    },
    "Test::When" : {
       "name" : "Test::When",
-      "sha" : "225bdc33393c509bcfce5194258cc15ae7f56644",
+      "sha" : "811e624a75f278d0e97fe44258ca2ce5de31fc85",
       "source" : "git://github.com/zoffixznet/perl6-Test-When.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20170407"
    },
    "TestML" : {
       "name" : "TestML",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "bc31a8842958e2339e118077d7d459eaabba5be9",
+      "sha" : "66382a84ca82dfda10805c6ec2b671ad500f28e2",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170406"
+      "version" : "0.000.003_20170407"
    },
    "panda" : {
       "name" : "panda",
