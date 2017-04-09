@@ -307,9 +307,9 @@
    },
    "BioPerl6" : {
       "name" : "BioPerl6",
-      "sha" : "d1f1af2710a5cdb8287b15c8f41c90e888da28a2",
+      "sha" : "ae3d70c3ddc002edef8461dc3fe2bce685a396d4",
       "source" : "git://github.com/cjfields/bioperl6.git",
-      "version" : "0.000.003_20170326"
+      "version" : "0.000.003_20170409"
    },
    "BreakDancer" : {
       "name" : "BreakDancer",
@@ -3031,9 +3031,9 @@
    },
    "URL::Find" : {
       "name" : "URL::Find",
-      "sha" : "8c573e26b34235decd0d6ed4de534a9ba9a9810b",
+      "sha" : "367170317b32485b3477892b677e3979ac86a09e",
       "source" : "git://github.com/samcv/URL-Find.git",
-      "version" : "0.000.003_20170127"
+      "version" : "0.000.003_20170409"
    },
    "UUID" : {
       "name" : "UUID",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "1cd7de018f4a1639354c1b24cb317c40ecc19afa",
+      "sha" : "dbdc9959ab7bc050ee67cd604c45168c811c2cad",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170408"
+      "version" : "0.000.003_20170409"
    },
    "panda" : {
       "name" : "panda",
