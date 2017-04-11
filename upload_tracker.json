@@ -487,9 +487,9 @@
    },
    "Config::DataLang::Refine" : {
       "name" : "Config::DataLang::Refine",
-      "sha" : "a566757aa5b9903b0504013af053f4ded079c9dc",
+      "sha" : "0d5af7b0672ef524865ec8f2fde0391168e56032",
       "source" : "git://github.com/MARTIMM/config-datalang-refine.git",
-      "version" : "0.000.003_20170220"
+      "version" : "0.000.003_20170411"
    },
    "Config::INI" : {
       "name" : "Config::INI",
@@ -859,9 +859,9 @@
    },
    "File::Ignore" : {
       "name" : "File::Ignore",
-      "sha" : "aed6d64a193d4206f11ded96f863b27a3ccebd99",
+      "sha" : "c1c7bdf25a09461969eccfc0e0e18782c6cdea91",
       "source" : "https://github.com/jnthn/p6-file-ignore.git",
-      "version" : "0.000.003_20170302"
+      "version" : "0.000.003_20170411"
    },
    "File::LibMagic" : {
       "name" : "File::LibMagic",
@@ -2257,9 +2257,9 @@
    },
    "Pod::Render" : {
       "name" : "Pod::Render",
-      "sha" : "9bd4ce712cfe17372c8c082d3871b3763150e3ec",
+      "sha" : "5006d2856a939de721ffd2d3cabb77db9a6b490b",
       "source" : "git://github.com/MARTIMM/pod-render.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170411"
    },
    "Pod::Strip" : {
       "name" : "Pod::Strip",
@@ -2701,9 +2701,9 @@
    },
    "Template6" : {
       "name" : "Template6",
-      "sha" : "e5e5d31f73f376a40e48f949d3562efbb3e47aa9",
+      "sha" : "29035d2a042d1d997872f190769f28b98cde891c",
       "source" : "git://github.com/supernovus/template6.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170411"
    },
    "Template::Anti" : {
       "name" : "Template::Anti",
@@ -3175,9 +3175,9 @@
    },
    "XML" : {
       "name" : "XML",
-      "sha" : "12dbe995c8d21c95290eae3750892c990dfb6620",
+      "sha" : "ec65604cf8ecd6cfdeda8006e9aca8b7a8a7ff21",
       "source" : "git://github.com/supernovus/exemel.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170411"
    },
    "XML::Canonical" : {
       "name" : "XML::Canonical",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "1527d321ba3808756e9bf77f4b02fe69c80dca09",
+      "sha" : "372545c0595e161e090ef462e79a15b8c1a62df1",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170410"
+      "version" : "0.000.003_20170411"
    },
    "panda" : {
       "name" : "panda",
