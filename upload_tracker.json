@@ -1039,9 +1039,9 @@
    },
    "Green" : {
       "name" : "Green",
-      "sha" : "c3c4dffda80acc3d302879cb79d50287dca33b37",
+      "sha" : "c7ef44d6cfb4ef50eb3100397917d290c8c705d2",
       "source" : "git://github.com/tony-o/perl6-green.git",
-      "version" : "0.000.003_20170412"
+      "version" : "0.000.003_20170413"
    },
    "Gumbo" : {
       "name" : "Gumbo",
@@ -1981,9 +1981,9 @@
    },
    "Net::ZMQ" : {
       "name" : "Net::ZMQ",
-      "sha" : "d89c744c23c952f2be88d2978a7545c142facf63",
+      "sha" : "fa19e477569e8010220592023fdf5fdb3e953cf8",
       "source" : "git://github.com/arnsholt/Net-ZMQ.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170413"
    },
    "Netstring" : {
       "name" : "Netstring",
@@ -2809,9 +2809,9 @@
    },
    "Test::Mock" : {
       "name" : "Test::Mock",
-      "sha" : "47d81758bb13fe36aee53e0536bead2e88d40d33",
+      "sha" : "c9d477b0d3014d34e7fcb31f26dcc9961e3202b5",
       "source" : "git://github.com/jnthn/test-mock.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170413"
    },
    "Test::Output" : {
       "name" : "Test::Output",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "2aa3c9f609e1cf60f31c4bf026e7e58c9c65a8b8",
+      "sha" : "4c3d62b340dccaa7c8ce38b64e612222fae50ba2",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170412"
+      "version" : "0.000.003_20170413"
    },
    "panda" : {
       "name" : "panda",
