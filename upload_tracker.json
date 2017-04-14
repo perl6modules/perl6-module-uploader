@@ -487,9 +487,9 @@
    },
    "Config::DataLang::Refine" : {
       "name" : "Config::DataLang::Refine",
-      "sha" : "ac295bf8befb8baf76721db4b73132803377eedd",
+      "sha" : "2bc30bd5381cb7793a6b0fbd00ee32082774570e",
       "source" : "git://github.com/MARTIMM/config-datalang-refine.git",
-      "version" : "0.000.003_20170412"
+      "version" : "0.000.003_20170414"
    },
    "Config::INI" : {
       "name" : "Config::INI",
@@ -1981,9 +1981,9 @@
    },
    "Net::ZMQ" : {
       "name" : "Net::ZMQ",
-      "sha" : "fa19e477569e8010220592023fdf5fdb3e953cf8",
+      "sha" : "15da7f5c99fb1af4f5334faced2240d51981379c",
       "source" : "git://github.com/arnsholt/Net-ZMQ.git",
-      "version" : "0.000.003_20170413"
+      "version" : "0.000.003_20170414"
    },
    "Netstring" : {
       "name" : "Netstring",
@@ -2809,9 +2809,9 @@
    },
    "Test::Mock" : {
       "name" : "Test::Mock",
-      "sha" : "c9d477b0d3014d34e7fcb31f26dcc9961e3202b5",
+      "sha" : "6072f860c85b1e01d0d259433e7f17580b9f3f1e",
       "source" : "git://github.com/jnthn/test-mock.git",
-      "version" : "0.000.003_20170413"
+      "version" : "0.000.003_20170414"
    },
    "Test::Output" : {
       "name" : "Test::Output",
