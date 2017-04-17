@@ -487,9 +487,9 @@
    },
    "Config::DataLang::Refine" : {
       "name" : "Config::DataLang::Refine",
-      "sha" : "10fa0e570b104464b7df797dbfc5a2df33006504",
+      "sha" : "01092e1d2802abb683e9c2a0c2fc9ab6f573baa9",
       "source" : "git://github.com/MARTIMM/config-datalang-refine.git",
-      "version" : "0.000.003_20170416"
+      "version" : "0.000.003_20170417"
    },
    "Config::INI" : {
       "name" : "Config::INI",
@@ -2827,9 +2827,9 @@
    },
    "TestML" : {
       "name" : "TestML",
-      "sha" : "d10dffa3eeb4dd96e2826ddc6644e9525381bfd0",
+      "sha" : "8467ca86c460a980b264c3d92c529ed2b06b002c",
       "source" : "git://github.com/perl6-community-modules/testml-pm6.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170417"
    },
    "Testing" : {
       "name" : "Testing",
@@ -3223,15 +3223,15 @@
    },
    "YAML" : {
       "name" : "YAML",
-      "sha" : "224b49627f55aaba3131934996ddbe620aa644db",
+      "sha" : "2402a2f30cd1d6d217e713b9686c1e41fcdb63ae",
       "source" : "git://github.com/perl6-community-modules/yaml-pm6.git",
-      "version" : "0.000.003_20170301"
+      "version" : "0.000.003_20170417"
    },
    "YAMLish" : {
       "name" : "YAMLish",
-      "sha" : "a29fbaeb63d192f49499a619713387518489852e",
+      "sha" : "d29388495727110d25c7d7ba0cedf2f200a44989",
       "source" : "git://github.com/leont/yamlish.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170417"
    },
    "Yapsi" : {
       "name" : "Yapsi",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "4ca7f687607f38cfd2f0b48f13f909f6a7fab315",
+      "sha" : "61cb77633509c0985d5ac691bcc96a5bafd0cf22",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170416"
+      "version" : "0.000.003_20170417"
    },
    "panda" : {
       "name" : "panda",
