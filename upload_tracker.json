@@ -487,9 +487,9 @@
    },
    "Config::DataLang::Refine" : {
       "name" : "Config::DataLang::Refine",
-      "sha" : "01092e1d2802abb683e9c2a0c2fc9ab6f573baa9",
+      "sha" : "daf13ff6d91b33647aeb1362585485d9306f0836",
       "source" : "git://github.com/MARTIMM/config-datalang-refine.git",
-      "version" : "0.000.003_20170417"
+      "version" : "0.000.003_20170419"
    },
    "Config::INI" : {
       "name" : "Config::INI",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "ae4e48799c7124199d084e7a0374a2d00a2a713a",
+      "sha" : "0fc39a608264bb9a97989825afcdecde857e9d57",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170418"
+      "version" : "0.000.003_20170419"
    },
    "panda" : {
       "name" : "panda",
