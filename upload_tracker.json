@@ -745,9 +745,9 @@
    },
    "Druid" : {
       "name" : "Druid",
-      "sha" : "18cb5acec187d9170df3d4279a9a23f48d06c47a",
+      "sha" : "d8b6d87960f2c6611867254a3bccad62b826a933",
       "source" : "git://github.com/masak/druid.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170420"
    },
    "Editsrc::Uggedit" : {
       "name" : "Editsrc::Uggedit",
@@ -1153,9 +1153,9 @@
    },
    "HTTP::Server::Tiny" : {
       "name" : "HTTP::Server::Tiny",
-      "sha" : "a03e1190b0108bf8837e573795afd46b59c5f15f",
+      "sha" : "0538c09666c7a69373013b234f6459bb50fced6a",
       "source" : "git://github.com/tokuhirom/p6-HTTP-Server-Tiny.git",
-      "version" : "0.000.003_20170106"
+      "version" : "0.000.003_20170420"
    },
    "HTTP::Signature" : {
       "name" : "HTTP::Signature",
