@@ -247,9 +247,9 @@
    },
    "Auth::SCRAM" : {
       "name" : "Auth::SCRAM",
-      "sha" : "87b714bbd0ecdd0f8e8b2b114e00952072931f4d",
+      "sha" : "eb23cf785f3a5731076b701d1f00264fafc7f7b5",
       "source" : "git://github.com/MARTIMM/Auth-SCRAM.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170422"
    },
    "Avro" : {
       "name" : "Avro",
@@ -259,9 +259,9 @@
    },
    "BSON" : {
       "name" : "BSON",
-      "sha" : "e62725c69ade08b897306d00c070b7f6c7458405",
+      "sha" : "d3b6de011b6afb23e942f13e102e84a0060ad676",
       "source" : "git://github.com/MARTIMM/BSON.git",
-      "version" : "0.000.003_20170226"
+      "version" : "0.000.003_20170422"
    },
    "Bailador" : {
       "name" : "Bailador",
@@ -307,9 +307,9 @@
    },
    "BioPerl6" : {
       "name" : "BioPerl6",
-      "sha" : "ae3d70c3ddc002edef8461dc3fe2bce685a396d4",
+      "sha" : "14a735029ae3bd687595a36fe90f6c31d713f81a",
       "source" : "git://github.com/cjfields/bioperl6.git",
-      "version" : "0.000.003_20170409"
+      "version" : "0.000.003_20170422"
    },
    "BreakDancer" : {
       "name" : "BreakDancer",
@@ -1843,9 +1843,9 @@
    },
    "MongoDB" : {
       "name" : "MongoDB",
-      "sha" : "99e0e2e66de040ae224f28a97f013481ab6a9a3a",
+      "sha" : "c23b4736b21d23f6f2c59a0b8ffc99788a59f3ad",
       "source" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
-      "version" : "0.000.003_20170225"
+      "version" : "0.000.003_20170422"
    },
    "Mortgage" : {
       "name" : "Mortgage",
@@ -2101,9 +2101,9 @@
    },
    "PKCS5" : {
       "name" : "PKCS5",
-      "sha" : "16bc21d8e8c9b882cc5814ea7161507f9f98b187",
+      "sha" : "c947e1d16e383b9744f85102deab2939bd069790",
       "source" : "git://github.com/MARTIMM/PKCS5",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170422"
    },
    "PKafka" : {
       "name" : "PKafka",
@@ -2197,9 +2197,9 @@
    },
    "PerlMongers::Hannover" : {
       "name" : "PerlMongers::Hannover",
-      "sha" : "7b366becfadaad907eed9d944856e744bc82a38f",
+      "sha" : "c8c232a881c4ead7b56eb330d9b888a005394f08",
       "source" : "git://github.com/paultcochrane/Perl6Mongers-Hannover.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170422"
    },
    "PerlStore" : {
       "name" : "PerlStore",
@@ -2269,9 +2269,9 @@
    },
    "Pod::To::BigPage" : {
       "name" : "Pod::To::BigPage",
-      "sha" : "ab6b32b01039b21c1bb05db9ef0800be4771e54e",
+      "sha" : "a3c47e3e8dece0a9f894a733e2db25ae42a465bb",
       "source" : "git://github.com/gfldex/perl6-pod-to-bigpage.git",
-      "version" : "0.000.003_20170321"
+      "version" : "0.000.003_20170422"
    },
    "Pod::To::HTML" : {
       "name" : "Pod::To::HTML",
@@ -2455,9 +2455,9 @@
    },
    "Semaphore::ReadersWriters" : {
       "name" : "Semaphore::ReadersWriters",
-      "sha" : "3b42f2e480d4365296d7811773418f09ff043fc2",
+      "sha" : "15951eecd6684c82e8075f7e37818c16c67e7ddf",
       "source" : "git://github.com/MARTIMM/semaphore-readerswriters.git",
-      "version" : "0.000.002_1609142056"
+      "version" : "0.000.003_20170422"
    },
    "Serialize::Naive" : {
       "name" : "Serialize::Naive",
@@ -3049,9 +3049,9 @@
    },
    "Unicode::PRECIS" : {
       "name" : "Unicode::PRECIS",
-      "sha" : "18ebb3e34373e740528664f621e9f692e5094ae7",
+      "sha" : "9ea477bbfcac7ffb7923c15bcc9644d640c8de1d",
       "source" : "git://github.com/MARTIMM/unicode-precis.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170422"
    },
    "Unicode::UTF8-Parser" : {
       "name" : "Unicode::UTF8-Parser",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "6172df409caca523069466498d763166c71285f2",
+      "sha" : "1d656857c9b2a5571ef8a327d483fe8382b02f24",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170421"
+      "version" : "0.000.003_20170422"
    },
    "panda" : {
       "name" : "panda",
