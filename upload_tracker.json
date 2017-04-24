@@ -259,15 +259,15 @@
    },
    "BSON" : {
       "name" : "BSON",
-      "sha" : "d3b6de011b6afb23e942f13e102e84a0060ad676",
+      "sha" : "a94c2743b7cd6523c9700c7f3787ac8e80bd898a",
       "source" : "git://github.com/MARTIMM/BSON.git",
-      "version" : "0.000.003_20170422"
+      "version" : "0.000.003_20170424"
    },
    "Bailador" : {
       "name" : "Bailador",
-      "sha" : "a847075f683c29806b274e2a2fa4e4134b97ffb2",
+      "sha" : "bb939d59b4d2c1984da24c2992f2572c1032cf77",
       "source" : "git://github.com/ufobat/Bailador.git",
-      "version" : "0.000.003_20170313"
+      "version" : "0.000.003_20170424"
    },
    "Bamboo" : {
       "name" : "Bamboo",
@@ -691,9 +691,9 @@
    },
    "Debugger::UI::CommandLine" : {
       "name" : "Debugger::UI::CommandLine",
-      "sha" : "f3c3350d34e1377a59705cca4ffe591339eb3222",
+      "sha" : "89329550a4526e08c36df1615d5cea1f24e09c16",
       "source" : "git://github.com/jnthn/rakudo-debugger.git",
-      "version" : "0.000.003_20170326"
+      "version" : "0.000.003_20170424"
    },
    "Dependency::Sort" : {
       "name" : "Dependency::Sort",
@@ -745,9 +745,9 @@
    },
    "Druid" : {
       "name" : "Druid",
-      "sha" : "d8b6d87960f2c6611867254a3bccad62b826a933",
+      "sha" : "639915854c328d7e937ea57299468285d6f53e9f",
       "source" : "git://github.com/masak/druid.git",
-      "version" : "0.000.003_20170420"
+      "version" : "0.000.003_20170424"
    },
    "Editsrc::Uggedit" : {
       "name" : "Editsrc::Uggedit",
@@ -859,9 +859,9 @@
    },
    "File::Ignore" : {
       "name" : "File::Ignore",
-      "sha" : "c1c7bdf25a09461969eccfc0e0e18782c6cdea91",
+      "sha" : "177110d978796c8da2575071eb6bc3affeef649d",
       "source" : "https://github.com/jnthn/p6-file-ignore.git",
-      "version" : "0.000.003_20170411"
+      "version" : "0.000.003_20170424"
    },
    "File::LibMagic" : {
       "name" : "File::LibMagic",
@@ -2809,9 +2809,9 @@
    },
    "Test::Mock" : {
       "name" : "Test::Mock",
-      "sha" : "6072f860c85b1e01d0d259433e7f17580b9f3f1e",
+      "sha" : "ecfd7b20f49edf7fed615689d50500b6a43bfb28",
       "source" : "git://github.com/jnthn/test-mock.git",
-      "version" : "0.000.003_20170414"
+      "version" : "0.000.003_20170424"
    },
    "Test::Output" : {
       "name" : "Test::Output",
@@ -2863,9 +2863,9 @@
    },
    "Text::Emotion" : {
       "name" : "Text::Emotion",
-      "sha" : "9582ceccc7f6013153218877cc34a8f9519490d1",
+      "sha" : "932e9cbef25422fd4fba6325e2417e44fa95f53e",
       "source" : "git://github.com/MattOates/Text--Emotion.git",
-      "version" : "0.000.003_20170406"
+      "version" : "0.000.003_20170424"
    },
    "Text::Fortune" : {
       "name" : "Text::Fortune",
@@ -3271,9 +3271,9 @@
    },
    "p6doc" : {
       "name" : "p6doc",
-      "sha" : "1d656857c9b2a5571ef8a327d483fe8382b02f24",
+      "sha" : "8eff3152329af773b0802d208c3f130a5f057282",
       "source" : "git://github.com/perl6/doc.git",
-      "version" : "0.000.003_20170422"
+      "version" : "0.000.003_20170424"
    },
    "panda" : {
       "name" : "panda",
