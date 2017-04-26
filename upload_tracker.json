@@ -43,9 +43,9 @@
    },
    "Acme::Flutterby" : {
       "name" : "Acme::Flutterby",
-      "sha" : "ca86656b4910f863c5d9e1ec6a54c2824ffce7b2",
+      "sha" : "7a23b8ba6954c66557b5707561012bfba93164f0",
       "source" : "https://github.com/byterock/Acme-Flutterby.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170426"
    },
    "Acme::GiveUp" : {
       "name" : "Acme::GiveUp",
@@ -499,9 +499,9 @@
    },
    "Config::Simple" : {
       "name" : "Config::Simple",
-      "sha" : "f0d3893f525cc10d318a45b607058e7b06e105bd",
+      "sha" : "0b01408c9acda210830831dc3539e3770d88d495",
       "source" : "git://github.com/Skarsnik/perl6-config-simple.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20170426"
    },
    "Config::TOML" : {
       "name" : "Config::TOML",
@@ -1291,9 +1291,9 @@
    },
    "IRC::Art" : {
       "name" : "IRC::Art",
-      "sha" : "153952f4d5f1708270934d23f5af6e2f028f0e1e",
+      "sha" : "c89376fb3dc6bd239cd1c9e48caaacd457fba9c3",
       "source" : "git://github.com/Skarsnik/perl6-irc-art.git",
-      "version" : "0.000.002_1601071848"
+      "version" : "0.000.003_20170426"
    },
    "IRC::Client" : {
       "name" : "IRC::Client",
@@ -1759,9 +1759,9 @@
    },
    "Math::Polynomial" : {
       "name" : "Math::Polynomial",
-      "sha" : "9c838ff41807729f7b81ce81e7fdd1f3386c41cf",
+      "sha" : "be0c31dac06b5a5ff10c9018f66c835f60c19f29",
       "source" : "git://github.com/colomon/Math-Polynomial.git",
-      "version" : "0.000.003_20161025"
+      "version" : "0.000.003_20170426"
    },
    "Math::Random" : {
       "name" : "Math::Random",
