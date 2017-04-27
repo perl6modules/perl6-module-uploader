@@ -55,9 +55,9 @@
    },
    "Acme::Mangle" : {
       "name" : "Acme::Mangle",
-      "sha" : "c3c23f09203965d3949c9784b45082126936a3d6",
+      "sha" : "1067d5f8da3a5625044cb3129d6cb0fc468e90bb",
       "source" : "git://github.com/madcapjake/Acme-Mangle",
-      "version" : "0.000.002_1601302010"
+      "version" : "0.000.003_20170427"
    },
    "Acme::Meow" : {
       "name" : "Acme::Meow",
@@ -145,9 +145,9 @@
    },
    "App::P6Dx" : {
       "name" : "App::P6Dx",
-      "sha" : "27faecaa8cfc97b014e317d2c1e505ccd3fb4b3a",
+      "sha" : "4493744fd60451a7f2cc31d81357be8b325cc1d3",
       "source" : "git://github.com/madcapjake/p6dx",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20170427"
    },
    "App::Pray" : {
       "name" : "App::Pray",
@@ -1483,9 +1483,9 @@
    },
    "JavaScript::SpiderMonkey" : {
       "name" : "JavaScript::SpiderMonkey",
-      "sha" : "a34ae07e64913ec8d2fe00b39d8f3ecfcb8f5261",
+      "sha" : "186d8b96c048b0b733575e4cc31f5c44f980c6b5",
       "source" : "git://github.com/hartenfels/JavaScript-SpiderMonkey.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170427"
    },
    "Kains" : {
       "name" : "Kains",
@@ -1699,9 +1699,9 @@
    },
    "Marpa" : {
       "name" : "Marpa",
-      "sha" : "b899ddb522673ab270909109044f1e7e8a7a6c1d",
+      "sha" : "436476c250dbbc0a59742c3304ff1d8112814e72",
       "source" : "git://github.com/drforr/perl6-Marpa.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170427"
    },
    "Masquerade" : {
       "name" : "Masquerade",
@@ -1819,9 +1819,9 @@
    },
    "Modular" : {
       "name" : "Modular",
-      "sha" : "51d1d3fc5293a4a82070c11d77c2594f959f0e1b",
+      "sha" : "990846d44b11998eef4685f8cc7d1648c031cffb",
       "source" : "git://github.com/grondilu/p6-modular.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170427"
    },
    "Module::Does" : {
       "name" : "Module::Does",
@@ -2287,9 +2287,9 @@
    },
    "Pod::TreeWalker" : {
       "name" : "Pod::TreeWalker",
-      "sha" : "f3d46aba42c0095740b85478dfd196f18651503e",
+      "sha" : "003b0f8e91708789d4707dcf14e52dc77fabbf86",
       "source" : "git://github.com/autarch/perl6-Pod-TreeWalker.git",
-      "version" : "0.000.002_1601022039"
+      "version" : "0.000.003_20170427"
    },
    "Pod::Walker" : {
       "name" : "Pod::Walker",
@@ -2899,9 +2899,9 @@
    },
    "Text::Markdown::Discount" : {
       "name" : "Text::Markdown::Discount",
-      "sha" : "e81de3f7cc48a9dbb2fbea4c94b949cb404e5bce",
+      "sha" : "623750e21714f0c47194c2bace210bbfdddb08eb",
       "source" : "git://github.com/hartenfels/Text-Markdown-Discount.git",
-      "version" : "0.000.003_20160924"
+      "version" : "0.000.003_20170427"
    },
    "Text::Markov" : {
       "name" : "Text::Markov",
@@ -3235,9 +3235,9 @@
    },
    "Yapsi" : {
       "name" : "Yapsi",
-      "sha" : "2d57a3de3585a6e0d83421e8b7847a99f73e6209",
+      "sha" : "21087dbcdde94f0fe9721ce833727c251d919537",
       "source" : "git://github.com/masak/yapsi.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170427"
    },
    "bamboo" : {
       "name" : "bamboo",
