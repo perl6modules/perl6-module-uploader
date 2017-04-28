@@ -2953,9 +2953,9 @@
    },
    "Time::Crontab" : {
       "name" : "Time::Crontab",
-      "sha" : "ce97e755eb42d75d8de5a3b41752b16f9631f8cd",
+      "sha" : "8076147d282569864f17ca8ca74f54810ed5868c",
       "source" : "https://github.com/ufobat/p6-time-crontab.git",
-      "version" : "0.000.003_20170313"
+      "version" : "0.000.003_20170428"
    },
    "Time::Duration" : {
       "name" : "Time::Duration",
