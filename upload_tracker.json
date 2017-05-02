@@ -331,9 +331,9 @@
    },
    "C::Parser" : {
       "name" : "C::Parser",
-      "sha" : "8acaeaad91a1908544fb1f42e8f36a0eb9ea350b",
+      "sha" : "d1deface417808b66b6d57c04e35a801d537dbae",
       "source" : "https://github.com/andydude/p6-c-parser.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170502"
    },
    "CGI::Application" : {
       "name" : "CGI::Application",
