@@ -1393,9 +1393,9 @@
    },
    "Inline::Ruby" : {
       "name" : "Inline::Ruby",
-      "sha" : "bcaaded515335df2423d5e451160210b2b5b9001",
+      "sha" : "6ab52a8c4330b3db2fc20e0388d5e2daa7833029",
       "source" : "git://github.com/awwaiid/p6-Inline-Ruby.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20170514"
    },
    "Inline::Scheme::Gambit" : {
       "name" : "Inline::Scheme::Gambit",
@@ -1507,9 +1507,9 @@
    },
    "LREP" : {
       "name" : "LREP",
-      "sha" : "0a54d456e5d4791fa0766af5a93888190f2d653c",
+      "sha" : "2164524b59a1a76ab5304ee76dca82cc6733fc25",
       "source" : "git://github.com/awwaiid/p6-lrep.git",
-      "version" : "0.000.002_1601022004"
+      "version" : "0.000.003_20170514"
    },
    "LWP::Simple" : {
       "name" : "LWP::Simple",
