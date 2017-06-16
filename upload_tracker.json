@@ -763,9 +763,9 @@
    },
    "Email::MIME" : {
       "name" : "Email::MIME",
-      "sha" : "893ea94b611ca28f7cc1ca2e79079d1c85ab0dea",
+      "sha" : "12afe09f29bb26768ff06d398f5a2eacb13a9952",
       "source" : "git://github.com/retupmoca/p6-Email-MIME.git",
-      "version" : "0.000.003_20170210"
+      "version" : "0.000.003_20170616"
    },
    "Email::Notmuch" : {
       "name" : "Email::Notmuch",
@@ -775,9 +775,9 @@
    },
    "Email::Simple" : {
       "name" : "Email::Simple",
-      "sha" : "2662832c075e710019b80eced9e994df3a4c4d97",
+      "sha" : "2c1ddf9b42c18dd3c7c0e9341d98d90f114cafb2",
       "source" : "git://github.com/retupmoca/p6-Email-Simple.git",
-      "version" : "0.000.003_20170210"
+      "version" : "0.000.003_20170616"
    },
    "Email::Valid" : {
       "name" : "Email::Valid",
@@ -1429,9 +1429,9 @@
    },
    "JSON::JWT" : {
       "name" : "JSON::JWT",
-      "sha" : "0d251313fdf1a3c6c410e6b970a6d204acb59511",
+      "sha" : "18114226e9c4475ce70d23974a8286e562b4c650",
       "source" : "git://github.com/retupmoca/P6-JSON-JWT.git",
-      "version" : "0.000.003_20170222"
+      "version" : "0.000.003_20170616"
    },
    "JSON::Marshal" : {
       "name" : "JSON::Marshal",
@@ -1669,9 +1669,9 @@
    },
    "MIME::QuotedPrint" : {
       "name" : "MIME::QuotedPrint",
-      "sha" : "7889c1b9675963e4bce75ba6ea16da7bf6d4ac6b",
+      "sha" : "c2ef1ed12edaf4d8aa1a84ef12421324c306ffb0",
       "source" : "git://github.com/retupmoca/p6-MIME-QuotedPrint.git",
-      "version" : "0.000.003_20170210"
+      "version" : "0.000.003_20170616"
    },
    "MIME::Types" : {
       "name" : "MIME::Types",
