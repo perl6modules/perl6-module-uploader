@@ -2143,9 +2143,9 @@
    },
    "Path::Iterator" : {
       "name" : "Path::Iterator",
-      "sha" : "41b8f58a6f2b3d384629d29830ac96be2d027809",
+      "sha" : "19eedd3779c24d1e75c8e97694a643019cf622af",
       "source" : "git://github.com/leont/path-iterator.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170626"
    },
    "Path::Map" : {
       "name" : "Path::Map",
@@ -2953,9 +2953,9 @@
    },
    "Time::Crontab" : {
       "name" : "Time::Crontab",
-      "sha" : "8076147d282569864f17ca8ca74f54810ed5868c",
+      "sha" : "f1f8582dfc1efc93feea491f7c271b54488cecb9",
       "source" : "https://github.com/ufobat/p6-time-crontab.git",
-      "version" : "0.000.003_20170428"
+      "version" : "0.000.003_20170626"
    },
    "Time::Duration" : {
       "name" : "Time::Duration",
