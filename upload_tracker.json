@@ -763,9 +763,9 @@
    },
    "Email::MIME" : {
       "name" : "Email::MIME",
-      "sha" : "12afe09f29bb26768ff06d398f5a2eacb13a9952",
+      "sha" : "ad12f8b0267eba20646955cc562646f539e67c2c",
       "source" : "git://github.com/retupmoca/p6-Email-MIME.git",
-      "version" : "0.000.003_20170616"
+      "version" : "0.000.003_20170708"
    },
    "Email::Notmuch" : {
       "name" : "Email::Notmuch",
@@ -2911,9 +2911,9 @@
    },
    "Text::Spintax" : {
       "name" : "Text::Spintax",
-      "sha" : "edf6fe3249502edfb537cfea5811e670ffa6698d",
+      "sha" : "56f52d1013483ea125a1e44ef20b30f0e0eb6e33",
       "source" : "https://github.com/daleevans/perl6-Text-Spintax",
-      "version" : "0.000.002_1601302010"
+      "version" : "0.000.003_20170708"
    },
    "Text::T9" : {
       "name" : "Text::T9",
