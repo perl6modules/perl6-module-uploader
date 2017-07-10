@@ -499,9 +499,9 @@
    },
    "Config::Simple" : {
       "name" : "Config::Simple",
-      "sha" : "0b01408c9acda210830831dc3539e3770d88d495",
+      "sha" : "5c764b5803a98c4c64e638d345e320f5e8538308",
       "source" : "git://github.com/Skarsnik/perl6-config-simple.git",
-      "version" : "0.000.003_20170426"
+      "version" : "0.000.003_20170710"
    },
    "Config::TOML" : {
       "name" : "Config::TOML",
