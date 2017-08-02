@@ -2297,6 +2297,12 @@
       "source" : "git://github.com/lue/pod-walker.git",
       "version" : "0.000.001"
    },
+   "PrettyDump" : {
+      "name" : "PrettyDump",
+      "sha" : "e2b928b55fa15f936979c2ef57e59e3c14fd1eb2",
+      "source" : "https://github.com/briandfoy/perl6-PrettyDump",
+      "version" : "0.000.003_20170802"
+   },
    "Printing::Jdf" : {
       "name" : "Printing::Jdf",
       "sha" : "6eae2cd8e961a8b36b6dfab722512a170c591050",
