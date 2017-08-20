@@ -79,9 +79,9 @@
    },
    "Adventure::Engine" : {
       "name" : "Adventure::Engine",
-      "sha" : "5bb5425a2db05ba608a54905ce7747cf559ac4e8",
+      "sha" : "5b2d53bfa495fd5a7b8fc7fac6ec85a08e9bad05",
       "source" : "git://github.com/masak/Adventure-Engine.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170820"
    },
    "Algorithm::Diff" : {
       "name" : "Algorithm::Diff",
@@ -961,9 +961,9 @@
    },
    "Game::Crypt" : {
       "name" : "Game::Crypt",
-      "sha" : "e8ed2f6e67d33188527ae383af25141ed17b43aa",
+      "sha" : "915bed73039d7610797704956dd1e44428704cb1",
       "source" : "git://github.com/masak/crypt.git",
-      "version" : "0.000.001"
+      "version" : "0.000.003_20170820"
    },
    "Games::BubbleBreaker" : {
       "name" : "Games::BubbleBreaker",
@@ -2647,9 +2647,9 @@
    },
    "System::Passwd" : {
       "name" : "System::Passwd",
-      "sha" : "86a7f6bcef34a080821fb859cb21425eb0059999",
-      "source" : "git://github.com/dnmfarrell/System-Passwd.git",
-      "version" : "0.000.003_20170223"
+      "sha" : "529a626fa989376b035cb82f25e41d885d28d11b",
+      "source" : "git://github.com/perl6-community-modules/System-Passwd.git",
+      "version" : "0.000.003_20170820"
    },
    "TAP::Harness" : {
       "name" : "TAP::Harness",
@@ -3025,9 +3025,9 @@
    },
    "URI::Encode" : {
       "name" : "URI::Encode",
-      "sha" : "937b890a525a802b62822832ee5c10810769673e",
-      "source" : "git://github.com/dnmfarrell/URI-Encode.git",
-      "version" : "0.000.003_20170223"
+      "sha" : "c623692cc3cc2b175564f19a92557cc562523f5b",
+      "source" : "git://github.com/perl6-community-modules/URI-Encode.git",
+      "version" : "0.000.003_20170820"
    },
    "URI::Template" : {
       "name" : "URI::Template",
