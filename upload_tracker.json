@@ -1165,9 +1165,9 @@
    },
    "HTTP::Status" : {
       "name" : "HTTP::Status",
-      "sha" : "20486489dfb9b3a81300e0ad068edf96855ba22b",
+      "sha" : "454841556fbad20ffcd79c34491ac192ff773430",
       "source" : "git://github.com/supernovus/perl6-http-status.git",
-      "version" : "0.000.003_20161102"
+      "version" : "0.000.003_20170821"
    },
    "HTTP::UserAgent" : {
       "name" : "HTTP::UserAgent",
