@@ -2647,9 +2647,9 @@
    },
    "System::Passwd" : {
       "name" : "System::Passwd",
-      "sha" : "529a626fa989376b035cb82f25e41d885d28d11b",
+      "sha" : "85e5f4d2dc2e3f362c072c33aa77cc281e790480",
       "source" : "git://github.com/perl6-community-modules/System-Passwd.git",
-      "version" : "0.000.003_20170820"
+      "version" : "0.000.003_20170823"
    },
    "TAP::Harness" : {
       "name" : "TAP::Harness",
