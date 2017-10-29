@@ -3025,9 +3025,9 @@
    },
    "URI::Encode" : {
       "name" : "URI::Encode",
-      "sha" : "c623692cc3cc2b175564f19a92557cc562523f5b",
+      "sha" : "c3e4b543cfc32b6565689c73c3aa07925b40a17f",
       "source" : "git://github.com/perl6-community-modules/URI-Encode.git",
-      "version" : "0.000.003_20170820"
+      "version" : "0.000.003_20171029"
    },
    "URI::Template" : {
       "name" : "URI::Template",
