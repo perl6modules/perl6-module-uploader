@@ -1,8 +1,8 @@
-# PROJECT HALTED
+# PROJECT DEPRECIATED
 
-- Perl 6 authors are now uploading to PAUSE/CPAN directly themselves, that makes this project redundunt *CHEER*
+Perl 6 authors are now uploading to PAUSE/CPAN directly themselves, that makes this project redundunt *CHEER*!!!!
 
-# OLD...
+# NOW OUT OF DATE...
 
 ### Upload the perl6 module list to CPAN
 
