@@ -673,9 +673,9 @@
    },
    "DateTime::Parse" : {
       "name" : "DateTime::Parse",
-      "sha" : "9f91cbd66db714d1d33ae997a0124736bfb253cd",
+      "sha" : "316718fea60b39fecb04cda19c19c7bf557b35df",
       "source" : "git://github.com/sergot/datetime-parse.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20171102"
    },
    "DateTime::TimeZone" : {
       "name" : "DateTime::TimeZone",
@@ -3247,9 +3247,9 @@
    },
    "bamboo" : {
       "name" : "bamboo",
-      "sha" : "eb06d8d25ef01f98dcefe47c6f21435676917df1",
+      "sha" : "c0eee550ec1e7d948910a085dc76a66629b41a88",
       "source" : "git://github.com/sergot/bamboo.git",
-      "version" : "0.000.003_20170101"
+      "version" : "0.000.003_20171102"
    },
    "colomon::App::TagTools" : {
       "name" : "colomon::App::TagTools",
