@@ -1,4 +1,8 @@
-# perl6-module-uploader
+# PROJECT HALTED
+
+- Perl 6 authors are now uploading to PAUSE/CPAN directly themselves, that makes this project redundunt *CHEER*
+
+# OLD...
 
 ### Upload the perl6 module list to CPAN
 
